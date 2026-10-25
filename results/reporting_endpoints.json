@@ -1,0 +1,46 @@
+{
+ "_definition": "(a) skill relative to T1 from certgen.evaluate on gaussian_copula(d=8, rho=0.8), N=1000 real rows, n=500 per side, median and range over R seeds; (b) T_self distance to a real reference of n=500 rows, resampled from the disjoint remainder or from the whole sample, divided by the floor at n=500",
+ "config": {
+  "d": 8,
+  "rho": 0.8,
+  "N_real": 1000,
+  "n_per_side": 500,
+  "R": 20,
+  "seed": 20260930
+ },
+ "skill_T1": {
+  "fresh draw": {
+   "median": 1.0015687301997358,
+   "min": 0.9557057795532974,
+   "max": 1.0261077665264076
+  },
+  "T2 sample": {
+   "median": 0.8317381428242849,
+   "min": 0.783604482910145,
+   "max": 0.8558562510882531
+  },
+  "T1 sample": {
+   "median": 0.004312529311418067,
+   "min": -0.055063210278447405,
+   "max": 0.044933650605512354
+  },
+  "T0 sample": {
+   "median": -0.5162548354124659,
+   "min": -0.5966657916742093,
+   "max": -0.4714770685501912
+  }
+ },
+ "t_self_over_floor": {
+  "disjoint_remainder": {
+   "median": 1.070682312885058,
+   "min": 1.0429308242727768,
+   "max": 1.1797519257376015
+  },
+  "whole_sample": {
+   "median": 0.8756666931340262,
+   "min": 0.8384769341366125,
+   "max": 0.9301525088052802
+  }
+ },
+ "elapsed_s": 37.3
+}

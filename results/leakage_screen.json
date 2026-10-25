@@ -1,0 +1,139 @@
+{
+  "_definition": "detection rates and false alarms of certgen.leakage_check",
+  "by_table_size": [
+    {
+      "N_real": 1000,
+      "flagged": true
+    },
+    {
+      "N_real": 3000,
+      "flagged": true
+    },
+    {
+      "N_real": 10000,
+      "flagged": true
+    },
+    {
+      "N_real": 30000,
+      "flagged": true
+    },
+    {
+      "N_real": 60000,
+      "flagged": true
+    }
+  ],
+  "by_perturbation": {
+    "median_nn": 0.45232498247637054,
+    "cells": [
+      {
+        "sigma": 0.0,
+        "rel": 0.0,
+        "flagged": true,
+        "median_dcr_ratio": 0.31338514460990136
+      },
+      {
+        "sigma": 0.001,
+        "rel": 0.0022107998424611445,
+        "flagged": true,
+        "median_dcr_ratio": 0.3127666253327256
+      },
+      {
+        "sigma": 0.01,
+        "rel": 0.022107998424611447,
+        "flagged": true,
+        "median_dcr_ratio": 0.319338364528509
+      },
+      {
+        "sigma": 0.03,
+        "rel": 0.06632399527383434,
+        "flagged": true,
+        "median_dcr_ratio": 0.3208128729172608
+      },
+      {
+        "sigma": 0.05,
+        "rel": 0.11053999212305723,
+        "flagged": true,
+        "median_dcr_ratio": 0.38862832068383696
+      },
+      {
+        "sigma": 0.1,
+        "rel": 0.22107998424611447,
+        "flagged": true,
+        "median_dcr_ratio": 0.6093022989181511
+      },
+      {
+        "sigma": 0.2,
+        "rel": 0.44215996849222894,
+        "flagged": false,
+        "median_dcr_ratio": 0.9253242824085868
+      },
+      {
+        "sigma": 0.4,
+        "rel": 0.8843199369844579,
+        "flagged": false,
+        "median_dcr_ratio": 1.29983294566822
+      }
+    ],
+    "escape_rel": 0.44215996849222894
+  },
+  "discrete_laws": [
+    {
+      "case": "3 cat(4) + 3 numeric",
+      "flagged": false
+    },
+    {
+      "case": "5 cat(4) + 1 numeric",
+      "flagged": false
+    },
+    {
+      "case": "6 cat(3), no numeric",
+      "flagged": false
+    },
+    {
+      "case": "4 cat(2), no numeric",
+      "flagged": false
+    }
+  ],
+  "identifiability": [
+    {
+      "cols": 4,
+      "levels": 2,
+      "support": 16,
+      "ratio": 187.5,
+      "memoriser": false,
+      "honest": false
+    },
+    {
+      "cols": 6,
+      "levels": 3,
+      "support": 729,
+      "ratio": 4.11522633744856,
+      "memoriser": false,
+      "honest": false
+    },
+    {
+      "cols": 6,
+      "levels": 5,
+      "support": 15625,
+      "ratio": 0.192,
+      "memoriser": true,
+      "honest": false
+    },
+    {
+      "cols": 8,
+      "levels": 5,
+      "support": 390625,
+      "ratio": 0.00768,
+      "memoriser": true,
+      "honest": false
+    },
+    {
+      "cols": 10,
+      "levels": 6,
+      "support": 60466176,
+      "ratio": 4.961451506376061e-05,
+      "memoriser": true,
+      "honest": false
+    }
+  ]
+}

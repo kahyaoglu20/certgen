@@ -1,0 +1,667 @@
+{
+  "_definition": "sample sizes prescribed by the low-half, high-half and full fits of each benchmark cell (FloorLaw.required_n_range) at four target floors",
+  "_source": "benchmark_floor_laws.json",
+  "n_rep": 12,
+  "tables": [
+    {
+      "dataset": "adult:E1",
+      "d_eff": 4.0671248055989215,
+      "r2": 0.9843274350308475,
+      "drift": 1.2519699029819564,
+      "drift_p": 0.486284289276808,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 1.137488036652884,
+          "wls": {
+            "n_low_fit": 466.5851166148657,
+            "n_high_fit": 408.7099094531319,
+            "n_full_fit": 500.00000000000045,
+            "ratio": 1.1416046095852503,
+            "d_eff_low": 3.6497709463673114,
+            "d_eff_high": 4.569403377629846,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 0.9592491138478084,
+          "wls": {
+            "n_low_fit": 869.1010031152534,
+            "n_high_fit": 890.4745839724926,
+            "n_full_fit": 1000.0000000000003,
+            "ratio": 1.0245927467355653,
+            "d_eff_low": 3.6497709463673114,
+            "d_eff_high": 4.569403377629846,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 0.8089393758596526,
+          "wls": {
+            "n_low_fit": 1618.8612253558429,
+            "n_high_fit": 1940.1168563834733,
+            "n_full_fit": 2000.0000000000005,
+            "ratio": 1.1984454417684969,
+            "d_eff_low": 3.6497709463673114,
+            "d_eff_high": 4.569403377629846,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 0.6821824533058958,
+          "wls": {
+            "n_low_fit": 3015.4281925424025,
+            "n_high_fit": 4227.019483960432,
+            "n_full_fit": 3999.999999999998,
+            "ratio": 1.4017974277797338,
+            "d_eff_low": 3.6497709463673114,
+            "d_eff_high": 4.569403377629846,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.4017974277797338
+    },
+    {
+      "dataset": "adult:E2",
+      "d_eff": 5.913647723887562,
+      "r2": 0.9984530131265307,
+      "drift": 1.215314278188226,
+      "drift_p": 0.032418952618453865,
+      "single_exponent_ok": false,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 2.3146654752593476,
+          "wls": {
+            "n_low_fit": 537.0721686478919,
+            "n_high_fit": 543.4246534423831,
+            "n_full_fit": 500.00000000000034,
+            "ratio": 1.0118279910323487,
+            "d_eff_low": 6.821415543401049,
+            "d_eff_high": 5.612881923489224,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 2.0586568002129497,
+          "wls": {
+            "n_low_fit": 1194.735897841184,
+            "n_high_fit": 1049.2018928187545,
+            "n_full_fit": 1000.0000000000005,
+            "ratio": 1.1387092474942475,
+            "d_eff_low": 6.821415543401049,
+            "d_eff_high": 5.612881923489224,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.8309634227331122,
+          "wls": {
+            "n_low_fit": 2657.7319565523603,
+            "n_high_fit": 2025.7170978923443,
+            "n_full_fit": 2000.0,
+            "ratio": 1.3119956183998227,
+            "d_eff_low": 6.821415543401049,
+            "d_eff_high": 5.612881923489224,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.6284535892722742,
+          "wls": {
+            "n_low_fit": 5912.218060613257,
+            "n_high_fit": 3911.096414121938,
+            "n_full_fit": 4000.0000000000005,
+            "ratio": 1.5116523436409792,
+            "d_eff_low": 6.821415543401049,
+            "d_eff_high": 5.612881923489224,
+            "ok": false
+          }
+        }
+      },
+      "worst_ratio_wls": 1.5116523436409792
+    },
+    {
+      "dataset": "covertype:E1=E2",
+      "d_eff": 5.419172799317024,
+      "r2": 0.9750068753056123,
+      "drift": 1.681959935286841,
+      "drift_p": 0.04239401496259352,
+      "single_exponent_ok": false,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 5.606498397515656,
+          "wls": {
+            "n_low_fit": 538.171717253455,
+            "n_high_fit": 704.4177084815626,
+            "n_full_fit": 500.00000000000006,
+            "ratio": 1.3089088220327512,
+            "d_eff_low": 7.294042765607187,
+            "d_eff_high": 4.336632884399391,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 4.933358030738224,
+          "wls": {
+            "n_low_fit": 1368.0379477678246,
+            "n_high_fit": 1226.6655767903642,
+            "n_full_fit": 999.9999999999987,
+            "ratio": 1.1152493178681746,
+            "d_eff_low": 7.294042765607187,
+            "d_eff_high": 4.336632884399391,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 4.341037798251034,
+          "wls": {
+            "n_low_fit": 3477.566298140111,
+            "n_high_fit": 2136.1025129904483,
+            "n_full_fit": 1999.9999999999993,
+            "ratio": 1.6279959772490848,
+            "d_eff_low": 7.294042765607187,
+            "d_eff_high": 4.336632884399391,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 3.8198340863219897,
+          "wls": {
+            "n_low_fit": 8840.008698364212,
+            "n_high_fit": 3719.7864131341016,
+            "n_full_fit": 3999.9999999999973,
+            "ratio": 2.3764828720141686,
+            "d_eff_low": 7.294042765607187,
+            "d_eff_high": 4.336632884399391,
+            "ok": false
+          }
+        }
+      },
+      "worst_ratio_wls": 2.3764828720141686
+    },
+    {
+      "dataset": "census-income:E1",
+      "d_eff": 5.514406951670238,
+      "r2": 0.9916159402775483,
+      "drift": 1.1357110662680572,
+      "drift_p": 0.6783042394014963,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 1.9396074255602496,
+          "wls": {
+            "n_low_fit": 509.35727076137846,
+            "n_high_fit": 377.7914032980607,
+            "n_full_fit": 500.00000000000034,
+            "ratio": 1.3482500298174285,
+            "d_eff_low": 5.574821915444934,
+            "d_eff_high": 6.331386941844499,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 1.7105040485725136,
+          "wls": {
+            "n_low_fit": 1026.4801186037369,
+            "n_high_fit": 837.2994103108388,
+            "n_full_fit": 1000.0000000000005,
+            "ratio": 1.2259415281597614,
+            "d_eff_low": 5.574821915444934,
+            "d_eff_high": 6.331386941844499,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.5084620019630237,
+          "wls": {
+            "n_low_fit": 2068.6097840789544,
+            "n_high_fit": 1855.7073993390038,
+            "n_full_fit": 1999.9999999999982,
+            "ratio": 1.1147284236813333,
+            "d_eff_low": 5.574821915444934,
+            "d_eff_high": 6.331386941844499,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.3302848439705572,
+          "wls": {
+            "n_low_fit": 4168.757252315678,
+            "n_high_fit": 4112.805896618408,
+            "n_full_fit": 3999.9999999999977,
+            "ratio": 1.013604180966399,
+            "d_eff_low": 5.574821915444934,
+            "d_eff_high": 6.331386941844499,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.3482500298174285
+    },
+    {
+      "dataset": "bank-marketing:E1",
+      "d_eff": 4.854437732412706,
+      "r2": 0.9933941966303398,
+      "drift": 1.0126643669342592,
+      "drift_p": 0.9551122194513716,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 1.2258383579773253,
+          "wls": {
+            "n_low_fit": 453.65969927289007,
+            "n_high_fit": 616.6465410094693,
+            "n_full_fit": 500.0000000000002,
+            "ratio": 1.3592711497137806,
+            "d_eff_low": 4.3928730888639,
+            "d_eff_high": 4.33793587717803,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 1.0627274699592537,
+          "wls": {
+            "n_low_fit": 849.4502970116913,
+            "n_high_fit": 1145.6114451684014,
+            "n_full_fit": 999.9999999999998,
+            "ratio": 1.3486503556459806,
+            "d_eff_low": 4.3928730888639,
+            "d_eff_high": 4.33793587717803,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 0.9213202279536493,
+          "wls": {
+            "n_low_fit": 1590.544208025865,
+            "n_high_fit": 2128.3271631627945,
+            "n_full_fit": 1999.999999999999,
+            "ratio": 1.3381125481601102,
+            "d_eff_low": 4.3928730888639,
+            "d_eff_high": 4.33793587717803,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 0.7987287300187219,
+          "wls": {
+            "n_low_fit": 2978.197649214323,
+            "n_high_fit": 3954.0251911421237,
+            "n_full_fit": 4000.0000000000005,
+            "ratio": 1.32765707883264,
+            "d_eff_low": 4.3928730888639,
+            "d_eff_high": 4.33793587717803,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.3592711497137806
+    },
+    {
+      "dataset": "bank-marketing:E2",
+      "d_eff": 6.553200374932281,
+      "r2": 0.9976166918120307,
+      "drift": 1.0008339599352618,
+      "drift_p": 0.9950124688279302,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 2.5413894316223833,
+          "wls": {
+            "n_low_fit": 472.25107963886535,
+            "n_high_fit": 557.8495816907841,
+            "n_full_fit": 499.9999999999999,
+            "ratio": 1.1812563395670301,
+            "d_eff_low": 6.14071274353962,
+            "d_eff_high": 6.13559590237808,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 2.286308791942868,
+          "wls": {
+            "n_low_fit": 904.1797698035414,
+            "n_high_fit": 1067.490181630703,
+            "n_full_fit": 1000.0,
+            "ratio": 1.1806171928206772,
+            "d_eff_low": 6.14071274353962,
+            "d_eff_high": 6.13559590237808,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 2.0568307348229937,
+          "wls": {
+            "n_low_fit": 1731.1576222274923,
+            "n_high_fit": 2042.728587201123,
+            "n_full_fit": 2000.0000000000018,
+            "ratio": 1.1799783918998261,
+            "d_eff_low": 6.14071274353962,
+            "d_eff_high": 6.13559590237808,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.8503855151243338,
+          "wls": {
+            "n_low_fit": 3314.503169704301,
+            "n_high_fit": 3908.925958077092,
+            "n_full_fit": 3999.9999999999986,
+            "ratio": 1.179339936617355,
+            "d_eff_low": 6.14071274353962,
+            "d_eff_high": 6.13559590237808,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.1812563395670301
+    },
+    {
+      "dataset": "higgs:E1",
+      "d_eff": 13.235582131744025,
+      "r2": 0.999394118927626,
+      "drift": 1.0080094479515698,
+      "drift_p": 0.9351620947630923,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 4.57873137713314,
+          "wls": {
+            "n_low_fit": 525.1597459038064,
+            "n_high_fit": 476.3256532818261,
+            "n_full_fit": 499.9999999999998,
+            "ratio": 1.1025224912526113,
+            "d_eff_low": 13.454897099412356,
+            "d_eff_high": 13.562663397423826,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 4.345113964173478,
+          "wls": {
+            "n_low_fit": 1062.452501576384,
+            "n_high_fit": 969.1100595478966,
+            "n_full_fit": 1000.0000000000016,
+            "ratio": 1.0963176897286908,
+            "d_eff_low": 13.454897099412356,
+            "d_eff_high": 13.562663397423826,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 4.12341624930105,
+          "wls": {
+            "n_low_fit": 2149.4513372559127,
+            "n_high_fit": 1971.7063337784316,
+            "n_full_fit": 1999.9999999999995,
+            "ratio": 1.09014780773,
+            "d_eff_low": 13.454897099412356,
+            "d_eff_high": 13.562663397423826,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 3.9130300620858716,
+          "wls": {
+            "n_low_fit": 4348.562448087084,
+            "n_high_fit": 4011.5421652682357,
+            "n_full_fit": 4000.000000000002,
+            "ratio": 1.0840126487356299,
+            "d_eff_low": 13.454897099412356,
+            "d_eff_high": 13.562663397423826,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.1025224912526113
+    },
+    {
+      "dataset": "MagicTelescope:E1",
+      "d_eff": 5.592572247101229,
+      "r2": 0.9969573077117119,
+      "drift": 1.1891914625608069,
+      "drift_p": 0.17206982543640897,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 1.5256789513758096,
+          "wls": {
+            "n_low_fit": 481.4263733099012,
+            "n_high_fit": 469.58179842620507,
+            "n_full_fit": 500.0000000000004,
+            "ratio": 1.025223666938099,
+            "d_eff_low": 4.880372023353227,
+            "d_eff_high": 5.803696744292269,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 1.3478339868784586,
+          "wls": {
+            "n_low_fit": 881.5043286601104,
+            "n_high_fit": 964.0629577252586,
+            "n_full_fit": 1000.0000000000007,
+            "ratio": 1.0936565214496876,
+            "d_eff_low": 4.880372023353227,
+            "d_eff_high": 5.803696744292269,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.190720009964401,
+          "wls": {
+            "n_low_fit": 1614.0575683549284,
+            "n_high_fit": 1979.244914459844,
+            "n_full_fit": 2000.0000000000005,
+            "ratio": 1.22625422615943,
+            "d_eff_low": 4.880372023353227,
+            "d_eff_high": 5.803696744292269,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.051920456029779,
+          "wls": {
+            "n_low_fit": 2955.3817823262557,
+            "n_high_fit": 4063.4383885658563,
+            "n_full_fit": 4000.0000000000023,
+            "ratio": 1.3749284146183716,
+            "d_eff_low": 4.880372023353227,
+            "d_eff_high": 5.803696744292269,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.3749284146183716
+    },
+    {
+      "dataset": "pendigits:E1",
+      "d_eff": 4.574248799173263,
+      "r2": 0.9977162984541587,
+      "drift": 1.1542798011204556,
+      "drift_p": 0.11221945137157108,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 1.708426402151973,
+          "wls": {
+            "n_low_fit": 482.3212259655339,
+            "n_high_fit": 466.32316609014396,
+            "n_full_fit": 499.9999999999997,
+            "ratio": 1.0343068091802616,
+            "d_eff_low": 4.140905933921989,
+            "d_eff_high": 4.779764077865988,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 1.4682045394983825,
+          "wls": {
+            "n_low_fit": 903.3336768246189,
+            "n_high_fit": 962.1480143256637,
+            "n_full_fit": 999.9999999999993,
+            "ratio": 1.0651080979376168,
+            "d_eff_low": 4.140905933921989,
+            "d_eff_high": 4.779764077865988,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.2617602766431046,
+          "wls": {
+            "n_low_fit": 1691.8428793009323,
+            "n_high_fit": 1985.165800859798,
+            "n_full_fit": 1999.9999999999993,
+            "ratio": 1.1733748004306799,
+            "d_eff_low": 4.140905933921989,
+            "d_eff_high": 4.779764077865988,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.0843441447595645,
+          "wls": {
+            "n_low_fit": 3168.6323688306247,
+            "n_high_fit": 4095.9220392564575,
+            "n_full_fit": 3999.9999999999986,
+            "ratio": 1.2926466571343038,
+            "d_eff_low": 4.140905933921989,
+            "d_eff_high": 4.779764077865988,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.2926466571343038
+    },
+    {
+      "dataset": "letter:E1",
+      "d_eff": 5.344341603496787,
+      "r2": 0.9994598824390325,
+      "drift": 1.0298028944673794,
+      "drift_p": 0.5960099750623441,
+      "single_exponent_ok": true,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 2.1993055383256057,
+          "wls": {
+            "n_low_fit": 523.1123096109851,
+            "n_high_fit": 474.1918049602897,
+            "n_full_fit": 499.9999999999996,
+            "ratio": 1.1031660693815495,
+            "d_eff_low": 5.662705329472459,
+            "d_eff_high": 5.498824444848008,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 1.9317846248807253,
+          "wls": {
+            "n_low_fit": 1090.3285026764854,
+            "n_high_fit": 967.5770831314873,
+            "n_full_fit": 999.9999999999989,
+            "ratio": 1.126864744613135,
+            "d_eff_low": 5.662705329472459,
+            "d_eff_high": 5.498824444848008,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.6968046375978687,
+          "wls": {
+            "n_low_fit": 2272.583194673463,
+            "n_high_fit": 1974.3179911758211,
+            "n_full_fit": 1999.999999999997,
+            "ratio": 1.1510725247051046,
+            "d_eff_low": 5.662705329472459,
+            "d_eff_high": 5.498824444848008,
+            "ok": true
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.490407336869348,
+          "wls": {
+            "n_low_fit": 4736.769115027584,
+            "n_high_fit": 4028.548834233634,
+            "n_full_fit": 3999.999999999998,
+            "ratio": 1.175800346461154,
+            "d_eff_low": 5.662705329472459,
+            "d_eff_high": 5.498824444848008,
+            "ok": true
+          }
+        }
+      },
+      "worst_ratio_wls": 1.175800346461154
+    },
+    {
+      "dataset": "shuttle:E1",
+      "d_eff": 9.453036354915904,
+      "r2": 0.5908627809816616,
+      "drift": NaN,
+      "drift_p": NaN,
+      "single_exponent_ok": false,
+      "reproduces_stored_fit": true,
+      "targets": {
+        "target_floor_at_n=500": {
+          "target_floor": 2.162618943731028,
+          "wls": {
+            "n_low_fit": NaN,
+            "n_high_fit": 1092.4718624912289,
+            "n_full_fit": 499.99999999999983,
+            "ratio": NaN,
+            "d_eff_low": Infinity,
+            "d_eff_high": 5.403463073723723,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=1000": {
+          "target_floor": 2.0097184008442928,
+          "wls": {
+            "n_low_fit": NaN,
+            "n_high_fit": 1623.612659104101,
+            "n_full_fit": 1000.0000000000001,
+            "ratio": NaN,
+            "d_eff_low": Infinity,
+            "d_eff_high": 5.403463073723723,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=2000": {
+          "target_floor": 1.8676281655629858,
+          "wls": {
+            "n_low_fit": NaN,
+            "n_high_fit": 2412.984862412649,
+            "n_full_fit": 1999.9999999999984,
+            "ratio": NaN,
+            "d_eff_low": Infinity,
+            "d_eff_high": 5.403463073723723,
+            "ok": false
+          }
+        },
+        "target_floor_at_n=4000": {
+          "target_floor": 1.7355839322259388,
+          "wls": {
+            "n_low_fit": NaN,
+            "n_high_fit": 3586.136085835526,
+            "n_full_fit": 3999.9999999999973,
+            "ratio": NaN,
+            "d_eff_low": Infinity,
+            "d_eff_high": 5.403463073723723,
+            "ok": false
+          }
+        }
+      },
+      "worst_ratio_wls": NaN
+    }
+  ]
+}

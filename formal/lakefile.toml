@@ -1,0 +1,16 @@
+name = "CertgenFormal"
+version = "1.0.0"
+defaultTargets = ["CertgenFormal"]
+
+# No dependencies. The development is deliberately Mathlib-free: the entire
+# trusted base is the axiom list in CertgenFormal/Order.lean and the
+# interfaces in Discrepancy.lean, both of which fit on a few screens and can
+# be audited by hand. A Mathlib-backed development would be shorter to write
+# but would place ~1.5M lines between the reader and the trusted base.
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "CertgenFormal"

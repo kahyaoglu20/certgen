@@ -1,0 +1,318 @@
+{
+  "_definition": "severity threshold drift_50 of each benchmark cell over a panel of seeds, with the combined binomial and between-seed 90% interval",
+  "_source": "benchmark_floor_laws.json",
+  "settings": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "drift_boot": 600,
+    "trials": 200
+  },
+  "combination_rule": "sd_total = sqrt(mean_s(((hi_s-lo_s)/(2*z90))^2) + var_s(t_s)); interval = median(t_s) +/- z90*sd_total, z90 = 1.6449",
+  "tables": [
+    {
+      "dataset": "adult:E1",
+      "drift_observed": 1.2519699029819564,
+      "per_seed_drift_50": [
+        1.8938026417420226,
+        1.958138127848565,
+        1.7775654294771006,
+        1.8612097182041991,
+        2.0733974115608005,
+        1.8770246681985345,
+        1.886478303810758,
+        1.8553988443859502
+      ],
+      "drift_50_median": 1.8817514860046463,
+      "sd_within_binomial": 0.04995869155244491,
+      "sd_between_seed": 0.08672116735829728,
+      "sd_total": 0.10008212492557368,
+      "drift_50_ci90_combined": [
+        1.7171310398278061,
+        2.0463719321814864
+      ],
+      "width_binomial_only": 0.16434946999557776,
+      "width_combined": 0.3292408923536804,
+      "interval_inflation_vs_binomial_only": 2.003297560755988,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "adult:E2",
+      "drift_observed": 1.215314278188226,
+      "per_seed_drift_50": [
+        1.1887285339459106,
+        1.1922534881224693,
+        1.183127618329144,
+        1.2214530013227365,
+        1.1849326761432082,
+        1.1866155598078223,
+        1.2083171122448633,
+        1.1905854061137282
+      ],
+      "drift_50_median": 1.1896569700298194,
+      "sd_within_binomial": 0.007312510842791836,
+      "sd_between_seed": 0.013384888482245835,
+      "sd_total": 0.015252149176693276,
+      "drift_50_ci90_combined": [
+        1.1645694171377305,
+        1.2147445229219083
+      ],
+      "width_binomial_only": 0.024056019963776237,
+      "width_combined": 0.05017510578417769,
+      "interval_inflation_vs_binomial_only": 2.085760897261135,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "covertype:E1=E2",
+      "drift_observed": 1.681959935286841,
+      "per_seed_drift_50": [
+        1.5953789057539485,
+        1.6253911218090786,
+        1.5697063964355285,
+        1.6087248208561926,
+        1.6013505986054752,
+        1.6509636244473134,
+        1.600466054533498,
+        1.6196018176016067
+      ],
+      "drift_50_median": 1.605037709730834,
+      "sd_within_binomial": 0.03509989117249792,
+      "sd_between_seed": 0.023913326430213346,
+      "sd_total": 0.04247174992014265,
+      "drift_50_ci90_combined": [
+        1.5351778978317114,
+        1.6748975216299564
+      ],
+      "width_binomial_only": 0.11546836660137033,
+      "width_combined": 0.1397196237982451,
+      "interval_inflation_vs_binomial_only": 1.2100251169274525,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "census-income:E1",
+      "drift_observed": 1.1357110662680572,
+      "per_seed_drift_50": [
+        1.9304249427234532,
+        1.8842046118924975,
+        1.8095602338106105,
+        1.8452157351427947,
+        1.888175022589804,
+        1.8545287794555922,
+        1.8704007735897097,
+        1.7910523854917881
+      ],
+      "drift_50_median": 1.862464776522651,
+      "sd_within_binomial": 0.04356271429795126,
+      "sd_between_seed": 0.044703492807744626,
+      "sd_total": 0.06241884608206886,
+      "drift_50_ci90_combined": [
+        1.7597949111544344,
+        1.9651346418908675
+      ],
+      "width_binomial_only": 0.14330857722567178,
+      "width_combined": 0.2053397307364333,
+      "interval_inflation_vs_binomial_only": 1.432850250219702,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "bank-marketing:E1",
+      "drift_observed": 1.0126643669342592,
+      "per_seed_drift_50": [
+        1.4781063226127646,
+        1.5466164106082252,
+        1.5290458492682006,
+        1.464237038280416,
+        1.4370119432115618,
+        1.510434271108688,
+        1.4824593431950548,
+        1.4870334009753572
+      ],
+      "drift_50_median": 1.484746372085206,
+      "sd_within_binomial": 0.029547190417575843,
+      "sd_between_seed": 0.03545263300762496,
+      "sd_total": 0.04615111752434414,
+      "drift_50_ci90_combined": [
+        1.408834539037425,
+        1.5606582051329871
+      ],
+      "width_binomial_only": 0.09720160664915081,
+      "width_combined": 0.15182366609556222,
+      "interval_inflation_vs_binomial_only": 1.5619460555170628,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "bank-marketing:E2",
+      "drift_observed": 1.0008339599352618,
+      "per_seed_drift_50": [
+        1.195578471904344,
+        1.207023698275369,
+        1.1873409758561053,
+        1.2301847727811697,
+        1.1953055837182796,
+        1.1945204214401806,
+        1.230895484026739,
+        1.213663586359149
+      ],
+      "drift_50_median": 1.2013010850898564,
+      "sd_within_binomial": 0.00898794786438756,
+      "sd_between_seed": 0.016742090584044595,
+      "sd_total": 0.019002126300425002,
+      "drift_50_ci90_combined": [
+        1.1700453687248125,
+        1.2325568014549004
+      ],
+      "width_binomial_only": 0.02956771728717723,
+      "width_combined": 0.06251143273008805,
+      "interval_inflation_vs_binomial_only": 2.1141785185154514,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "higgs:E1",
+      "drift_observed": 1.0080094479515698,
+      "per_seed_drift_50": [
+        1.1842918155965059,
+        1.197854964265696,
+        1.1850234731915854,
+        1.183787971915715,
+        1.1775174083758795,
+        1.1811194991075609,
+        1.192586383540124,
+        1.1865658430297357
+      ],
+      "drift_50_median": 1.1846576443940458,
+      "sd_within_binomial": 0.006776911264775231,
+      "sd_between_seed": 0.006422162546953899,
+      "sd_total": 0.009336524946152868,
+      "drift_50_ci90_combined": [
+        1.1693004274732433,
+        1.2000148613148482
+      ],
+      "width_binomial_only": 0.022294054146787656,
+      "width_combined": 0.03071443384160489,
+      "interval_inflation_vs_binomial_only": 1.3776962072208174,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "MagicTelescope:E1",
+      "drift_observed": 1.1891914625608069,
+      "per_seed_drift_50": [
+        1.2641474828653896,
+        1.2898303535765674,
+        1.2843092308201522,
+        1.308293924240132,
+        1.2458020199217454,
+        1.2585756055267376,
+        1.2968992058964461,
+        1.282647623818143
+      ],
+      "drift_50_median": 1.2834784273191477,
+      "sd_within_binomial": 0.01470794308564738,
+      "sd_between_seed": 0.02096556715877761,
+      "sd_total": 0.02561012682709433,
+      "drift_50_ci90_combined": [
+        1.2413535173209145,
+        1.325603337317381
+      ],
+      "width_binomial_only": 0.048384827058845836,
+      "width_combined": 0.08424981999646662,
+      "interval_inflation_vs_binomial_only": 1.741244623939683,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "pendigits:E1",
+      "drift_observed": 1.1542798011204556,
+      "per_seed_drift_50": [
+        1.1819320400987043,
+        1.1904536415038396,
+        1.1701887223858647,
+        1.1960334240000416,
+        1.1829635106313967,
+        1.1751912369522766,
+        1.212859289240202,
+        1.197854964265696
+      ],
+      "drift_50_median": 1.1867085760676181,
+      "sd_within_binomial": 0.007068951345437449,
+      "sd_between_seed": 0.01377182517745954,
+      "sd_total": 0.015480091790511786,
+      "drift_50_ci90_combined": [
+        1.1612460909404532,
+        1.2121710611947831
+      ],
+      "width_binomial_only": 0.023254780518572556,
+      "width_combined": 0.05092497025433004,
+      "interval_inflation_vs_binomial_only": 2.1898710337712517,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "letter:E1",
+      "drift_observed": 1.0298028944673794,
+      "per_seed_drift_50": [
+        1.1322148740381042,
+        1.1243015947178145,
+        1.1167445042897601,
+        1.127232213547066,
+        1.1215520213451498,
+        1.1331116512628971,
+        1.138297001481165,
+        1.1228763010956626
+      ],
+      "drift_50_median": 1.1257669041324403,
+      "sd_within_binomial": 0.006926296516989247,
+      "sd_between_seed": 0.0070847086798313036,
+      "sd_total": 0.009907909997539056,
+      "drift_50_ci90_combined": [
+        1.1094698424374794,
+        1.1420639658274012
+      ],
+      "width_binomial_only": 0.022785487894622224,
+      "width_combined": 0.032594123389921736,
+      "interval_inflation_vs_binomial_only": 1.4304773082175046,
+      "observed_drift_inside_combined_ci": false,
+      "n_seeds": 8
+    },
+    {
+      "dataset": "shuttle:E1",
+      "drift_observed": NaN,
+      "per_seed_drift_50": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "drift_50_median": NaN,
+      "sd_within_binomial": NaN,
+      "sd_between_seed": NaN,
+      "sd_total": NaN,
+      "drift_50_ci90_combined": [
+        NaN,
+        NaN
+      ],
+      "width_binomial_only": NaN,
+      "width_combined": NaN,
+      "interval_inflation_vs_binomial_only": NaN,
+      "observed_drift_inside_combined_ci": null,
+      "n_seeds": 0
+    }
+  ]
+}

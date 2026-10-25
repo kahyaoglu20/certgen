@@ -1,0 +1,624 @@
+{
+  "_definition": "floor ratio r = W2(X_N, X'_N) / sqrt(tr Cov) on non-isotropic laws and its residual against the isotropic reference table at the measured d_hat",
+  "_config": {
+    "n_grid": [
+      256,
+      1024
+    ],
+    "n_rep": 4,
+    "n_rep_dhat": 3,
+    "seed": 20260904,
+    "max_n_ot": 1024,
+    "crossing_measured": {
+      "256": 17.2,
+      "1024": 22.8,
+      "2048": 26.0
+    },
+    "crossing_nominal": {
+      "256": 25.8,
+      "1024": 34.6,
+      "2048": 39.9
+    },
+    "target_dhat_band": [
+      12.0,
+      28.0
+    ]
+  },
+  "_elapsed_s": 6.4,
+  "cells": [
+    {
+      "law": "aniso_decay0.95",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.95,
+        "same_law_cov_diff": 0.27258318430555284
+      },
+      "N": 256,
+      "d_hat": 20.10466438054529,
+      "r": {
+        "r_mean": 1.0832855714888896,
+        "r_sd": 0.0035211454508524264,
+        "w2_mean": 4.743538717182969,
+        "scale_mean": 4.378859267045725,
+        "n_rep": 4,
+        "values": [
+          1.0843351109076842,
+          1.0796037140115253,
+          1.0876898722897108,
+          1.0815135887466387
+        ]
+      },
+      "table_r_at_dhat": 1.0546086085936932,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": 0.027192043248572384,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 1.1688758360782145,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "aniso_decay0.95",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.95,
+        "same_law_cov_diff": 0.27258318430555284
+      },
+      "N": 1024,
+      "d_hat": 22.8326159274974,
+      "r": {
+        "r_mean": 1.0315729075915372,
+        "r_sd": 0.0007160497275736356,
+        "w2_mean": 4.518366400346863,
+        "scale_mean": 4.380072388063047,
+        "n_rep": 4,
+        "values": [
+          1.0324484047980602,
+          1.031316172988409,
+          1.031770645626053,
+          1.030756406953627
+        ]
+      },
+      "table_r_at_dhat": 0.999867857735425,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": 0.031709239986892124,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 1.001430523135851,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "aniso_decay0.90",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.9,
+        "same_law_cov_diff": 0.20064827980529293
+      },
+      "N": 256,
+      "d_hat": 12.888957627891019,
+      "r": {
+        "r_mean": 0.9689003103734587,
+        "r_sd": 0.0017176412915121204,
+        "w2_mean": 3.046412660216499,
+        "scale_mean": 3.1441791324326513,
+        "n_rep": 4,
+        "values": [
+          0.9674119169482837,
+          0.9676951617396637,
+          0.9693651539145529,
+          0.9711290088913348
+        ]
+      },
+      "table_r_at_dhat": 0.9040190484237942,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": 0.07176979518605098,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 0.7493580016215708,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "aniso_decay0.90",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.9,
+        "same_law_cov_diff": 0.20064827980529293
+      },
+      "N": 1024,
+      "d_hat": 17.425086236471916,
+      "r": {
+        "r_mean": 0.8997027982557985,
+        "r_sd": 0.0013740519061491178,
+        "w2_mean": 2.839903251412012,
+        "scale_mean": 3.156492620211066,
+        "n_rep": 4,
+        "values": [
+          0.8989254818960161,
+          0.8998482100129432,
+          0.9015742310145095,
+          0.8984632700997254
+        ]
+      },
+      "table_r_at_dhat": 0.9034282463621045,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": -0.004123679020782811,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.7642581682663121,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "aniso_decay0.85",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.85,
+        "same_law_cov_diff": 0.16085412504461444
+      },
+      "N": 256,
+      "d_hat": 13.327967137960341,
+      "r": {
+        "r_mean": 0.8734519011759977,
+        "r_sd": 0.004221599217688302,
+        "w2_mean": 2.2539080098701696,
+        "scale_mean": 2.5804959604693107,
+        "n_rep": 4,
+        "values": [
+          0.8712964410521642,
+          0.8685657407600952,
+          0.8766961992434462,
+          0.8772492236482853
+        ]
+      },
+      "table_r_at_dhat": 0.9146801521200599,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": -0.045073953828016045,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 0.7748818103465315,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "aniso_decay0.85",
+      "meta": {
+        "family": "anisotropic_gaussian",
+        "D": 64,
+        "decay": 0.85,
+        "same_law_cov_diff": 0.16085412504461444
+      },
+      "N": 1024,
+      "d_hat": 13.52394527778226,
+      "r": {
+        "r_mean": 0.7912537539303058,
+        "r_sd": 0.003129622690918819,
+        "w2_mean": 2.0476406317050992,
+        "scale_mean": 2.587841236548745,
+        "n_rep": 4,
+        "values": [
+          0.7956163956366922,
+          0.7906739866842435,
+          0.7881665382396112,
+          0.7905580951606761
+        ]
+      },
+      "table_r_at_dhat": 0.8151616144957654,
+      "table_r_at_nominal_label": NaN,
+      "residual_vs_table_at_dhat": -0.029328982302789464,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.5931554946395728,
+      "near_crossing": false,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "factor_k20",
+      "meta": {
+        "family": "factor_model",
+        "k": 20,
+        "D": 64,
+        "noise": 0.25,
+        "same_law_cov_diff": 0.17885050529128907
+      },
+      "N": 256,
+      "d_hat": 13.053168544973442,
+      "r": {
+        "r_mean": 0.9226840194855163,
+        "r_sd": 0.007603903604971419,
+        "w2_mean": 7.653516631462236,
+        "scale_mean": 8.29531887549798,
+        "n_rep": 4,
+        "values": [
+          0.9313088474547283,
+          0.9268275160393348,
+          0.9167396147414876,
+          0.9158600997065144
+        ]
+      },
+      "table_r_at_dhat": 0.9080340521931513,
+      "table_r_at_nominal_label": 0.9426581471314539,
+      "residual_vs_table_at_dhat": 0.016133720158380882,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 0.7589051479635722,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "factor_k20",
+      "meta": {
+        "family": "factor_model",
+        "k": 20,
+        "D": 64,
+        "noise": 0.25,
+        "same_law_cov_diff": 0.17885050529128907
+      },
+      "N": 1024,
+      "d_hat": 16.267362697591114,
+      "r": {
+        "r_mean": 0.8467188865833651,
+        "r_sd": 0.0025160472331420816,
+        "w2_mean": 6.992351726823482,
+        "scale_mean": 8.258198987294982,
+        "n_rep": 4,
+        "values": [
+          0.850191417842138,
+          0.8461716746146253,
+          0.8463413122534272,
+          0.8441711416232699
+        ]
+      },
+      "table_r_at_dhat": 0.8785814090440801,
+      "table_r_at_nominal_label": 0.8583886559713189,
+      "residual_vs_table_at_dhat": -0.03626587375139456,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.7134808200697856,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "factor_k28",
+      "meta": {
+        "family": "factor_model",
+        "k": 28,
+        "D": 64,
+        "noise": 0.25,
+        "same_law_cov_diff": 0.21697414763339679
+      },
+      "N": 256,
+      "d_hat": 22.744961053211853,
+      "r": {
+        "r_mean": 0.9755053443133198,
+        "r_sd": 0.0010298241678466959,
+        "w2_mean": 7.951439887257482,
+        "scale_mean": 8.151097516527429,
+        "n_rep": 4,
+        "values": [
+          0.9758788335414047,
+          0.9750202405946903,
+          0.9743778162866867,
+          0.9767444868304972
+        ]
+      },
+      "table_r_at_dhat": 1.0830356777484826,
+      "table_r_at_nominal_label": 1.019705502132686,
+      "residual_vs_table_at_dhat": -0.09928604906045857,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 1.3223814565820846,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "factor_k28",
+      "meta": {
+        "family": "factor_model",
+        "k": 28,
+        "D": 64,
+        "noise": 0.25,
+        "same_law_cov_diff": 0.21697414763339679
+      },
+      "N": 1024,
+      "d_hat": 15.614455104839918,
+      "r": {
+        "r_mean": 0.9089480093169862,
+        "r_sd": 0.0019494824451869628,
+        "w2_mean": 7.417356185558331,
+        "scale_mean": 8.160376261835095,
+        "n_rep": 4,
+        "values": [
+          0.9082014109040097,
+          0.9115235042649104,
+          0.9069069664623909,
+          0.9091601556366338
+        ]
+      },
+      "table_r_at_dhat": 0.8641028945200125,
+      "table_r_at_nominal_label": 0.9477910376772498,
+      "residual_vs_table_at_dhat": 0.05189788748698021,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.6848445221421017,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "curved_m16",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 16,
+        "D": 64,
+        "same_law_cov_diff": 0.15512523221653335
+      },
+      "N": 256,
+      "d_hat": 9.704509504285756,
+      "r": {
+        "r_mean": 0.8443430971402057,
+        "r_sd": 0.004293769014774986,
+        "w2_mean": 6.773153440680417,
+        "scale_mean": 8.021958564495497,
+        "n_rep": 4,
+        "values": [
+          0.8431094110091508,
+          0.8458028678869507,
+          0.8493109449033516,
+          0.8391491647613696
+        ]
+      },
+      "table_r_at_dhat": 0.7783520539035846,
+      "table_r_at_nominal_label": 0.8948,
+      "residual_vs_table_at_dhat": 0.0847830270449772,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 0.564215668853823,
+      "near_crossing": false,
+      "in_target_dhat_band": false
+    },
+    {
+      "law": "curved_m16",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 16,
+        "D": 64,
+        "same_law_cov_diff": 0.15512523221653335
+      },
+      "N": 1024,
+      "d_hat": 12.239126001176322,
+      "r": {
+        "r_mean": 0.7566378438594638,
+        "r_sd": 0.0012721616315111604,
+        "w2_mean": 6.0801923484306135,
+        "scale_mean": 8.035825268789644,
+        "n_rep": 4,
+        "values": [
+          0.7574222234582378,
+          0.7548385176281939,
+          0.756651707474049,
+          0.7576389268773744
+        ]
+      },
+      "table_r_at_dhat": 0.7719179135374609,
+      "table_r_at_nominal_label": 0.8038,
+      "residual_vs_table_at_dhat": -0.01979494115892877,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.5368037719814176,
+      "near_crossing": false,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "curved_m24",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 24,
+        "D": 64,
+        "same_law_cov_diff": 0.2118266398027543
+      },
+      "N": 256,
+      "d_hat": 14.099796557361627,
+      "r": {
+        "r_mean": 0.9373183618357268,
+        "r_sd": 0.0014799893296608988,
+        "w2_mean": 7.458418785361594,
+        "scale_mean": 7.957258182892288,
+        "n_rep": 4,
+        "values": [
+          0.9369444976110631,
+          0.9378756596696306,
+          0.9354796582010083,
+          0.9389736318612049
+        ]
+      },
+      "table_r_at_dhat": 0.9328832113571136,
+      "table_r_at_nominal_label": 0.9836551085582891,
+      "residual_vs_table_at_dhat": 0.0047542397854509755,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 0.8197556138000947,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "curved_m24",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 24,
+        "D": 64,
+        "same_law_cov_diff": 0.2118266398027543
+      },
+      "N": 1024,
+      "d_hat": 13.97288271964438,
+      "r": {
+        "r_mean": 0.860245932459138,
+        "r_sd": 0.002063996013083106,
+        "w2_mean": 6.850399443805001,
+        "scale_mean": 7.963301297288114,
+        "n_rep": 4,
+        "values": [
+          0.861482956134352,
+          0.8605046853740643,
+          0.8572547893659855,
+          0.8617412989621507
+        ]
+      },
+      "table_r_at_dhat": 0.8260319057175328,
+      "table_r_at_nominal_label": 0.9057316684341075,
+      "residual_vs_table_at_dhat": 0.04141973996983239,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.612845733317736,
+      "near_crossing": false,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "curved_m32",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 32,
+        "D": 64,
+        "same_law_cov_diff": 0.20906778374338328
+      },
+      "N": 256,
+      "d_hat": 19.098380561953267,
+      "r": {
+        "r_mean": 0.9823147548281135,
+        "r_sd": 0.001940924708902541,
+        "w2_mean": 7.859255630629554,
+        "scale_mean": 8.00077402810674,
+        "n_rep": 4,
+        "values": [
+          0.983339711635736,
+          0.9845404634153051,
+          0.9807726034079689,
+          0.980606240853444
+        ]
+      },
+      "table_r_at_dhat": 1.037424255508592,
+      "table_r_at_nominal_label": 1.052,
+      "residual_vs_table_at_dhat": -0.05312146924255334,
+      "crossing_measured": 17.2,
+      "dhat_over_crossing": 1.1103709629042597,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    },
+    {
+      "law": "curved_m32",
+      "meta": {
+        "family": "curved_manifold",
+        "m": 32,
+        "D": 64,
+        "same_law_cov_diff": 0.20906778374338328
+      },
+      "N": 1024,
+      "d_hat": 19.764198281897663,
+      "r": {
+        "r_mean": 0.9108137463670579,
+        "r_sd": 0.0012607202303088218,
+        "w2_mean": 7.283573334201431,
+        "scale_mean": 7.9967750474218615,
+        "n_rep": 4,
+        "values": [
+          0.9119544666872702,
+          0.9095057670566205,
+          0.9118307048467591,
+          0.9099640468775818
+        ]
+      },
+      "table_r_at_dhat": 0.9507890381881992,
+      "table_r_at_nominal_label": 0.9858,
+      "residual_vs_table_at_dhat": -0.042044333932706235,
+      "crossing_measured": 22.8,
+      "dhat_over_crossing": 0.8668508018376168,
+      "near_crossing": true,
+      "in_target_dhat_band": true
+    }
+  ],
+  "isotropic_reference_cells": [
+    {
+      "law": "isotropic_d16",
+      "d_ambient": 16,
+      "N": 256,
+      "d_hat": 13.105029232247253,
+      "r_mean": 0.8959514846155383,
+      "table_r_at_dhat": 0.90929523505868,
+      "residual_vs_table_at_dhat": -0.014674827194360751
+    },
+    {
+      "law": "isotropic_d16",
+      "d_ambient": 16,
+      "N": 1024,
+      "d_hat": 13.056482296372081,
+      "r_mean": 0.8046812038935808,
+      "table_r_at_dhat": 0.8035129453125918,
+      "residual_vs_table_at_dhat": 0.0014539387172343154
+    },
+    {
+      "law": "isotropic_d22",
+      "d_ambient": 22,
+      "N": 256,
+      "d_hat": 13.032117179184219,
+      "r_mean": 0.9707754540750159,
+      "table_r_at_dhat": 0.9075211816969635,
+      "residual_vs_table_at_dhat": 0.06970005070269969
+    },
+    {
+      "law": "isotropic_d22",
+      "d_ambient": 22,
+      "N": 1024,
+      "d_hat": 15.612599205862146,
+      "r_mean": 0.8945305026928607,
+      "table_r_at_dhat": 0.8640612311676269,
+      "residual_vs_table_at_dhat": 0.035262861503530196
+    },
+    {
+      "law": "isotropic_d25",
+      "d_ambient": 25,
+      "N": 256,
+      "d_hat": 23.023457023260892,
+      "r_mean": 1.0048409374891054,
+      "table_r_at_dhat": 1.0858805771804143,
+      "residual_vs_table_at_dhat": -0.07463034277833347
+    },
+    {
+      "law": "isotropic_d25",
+      "d_ambient": 25,
+      "N": 1024,
+      "d_hat": 18.555102654493325,
+      "r_mean": 0.9281069528815298,
+      "table_r_at_dhat": 0.9267510201706085,
+      "residual_vs_table_at_dhat": 0.001463103553607903
+    }
+  ],
+  "near_crossing_cells": [
+    "aniso_decay0.95@N=256",
+    "aniso_decay0.95@N=1024",
+    "aniso_decay0.90@N=256",
+    "aniso_decay0.90@N=1024",
+    "aniso_decay0.85@N=256",
+    "factor_k20@N=256",
+    "factor_k20@N=1024",
+    "factor_k28@N=256",
+    "factor_k28@N=1024",
+    "curved_m24@N=256",
+    "curved_m32@N=256",
+    "curved_m32@N=1024"
+  ],
+  "band_residual_summary": {
+    "n_cells": 15,
+    "median_residual": -0.004123679020782811,
+    "mean_residual": -0.005610841098364657,
+    "min_residual": -0.09928604906045857,
+    "max_residual": 0.07176979518605098,
+    "residuals": [
+      0.027192043248572384,
+      0.031709239986892124,
+      0.07176979518605098,
+      -0.004123679020782811,
+      -0.045073953828016045,
+      -0.029328982302789464,
+      0.016133720158380882,
+      -0.03626587375139456,
+      -0.09928604906045857,
+      0.05189788748698021,
+      -0.01979494115892877,
+      0.0047542397854509755,
+      0.04141973996983239,
+      -0.05312146924255334,
+      -0.042044333932706235
+    ]
+  }
+}

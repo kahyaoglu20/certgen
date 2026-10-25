@@ -1,0 +1,139 @@
+{
+ "_definition": "Hill estimate (largest 5%) of the tail index of ||x - median|| on standardised 8000-row subsamples of the benchmark cells and on reference laws",
+ "threshold": 5.0,
+ "tables": [
+  {
+   "table": "adult:E1",
+   "rows": 8000,
+   "tail_index_hill": 4.290713859855627,
+   "max_abs_z": 12.759380852574065,
+   "below_threshold": true
+  },
+  {
+   "table": "adult:E2",
+   "rows": 8000,
+   "tail_index_hill": 5.541184853256719,
+   "max_abs_z": 12.059161479119052,
+   "below_threshold": false
+  },
+  {
+   "table": "covertype:E1",
+   "rows": 8000,
+   "tail_index_hill": 2.7513601332483497,
+   "max_abs_z": 70.70360669724174,
+   "below_threshold": true
+  },
+  {
+   "table": "census-income:E1",
+   "rows": 8000,
+   "tail_index_hill": 3.2100177676932296,
+   "max_abs_z": 29.8288405462919,
+   "below_threshold": true
+  },
+  {
+   "table": "bank-marketing:E1",
+   "rows": 8000,
+   "tail_index_hill": 3.416410654562297,
+   "max_abs_z": 101.04197274539835,
+   "below_threshold": true
+  },
+  {
+   "table": "bank-marketing:E2",
+   "rows": 8000,
+   "tail_index_hill": 3.9803255308261205,
+   "max_abs_z": 101.04197274539835,
+   "below_threshold": true
+  },
+  {
+   "table": "higgs:E1",
+   "rows": 8000,
+   "tail_index_hill": 3.6470908833782394,
+   "max_abs_z": 21.412012251547825,
+   "below_threshold": true
+  },
+  {
+   "table": "MagicTelescope:E1",
+   "rows": 8000,
+   "tail_index_hill": 3.6472719045434516,
+   "max_abs_z": 10.810969104307347,
+   "below_threshold": true
+  },
+  {
+   "table": "pendigits:E1",
+   "rows": 8000,
+   "tail_index_hill": 10.938733372428029,
+   "max_abs_z": 5.248560010203159,
+   "below_threshold": false
+  },
+  {
+   "table": "letter:E1",
+   "rows": 8000,
+   "tail_index_hill": 9.477743574966416,
+   "max_abs_z": 5.7373291779878235,
+   "below_threshold": false
+  },
+  {
+   "table": "shuttle:E1",
+   "rows": 8000,
+   "tail_index_hill": 4.846617158549563,
+   "max_abs_z": 84.73408983679971,
+   "below_threshold": true
+  }
+ ],
+ "reference_laws": [
+  {
+   "law": "student_t_nu3",
+   "tail_index_hill": [
+    3.1553028823162386,
+    2.729906112675276,
+    2.7114885742994264,
+    2.8859361702807225
+   ],
+   "median": 2.8079211414779994
+  },
+  {
+   "law": "student_t_nu5",
+   "tail_index_hill": [
+    4.371016247035648,
+    4.419515037561749,
+    3.925537304047345,
+    4.495731204285332
+   ],
+   "median": 4.395265642298698
+  },
+  {
+   "law": "laplace_rot",
+   "tail_index_hill": [
+    9.193618319107491,
+    10.131859824602675,
+    8.533054816456882,
+    8.848970506849405
+   ],
+   "median": 9.021294412978449
+  },
+  {
+   "law": "aniso_gaussian_0.90",
+   "tail_index_hill": [
+    17.44500207375552,
+    16.27847718059336,
+    15.325894141012025,
+    15.836027132341473
+   ],
+   "median": 16.057252156467417
+  }
+ ],
+ "summary": {
+  "min": 2.7513601332483497,
+  "max": 10.938733372428029,
+  "below_threshold": [
+   "adult:E1",
+   "covertype:E1",
+   "census-income:E1",
+   "bank-marketing:E1",
+   "bank-marketing:E2",
+   "higgs:E1",
+   "MagicTelescope:E1",
+   "shuttle:E1"
+  ]
+ }
+}

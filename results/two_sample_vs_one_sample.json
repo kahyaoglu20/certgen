@@ -1,0 +1,205 @@
+{
+  "_definition": "two_sample = W2(X_N, X'_N) exact assignment (w2_exact); one_sample_proxy = W2(X_N, X_M) exact Kantorovich LP, X_N, X'_N, X_M iid N(0, I_d).",
+  "_caveat": "the one-sample proxy is the distance to a large empirical measure (M = 2000), not to the population; at N = 1024 the d-grid is thinned and n_rep = 1",
+  "elapsed_seconds": 184.78221368789673,
+  "cells": [
+    {
+      "d": 2,
+      "N": 256,
+      "M": 2000,
+      "M_specified": 2000,
+      "n_rep": 3,
+      "two_sample_mean": 0.3229737396366143,
+      "one_sample_proxy_mean": 0.27891437099184735,
+      "ratio_mean": 1.15958936352192,
+      "ratio_std": 0.06413904989629333,
+      "heuristic_2_to_the_1_over_d": 1.4142135623730951,
+      "two_sample_values": [
+        0.33935930021980604,
+        0.3142056769109435,
+        0.31535624177909344
+      ],
+      "one_sample_proxy_values": [
+        0.2858629467312813,
+        0.28924977601980195,
+        0.2616303902244588
+      ]
+    },
+    {
+      "d": 4,
+      "N": 256,
+      "M": 2000,
+      "M_specified": 2000,
+      "n_rep": 3,
+      "two_sample_mean": 0.8682543768945408,
+      "one_sample_proxy_mean": 0.7856676493698194,
+      "ratio_mean": 1.1055680925127283,
+      "ratio_std": 0.05668602428079056,
+      "heuristic_2_to_the_1_over_d": 1.189207115002721,
+      "two_sample_values": [
+        0.8475507346852693,
+        0.8424344383218276,
+        0.9147779576765254
+      ],
+      "one_sample_proxy_values": [
+        0.7634390002342057,
+        0.8048332089937075,
+        0.7887307388815451
+      ]
+    },
+    {
+      "d": 8,
+      "N": 256,
+      "M": 2000,
+      "M_specified": 2000,
+      "n_rep": 3,
+      "two_sample_mean": 1.939312622158413,
+      "one_sample_proxy_mean": 1.8197087988094511,
+      "ratio_mean": 1.065758461357632,
+      "ratio_std": 0.0057221534351297385,
+      "heuristic_2_to_the_1_over_d": 1.0905077326652577,
+      "two_sample_values": [
+        1.9325859152903029,
+        1.9431787165978558,
+        1.9421732345870804
+      ],
+      "one_sample_proxy_values": [
+        1.8028025311117317,
+        1.8319087139620536,
+        1.824415151354568
+      ]
+    },
+    {
+      "d": 16,
+      "N": 256,
+      "M": 2000,
+      "M_specified": 2000,
+      "n_rep": 3,
+      "two_sample_mean": 3.5838816584441417,
+      "one_sample_proxy_mean": 3.489581990826108,
+      "ratio_mean": 1.0270147456813177,
+      "ratio_std": 0.002103149115678372,
+      "heuristic_2_to_the_1_over_d": 1.0442737824274138,
+      "two_sample_values": [
+        3.568315119805616,
+        3.6338019270062603,
+        3.549527928520548
+      ],
+      "one_sample_proxy_values": [
+        3.470173141559076,
+        3.5342229035099773,
+        3.4643499274092715
+      ]
+    },
+    {
+      "d": 32,
+      "N": 256,
+      "M": 2000,
+      "M_specified": 2000,
+      "n_rep": 3,
+      "two_sample_mean": 5.951478413629455,
+      "one_sample_proxy_mean": 5.851205369011351,
+      "ratio_mean": 1.017125278079339,
+      "ratio_std": 0.007129580488161984,
+      "heuristic_2_to_the_1_over_d": 1.0218971486541166,
+      "two_sample_values": [
+        5.904656101241856,
+        6.014757630029685,
+        5.935021509616822
+      ],
+      "one_sample_proxy_values": [
+        5.841766284447882,
+        5.869015728732542,
+        5.842834093853629
+      ]
+    },
+    {
+      "d": 2,
+      "N": 1024,
+      "M": 2000,
+      "M_specified": 4000,
+      "n_rep": 1,
+      "two_sample_mean": 0.17148712393173732,
+      "one_sample_proxy_mean": 0.1649240160333286,
+      "ratio_mean": 1.0397947373357828,
+      "ratio_std": 0.0,
+      "heuristic_2_to_the_1_over_d": 1.4142135623730951,
+      "two_sample_values": [
+        0.17148712393173732
+      ],
+      "one_sample_proxy_values": [
+        0.1649240160333286
+      ]
+    },
+    {
+      "d": 8,
+      "N": 1024,
+      "M": 2000,
+      "M_specified": 4000,
+      "n_rep": 1,
+      "two_sample_mean": 1.6189967473145717,
+      "one_sample_proxy_mean": 1.578860284542783,
+      "ratio_mean": 1.025421161811928,
+      "ratio_std": 0.0,
+      "heuristic_2_to_the_1_over_d": 1.0905077326652577,
+      "two_sample_values": [
+        1.6189967473145717
+      ],
+      "one_sample_proxy_values": [
+        1.578860284542783
+      ]
+    },
+    {
+      "d": 32,
+      "N": 1024,
+      "M": 2000,
+      "M_specified": 4000,
+      "n_rep": 1,
+      "two_sample_mean": 5.5830311088579165,
+      "one_sample_proxy_mean": 5.54368934420522,
+      "ratio_mean": 1.0070966755548487,
+      "ratio_std": 0.0,
+      "heuristic_2_to_the_1_over_d": 1.0218971486541166,
+      "two_sample_values": [
+        5.5830311088579165
+      ],
+      "one_sample_proxy_values": [
+        5.54368934420522
+      ]
+    }
+  ],
+  "ratio_by_d_N": {
+    "d2_N256": {
+      "ratio_mean": 1.15958936352192,
+      "heuristic_2_to_the_1_over_d": 1.4142135623730951
+    },
+    "d4_N256": {
+      "ratio_mean": 1.1055680925127283,
+      "heuristic_2_to_the_1_over_d": 1.189207115002721
+    },
+    "d8_N256": {
+      "ratio_mean": 1.065758461357632,
+      "heuristic_2_to_the_1_over_d": 1.0905077326652577
+    },
+    "d16_N256": {
+      "ratio_mean": 1.0270147456813177,
+      "heuristic_2_to_the_1_over_d": 1.0442737824274138
+    },
+    "d32_N256": {
+      "ratio_mean": 1.017125278079339,
+      "heuristic_2_to_the_1_over_d": 1.0218971486541166
+    },
+    "d2_N1024": {
+      "ratio_mean": 1.0397947373357828,
+      "heuristic_2_to_the_1_over_d": 1.4142135623730951
+    },
+    "d8_N1024": {
+      "ratio_mean": 1.025421161811928,
+      "heuristic_2_to_the_1_over_d": 1.0905077326652577
+    },
+    "d32_N1024": {
+      "ratio_mean": 1.0070966755548487,
+      "heuristic_2_to_the_1_over_d": 1.0218971486541166
+    }
+  }
+}

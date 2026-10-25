@@ -1,0 +1,527 @@
+{
+ "_definition": "every experiment run in a copy of the project and every regenerated artifact compared with the stored one (relative tolerance 1e-06)",
+ "summary": {
+  "scripts": 25,
+  "ok": 25,
+  "failed": [],
+  "artifacts_regenerated": 25,
+  "artifacts_identical_or_reproduced": 25,
+  "artifacts_differing": [],
+  "artifacts_platform_dependent": [],
+  "wall_seconds": 5385.5,
+  "mode": {
+   "quick": false,
+   "network": true,
+   "jobs": 6,
+   "fresh": true,
+   "only": null
+  },
+  "python": "3.13.3"
+ },
+ "scripts": [
+  {
+   "script": "experiments/benchmark_diagnostics.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 191.3,
+   "tail": [
+    "  medians {'1000': 5.148947305080565, '2000': 4.459577251755695, '4000': 3.1408588239974318}",
+    "adult:E1 |corr| max 0.155, median 0.057",
+    "wrote results/benchmark_diagnostics.json"
+   ]
+  },
+  {
+   "script": "experiments/benchmark_floor_laws.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 1067.2,
+   "tail": [
+    "   [!] the estimators disagree by 7.2x (the law may lack a single governing exponent); report a range rather than a single dimension.",
+    "   [!] d_hat approaches the ambient dimension: the sample may be too small to reveal low-dimensional structure.",
+    "wrote results/benchmark_floor_laws.json"
+   ]
+  },
+  {
+   "script": "experiments/benchmark_sources.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 10.3,
+   "tail": [
+    "eeg-eye-state:E1        14980 x 14  dab8e81900a5d8a5",
+    "MiniBooNE:E1           130064 x 50  487e6957a8989637",
+    "wrote results/benchmark_sources.json"
+   ]
+  },
+  {
+   "script": "experiments/copula_examples.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 206.7,
+   "tail": [
+    "  d=8: P(skill > 1) = 0.420, P(V < -0.05) = [0.0, 0.0, 0.235]",
+    "spread under a mean shift",
+    "wrote results/copula_examples.json"
+   ]
+  },
+  {
+   "script": "experiments/curvature_test_power.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 196.3,
+   "tail": [
+    "  SE=0.05 densified        k=10 n=[125,4000]  power=0.065  size=0.020",
+    "  SE=0.05 densified        k=12 n=[125,4000]  power=0.105  size=0.020",
+    "wrote results/curvature_test_power.json"
+   ]
+  },
+  {
+   "script": "experiments/curvature_test_size.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 219.1,
+   "tail": [
+    "         6    5.92   0.040  0.015         -0.0072   -0.90",
+    "         8    7.44   0.023  0.011         -0.0373   -4.44",
+    "wrote results/curvature_test_size.json"
+   ]
+  },
+  {
+   "script": "experiments/equivalence_test.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 12.7,
+   "tail": [
+    "  p_hi_not_anticonservative        ok",
+    "  degenerate                       ok",
+    "wrote results/equivalence_test.json"
+   ]
+  },
+  {
+   "script": "experiments/inference_checks.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 49.3,
+   "tail": [
+    "power of the 2-sd rule = 0.510",
+    "exponent interval coverage: z 0.8615, t 0.9022",
+    "wrote results/inference_checks.json"
+   ]
+  },
+  {
+   "script": "experiments/leakage_screen.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 1.4,
+   "tail": [
+    "  n/|support|=   0.0077  memoriser flagged=True  fresh draw flagged=False",
+    "  n/|support|=   0.0000  memoriser flagged=True  fresh draw flagged=False",
+    "wrote results/leakage_screen.json"
+   ]
+  },
+  {
+   "script": "experiments/ot_cost.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 72.5,
+   "tail": [
+    "d= 32 n= 4096      2.46 s",
+    "d= 32 n= 8192     12.66 s",
+    "wrote results/ot_cost.json"
+   ]
+  },
+  {
+   "script": "experiments/plan_pullback_vae.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 33.5,
+   "tail": [
+    " \"all_ppc_valid\": true,",
+    " \"cells\": 12",
+    "}"
+   ]
+  },
+  {
+   "script": "experiments/reference_tables.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 3676.2,
+   "tail": [
+    "crossing N= 8192: nominal 49.6 [49.6, 49.6]  measured 32.3 [32.1, 32.5]",
+    "crossing N=16384: nominal 54.0 [54.0, 54.1]  measured 35.2 [35.0, 35.4]",
+    "crossing N=32768: nominal 58.2 [58.1, 58.2]  measured 38.3 [38.0, 38.5]"
+   ]
+  },
+  {
+   "script": "experiments/reporting_endpoints.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 33.7,
+   "tail": [
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "script": "experiments/resolution_atlas.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 5137.0,
+   "tail": [
+    "shuttle:E1         n= 2000 floor=1.9599 D_T1=2.7118 sd_pair=0.4391 (125.9 s)",
+    "shuttle:E1         n= 4000 floor=1.9634 D_T1=2.5133 sd_pair=0.3544 (987.3 s)",
+    "wrote results/resolution_atlas.json"
+   ]
+  },
+  {
+   "script": "experiments/slope_estimator_bias.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 60.1,
+   "tail": [
+    "         8     7.701   0.364    -3.7%",
+    "        12    10.775   0.194   -10.2%",
+    "wrote results/slope_estimator_bias.json"
+   ]
+  },
+  {
+   "script": "experiments/stress_tests.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 39.5,
+   "tail": [
+    "  T2 gaussian   E[D]=0.9963  sd(D_A-D_B)=0.02971  floor-level proxy 1.14x  level-scaled proxy 1.42x",
+    "  T1 marginals  E[D]=1.7824  sd(D_A-D_B)=0.04310  floor-level proxy 0.79x  level-scaled proxy 1.75x",
+    "wrote results/stress_tests.json"
+   ]
+  },
+  {
+   "script": "experiments/tail_index.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 6.0,
+   "tail": [
+    "laplace_rot            9.02",
+    "aniso_gaussian_0.90   16.06",
+    "wrote results/tail_index.json"
+   ]
+  },
+  {
+   "script": "experiments/transfer_probe.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 6.6,
+   "tail": [
+    "factor_k20_mixed_h1.0        256   16.43   0.9416   0.9841    -4.3%",
+    "factor_k20_mixed_h1.0       1024   17.97   0.8693   0.9147    -5.0%",
+    "wrote results/transfer_probe.json"
+   ]
+  },
+  {
+   "script": "experiments/transfer_smooth_laws.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 6.4,
+   "tail": [
+    "curved_m32              1024   19.76   0.9108   0.9508    -4.2%",
+    "band (12.0, 28.0): 15 cells, median residual -0.4%, range [-9.9%, +7.2%]",
+    "wrote results/transfer_smooth_laws.json"
+   ]
+  },
+  {
+   "script": "experiments/two_sample_vs_one_sample.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 155.5,
+   "tail": [
+    "  d=8   N=1024  M=2000   two=1.6190  one=1.5789  ratio=1.025  2^(1/d)=1.091",
+    "  d=32  N=1024  M=2000   two=5.5830  one=5.5437  ratio=1.007  2^(1/d)=1.022",
+    "wrote results/two_sample_vs_one_sample.json"
+   ]
+  },
+  {
+   "script": "experiments/certification_margins.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 13.5,
+   "tail": [
+    "pendigits:E1         4.83        6.92x        3.23x",
+    "letter:E1            5.25        6.40x        3.08x",
+    "wrote results/certification_margins.json"
+   ]
+  },
+  {
+   "script": "experiments/half_fit_ranges.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 1.3,
+   "tail": [
+    "letter:E1                            1.18x",
+    "shuttle:E1                            nanx",
+    "wrote results/half_fit_ranges.json"
+   ]
+  },
+  {
+   "script": "experiments/interval_coverage.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 51.8,
+   "tail": [
+    "  letter:E1            width ratio at n=10000 1.12, at n=40000 1.19",
+    "  shuttle:E1           width ratio at n=10000 53.39, at n=40000 2108.48",
+    "wrote results/interval_coverage.json"
+   ]
+  },
+  {
+   "script": "experiments/reference_tables_large_n.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 0.4,
+   "tail": [
+    "16 r cells, 14 d_hat cells; match reference_tables.json: True; calibration max rel diff 0.00e+00"
+   ]
+  },
+  {
+   "script": "experiments/severity.py",
+   "status": "ok",
+   "rc": 0,
+   "seconds": 10.2,
+   "tail": [
+    "letter:E1              1.030     1.126 [  1.109,  1.142]      1.43   False",
+    "shuttle:E1               nan   undefined (not admissible)",
+    "wrote results/severity.json"
+   ]
+  }
+ ],
+ "artifacts": [
+  {
+   "status": "identical",
+   "numeric_leaves": 67,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "benchmark_diagnostics.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 566,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "benchmark_floor_laws.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 74,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "benchmark_sources.json"
+  },
+  {
+   "artifact": "bibliography_registry.json",
+   "status": "not-regenerated"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 216,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "certification_margins.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 62,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "copula_examples.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 272,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "curvature_test_power.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 54,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "curvature_test_size.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 23,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "boundary_sensitive_excluded": [
+    "/rates/boundary +delta/equiv_rate",
+    "/rates/boundary +delta/mean_p_too_bad",
+    "/rates/boundary +delta/mean_p_too_good",
+    "/rates/boundary -delta/equiv_rate",
+    "/rates/boundary -delta/mean_p_too_bad",
+    "/rates/boundary -delta/mean_p_too_good"
+   ],
+   "boundary_sensitive_reason": "the boundary scenarios place D exactly at floor +/- delta, so which replicates fall on either side of the threshold depends on rounding",
+   "artifact": "equivalence_test.json"
+  },
+  {
+   "artifact": "figures_manifest.json",
+   "status": "not-regenerated"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 364,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "half_fit_ranges.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 48,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "inference_checks.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 505,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "interval_coverage.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 51,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "leakage_screen.json"
+  },
+  {
+   "artifact": "lean_bridge_build.json",
+   "status": "not-regenerated"
+  },
+  {
+   "artifact": "lean_build.json",
+   "status": "not-regenerated"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 30,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "ot_cost.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 222,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "plan_pullback_vae.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 2811,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "reference_tables.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 833,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "reference_tables_large_n.json"
+  },
+  {
+   "artifact": "reference_tables_large_n_solves.json",
+   "status": "not-regenerated"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 24,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "reporting_endpoints.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 1253,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "resolution_atlas.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 211,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "severity.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 38,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "slope_estimator_bias.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 76,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "stress_tests.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 56,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "tail_index.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 332,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "transfer_probe.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 378,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "transfer_smooth_laws.json"
+  },
+  {
+   "status": "identical",
+   "numeric_leaves": 132,
+   "max_rel_diff": 0.0,
+   "structural_mismatches": [],
+   "n_structural_mismatches": 0,
+   "artifact": "two_sample_vs_one_sample.json"
+  }
+ ]
+}

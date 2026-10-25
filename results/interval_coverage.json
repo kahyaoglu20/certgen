@@ -1,0 +1,769 @@
+{
+  "_definition": "coverage of FloorLaw.required_n_interval on known power laws, its level calibration, and the interval on the benchmark cells",
+  "trials": 200,
+  "n_rep": 12,
+  "level": 0.9,
+  "cells": [
+    {
+      "d_known": 4.0,
+      "replicate_cv": 0.03,
+      "coverage_n_interior": 0.885,
+      "coverage_n_extrapolated": 0.88,
+      "coverage_exponent": 0.895,
+      "width_interior_med": 1.0692306374274805,
+      "width_extrapolated_med": 1.2549970700820854
+    },
+    {
+      "d_known": 4.0,
+      "replicate_cv": 0.08,
+      "coverage_n_interior": 0.88,
+      "coverage_n_extrapolated": 0.92,
+      "coverage_exponent": 0.93,
+      "width_interior_med": 1.1881573704666515,
+      "width_extrapolated_med": 1.8430238754338162
+    },
+    {
+      "d_known": 4.0,
+      "replicate_cv": 0.13,
+      "coverage_n_interior": 0.9,
+      "coverage_n_extrapolated": 0.865,
+      "coverage_exponent": 0.87,
+      "width_interior_med": 1.3283263666061367,
+      "width_extrapolated_med": 2.606521132905911
+    },
+    {
+      "d_known": 5.0,
+      "replicate_cv": 0.03,
+      "coverage_n_interior": 0.9,
+      "coverage_n_extrapolated": 0.865,
+      "coverage_exponent": 0.875,
+      "width_interior_med": 1.0859517705621506,
+      "width_extrapolated_med": 1.3262109408505673
+    },
+    {
+      "d_known": 5.0,
+      "replicate_cv": 0.08,
+      "coverage_n_interior": 0.89,
+      "coverage_n_extrapolated": 0.895,
+      "coverage_exponent": 0.91,
+      "width_interior_med": 1.2463397747195715,
+      "width_extrapolated_med": 2.076926854128601
+    },
+    {
+      "d_known": 5.0,
+      "replicate_cv": 0.13,
+      "coverage_n_interior": 0.865,
+      "coverage_n_extrapolated": 0.88,
+      "coverage_exponent": 0.895,
+      "width_interior_med": 1.432664785222756,
+      "width_extrapolated_med": 3.4215171696308615
+    },
+    {
+      "d_known": 6.0,
+      "replicate_cv": 0.03,
+      "coverage_n_interior": 0.87,
+      "coverage_n_extrapolated": 0.875,
+      "coverage_exponent": 0.895,
+      "width_interior_med": 1.1024700847128495,
+      "width_extrapolated_med": 1.394668050005448
+    },
+    {
+      "d_known": 6.0,
+      "replicate_cv": 0.08,
+      "coverage_n_interior": 0.865,
+      "coverage_n_extrapolated": 0.885,
+      "coverage_exponent": 0.885,
+      "width_interior_med": 1.279982349412998,
+      "width_extrapolated_med": 2.3924760722080274
+    },
+    {
+      "d_known": 6.0,
+      "replicate_cv": 0.13,
+      "coverage_n_interior": 0.9,
+      "coverage_n_extrapolated": 0.86,
+      "coverage_exponent": 0.885,
+      "width_interior_med": 1.5623642047230042,
+      "width_extrapolated_med": 4.823664875556448
+    },
+    {
+      "d_known": 8.0,
+      "replicate_cv": 0.03,
+      "coverage_n_interior": 0.885,
+      "coverage_n_extrapolated": 0.89,
+      "coverage_exponent": 0.9,
+      "width_interior_med": 1.1393898243661238,
+      "width_extrapolated_med": 1.5562067890871378
+    },
+    {
+      "d_known": 8.0,
+      "replicate_cv": 0.08,
+      "coverage_n_interior": 0.865,
+      "coverage_n_extrapolated": 0.87,
+      "coverage_exponent": 0.885,
+      "width_interior_med": 1.4020122774582215,
+      "width_extrapolated_med": 3.189993254170348
+    },
+    {
+      "d_known": 8.0,
+      "replicate_cv": 0.13,
+      "coverage_n_interior": 0.864321608040201,
+      "coverage_n_extrapolated": 0.8693467336683417,
+      "coverage_exponent": 0.8793969849246231,
+      "width_interior_med": 1.7622556590256948,
+      "width_extrapolated_med": 6.744342640541349
+    }
+  ],
+  "level_calibration": {
+    "_definition": "delivered coverage of the interval as a function of its nominal level on known single-exponent laws, and the nominal level that delivers each requested coverage",
+    "regime": "d in {4,5,6}, replicate CV in {0.03,0.08,0.13}, 6-point grid [125,4000], n_rep=12, 200 trials per cell, targets n=1000 and n=40000",
+    "levels": [
+      0.8,
+      0.85,
+      0.9,
+      0.925,
+      0.95,
+      0.975
+    ],
+    "delivered_by_level": {
+      "0.8": {
+        "min": 0.748,
+        "median": 0.78,
+        "max": 0.795
+      },
+      "0.85": {
+        "min": 0.805,
+        "median": 0.83,
+        "max": 0.847
+      },
+      "0.9": {
+        "min": 0.877,
+        "median": 0.883,
+        "max": 0.913
+      },
+      "0.925": {
+        "min": 0.895,
+        "median": 0.917,
+        "max": 0.935
+      },
+      "0.95": {
+        "min": 0.92,
+        "median": 0.942,
+        "max": 0.962
+      },
+      "0.975": {
+        "min": 0.95,
+        "median": 0.975,
+        "max": 0.982
+      }
+    },
+    "inverse_map_requested_to_nominal": {
+      "0.8": 0.82,
+      "0.85": 0.8689,
+      "0.9": 0.9125,
+      "0.95": 0.9561
+    },
+    "cells": [
+      {
+        "d_known": 4.0,
+        "replicate_cv": 0.03,
+        "delivered_interior": {
+          "0.8": 0.785,
+          "0.85": 0.84,
+          "0.9": 0.895,
+          "0.925": 0.925,
+          "0.95": 0.945,
+          "0.975": 0.975
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.8,
+          "0.85": 0.855,
+          "0.9": 0.88,
+          "0.925": 0.915,
+          "0.95": 0.94,
+          "0.975": 0.975
+        }
+      },
+      {
+        "d_known": 4.0,
+        "replicate_cv": 0.08,
+        "delivered_interior": {
+          "0.8": 0.775,
+          "0.85": 0.825,
+          "0.9": 0.865,
+          "0.925": 0.9,
+          "0.95": 0.945,
+          "0.975": 0.98
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.815,
+          "0.85": 0.865,
+          "0.9": 0.91,
+          "0.925": 0.935,
+          "0.95": 0.955,
+          "0.975": 0.98
+        }
+      },
+      {
+        "d_known": 4.0,
+        "replicate_cv": 0.13,
+        "delivered_interior": {
+          "0.8": 0.77,
+          "0.85": 0.82,
+          "0.9": 0.88,
+          "0.925": 0.935,
+          "0.95": 0.97,
+          "0.975": 0.99
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.77,
+          "0.85": 0.835,
+          "0.9": 0.885,
+          "0.925": 0.92,
+          "0.95": 0.955,
+          "0.975": 0.975
+        }
+      },
+      {
+        "d_known": 5.0,
+        "replicate_cv": 0.03,
+        "delivered_interior": {
+          "0.8": 0.775,
+          "0.85": 0.825,
+          "0.9": 0.895,
+          "0.925": 0.94,
+          "0.95": 0.97,
+          "0.975": 0.99
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.78,
+          "0.85": 0.835,
+          "0.9": 0.885,
+          "0.925": 0.915,
+          "0.95": 0.955,
+          "0.975": 0.975
+        }
+      },
+      {
+        "d_known": 5.0,
+        "replicate_cv": 0.08,
+        "delivered_interior": {
+          "0.8": 0.775,
+          "0.85": 0.825,
+          "0.9": 0.925,
+          "0.925": 0.945,
+          "0.95": 0.95,
+          "0.975": 0.985
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.79,
+          "0.85": 0.845,
+          "0.9": 0.9,
+          "0.925": 0.925,
+          "0.95": 0.955,
+          "0.975": 0.97
+        }
+      },
+      {
+        "d_known": 5.0,
+        "replicate_cv": 0.13,
+        "delivered_interior": {
+          "0.8": 0.765,
+          "0.85": 0.81,
+          "0.9": 0.855,
+          "0.925": 0.88,
+          "0.95": 0.905,
+          "0.975": 0.945
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.8,
+          "0.85": 0.835,
+          "0.9": 0.9,
+          "0.925": 0.91,
+          "0.95": 0.945,
+          "0.975": 0.98
+        }
+      },
+      {
+        "d_known": 6.0,
+        "replicate_cv": 0.03,
+        "delivered_interior": {
+          "0.8": 0.77,
+          "0.85": 0.815,
+          "0.9": 0.86,
+          "0.925": 0.885,
+          "0.95": 0.905,
+          "0.975": 0.95
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.79,
+          "0.85": 0.835,
+          "0.9": 0.905,
+          "0.925": 0.915,
+          "0.95": 0.935,
+          "0.975": 0.975
+        }
+      },
+      {
+        "d_known": 6.0,
+        "replicate_cv": 0.08,
+        "delivered_interior": {
+          "0.8": 0.785,
+          "0.85": 0.84,
+          "0.9": 0.895,
+          "0.925": 0.915,
+          "0.95": 0.935,
+          "0.975": 0.97
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.75,
+          "0.85": 0.83,
+          "0.9": 0.865,
+          "0.925": 0.905,
+          "0.95": 0.945,
+          "0.975": 0.98
+        }
+      },
+      {
+        "d_known": 6.0,
+        "replicate_cv": 0.13,
+        "delivered_interior": {
+          "0.8": 0.77,
+          "0.85": 0.825,
+          "0.9": 0.88,
+          "0.925": 0.915,
+          "0.95": 0.93,
+          "0.975": 0.96
+        },
+        "delivered_extrapolated": {
+          "0.8": 0.725,
+          "0.85": 0.785,
+          "0.9": 0.875,
+          "0.925": 0.895,
+          "0.95": 0.915,
+          "0.975": 0.94
+        }
+      }
+    ]
+  },
+  "real_table_source": "benchmark_floor_laws.json",
+  "real_tables": [
+    {
+      "dataset": "adult:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 0.9592491138478084,
+          "n_point": 1000.0000000000003,
+          "n_lo": 846.0477405712958,
+          "n_med": 1000.1125568142588,
+          "n_hi": 1192.627010133936,
+          "width_ratio": 1.4096450506783598
+        },
+        "floor_at_n=4000": {
+          "target_floor": 0.6821824533058958,
+          "n_point": 3999.999999999998,
+          "n_lo": 3165.3803979268096,
+          "n_med": 4003.001565384352,
+          "n_hi": 5241.34532637575,
+          "width_ratio": 1.6558342655462863
+        },
+        "floor_at_n=10000": {
+          "target_floor": 0.5445747073649833,
+          "n_point": 9999.999999999998,
+          "n_lo": 7176.855530765113,
+          "n_med": 9993.87003916617,
+          "n_hi": 14622.379070160532,
+          "width_ratio": 2.037435337450866
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.3872813688494326,
+          "n_point": 40000.00000000002,
+          "n_lo": 24566.5317729318,
+          "n_med": 39955.979117819035,
+          "n_hi": 70689.54773447606,
+          "width_ratio": 2.877473645358605
+        }
+      }
+    },
+    {
+      "dataset": "adult:E2",
+      "single_exponent_ok": false,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 2.0586568002129497,
+          "n_point": NaN,
+          "n_lo": 953.0619916679302,
+          "n_med": 999.8340009640885,
+          "n_hi": 1051.5636837380187,
+          "width_ratio": 1.1033528699404989
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.6284535892722742,
+          "n_point": NaN,
+          "n_lo": 3729.008566871053,
+          "n_med": 4000.551327745442,
+          "n_hi": 4303.132962851316,
+          "width_ratio": 1.1539616725691786
+        },
+        "floor_at_n=10000": {
+          "target_floor": 1.394708938530495,
+          "n_point": NaN,
+          "n_lo": 9019.540783777878,
+          "n_med": 9998.81660525148,
+          "n_hi": 11060.40958892335,
+          "width_ratio": 1.226271919388189
+        },
+        "floor_at_n=40000": {
+          "target_floor": 1.1032527503881029,
+          "n_point": NaN,
+          "n_lo": 34157.027139605736,
+          "n_med": 39990.16320107273,
+          "n_hi": 46679.37949496394,
+          "width_ratio": 1.3666113067796317
+        }
+      }
+    },
+    {
+      "dataset": "covertype:E1=E2",
+      "single_exponent_ok": false,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 4.933358030738224,
+          "n_point": NaN,
+          "n_lo": 814.4896075859604,
+          "n_med": 999.2483676412376,
+          "n_hi": 1215.6116592196336,
+          "width_ratio": 1.49248271297475
+        },
+        "floor_at_n=4000": {
+          "target_floor": 3.8198340863219897,
+          "n_point": NaN,
+          "n_lo": 3181.260143797817,
+          "n_med": 4003.731518221758,
+          "n_hi": 5286.242391484432,
+          "width_ratio": 1.6616818972791294
+        },
+        "floor_at_n=10000": {
+          "target_floor": 3.2256157191588053,
+          "n_point": NaN,
+          "n_lo": 7149.909485133955,
+          "n_med": 9989.938507088085,
+          "n_hi": 15125.331278340425,
+          "width_ratio": 2.1154577284913767
+        },
+        "floor_at_n=40000": {
+          "target_floor": 2.497551727778223,
+          "n_point": NaN,
+          "n_lo": 23527.103836727125,
+          "n_med": 39927.74954146486,
+          "n_hi": 78083.6615613511,
+          "width_ratio": 3.3188811552511677
+        }
+      }
+    },
+    {
+      "dataset": "census-income:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 1.7105040485725136,
+          "n_point": 1000.0000000000005,
+          "n_lo": 898.3955514833757,
+          "n_med": 999.8302339641906,
+          "n_hi": 1116.6109788395536,
+          "width_ratio": 1.2428945991505345
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.3302848439705572,
+          "n_point": 3999.9999999999977,
+          "n_lo": 3405.2418101967114,
+          "n_med": 4000.7947182217317,
+          "n_hi": 4774.791613973137,
+          "width_ratio": 1.4021887079136124
+        },
+        "floor_at_n=10000": {
+          "target_floor": 1.1266290446397098,
+          "n_point": 9999.999999999995,
+          "n_lo": 7901.235483149054,
+          "n_med": 10000.396710022364,
+          "n_hi": 12919.486244502437,
+          "width_ratio": 1.635122288413729
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.8761964311700943,
+          "n_point": 40000.00000000002,
+          "n_lo": 28017.99725196123,
+          "n_med": 39970.08486862341,
+          "n_hi": 59231.80720678927,
+          "width_ratio": 2.1140628530343335
+        }
+      }
+    },
+    {
+      "dataset": "bank-marketing:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 1.0627274699592537,
+          "n_point": 999.9999999999998,
+          "n_lo": 894.8801534451482,
+          "n_med": 1000.1354982798664,
+          "n_hi": 1112.2795708302012,
+          "width_ratio": 1.2429369078620187
+        },
+        "floor_at_n=4000": {
+          "target_floor": 0.7987287300187219,
+          "n_point": 4000.0000000000005,
+          "n_lo": 3651.799680127662,
+          "n_med": 3999.389394521684,
+          "n_hi": 4405.247393432188,
+          "width_ratio": 1.2063223011395263
+        },
+        "floor_at_n=10000": {
+          "target_floor": 0.6613400534968641,
+          "n_point": 10000.000000000002,
+          "n_lo": 8659.983461640855,
+          "n_med": 9992.902779488657,
+          "n_hi": 11636.512753810894,
+          "width_ratio": 1.3437107363258243
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.49705245791784886,
+          "n_point": 40000.00000000001,
+          "n_lo": 31097.25800757986,
+          "n_med": 39982.66092162562,
+          "n_hi": 52292.05344865923,
+          "width_ratio": 1.6815647680548942
+        }
+      }
+    },
+    {
+      "dataset": "bank-marketing:E2",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 2.286308791942868,
+          "n_point": 1000.0,
+          "n_lo": 949.2133964049474,
+          "n_med": 999.7990061572734,
+          "n_hi": 1055.491562119885,
+          "width_ratio": 1.1119644603810437
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.8503855151243338,
+          "n_point": 3999.9999999999986,
+          "n_lo": 3721.0825396447176,
+          "n_med": 4000.946707917389,
+          "n_hi": 4316.460260869275,
+          "width_ratio": 1.1600012133247124
+        },
+        "floor_at_n=10000": {
+          "target_floor": 1.6089320047826612,
+          "n_point": 9999.99999999999,
+          "n_lo": 8913.906934225186,
+          "n_med": 9999.86209517177,
+          "n_hi": 11206.712068264815,
+          "width_ratio": 1.2572166336218231
+        },
+        "floor_at_n=40000": {
+          "target_floor": 1.3021620207040634,
+          "n_point": 40000.00000000001,
+          "n_lo": 33391.333235108264,
+          "n_med": 39977.324800239934,
+          "n_hi": 48025.961795697236,
+          "width_ratio": 1.4382762574212475
+        }
+      }
+    },
+    {
+      "dataset": "higgs:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 4.345113964173478,
+          "n_point": 1000.0000000000016,
+          "n_lo": 968.3312256247796,
+          "n_med": 1000.0274881078915,
+          "n_hi": 1034.7670898547308,
+          "width_ratio": 1.0686086149778822
+        },
+        "floor_at_n=4000": {
+          "target_floor": 3.9130300620858716,
+          "n_point": 4000.000000000002,
+          "n_lo": 3927.3467358941343,
+          "n_med": 3999.677102010336,
+          "n_hi": 4074.358390582328,
+          "width_ratio": 1.037432817770984
+        },
+        "floor_at_n=10000": {
+          "target_floor": 3.651297840102994,
+          "n_point": 10000.000000000005,
+          "n_lo": 9640.534953701213,
+          "n_med": 9999.724671545717,
+          "n_hi": 10351.656862952306,
+          "width_ratio": 1.0737637395296282
+        },
+        "floor_at_n=40000": {
+          "target_floor": 3.28820793464965,
+          "n_point": 39999.999999999985,
+          "n_lo": 37266.05912178669,
+          "n_med": 39996.532680919874,
+          "n_hi": 42861.1696068954,
+          "width_ratio": 1.1501395805449592
+        }
+      }
+    },
+    {
+      "dataset": "MagicTelescope:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 1.3478339868784586,
+          "n_point": 1000.0000000000007,
+          "n_lo": 938.886656618226,
+          "n_med": 1000.2688029387305,
+          "n_hi": 1064.0120629741568,
+          "width_ratio": 1.13326998043259
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.051920456029779,
+          "n_point": 4000.0000000000023,
+          "n_lo": 3775.2451001306054,
+          "n_med": 4001.458123616313,
+          "n_hi": 4246.312433209775,
+          "width_ratio": 1.1247779470167045
+        },
+        "floor_at_n=10000": {
+          "target_floor": 0.8929513656349294,
+          "n_point": 10000.000000000007,
+          "n_lo": 9031.132571095875,
+          "n_med": 9999.333988041933,
+          "n_hi": 11073.800437801125,
+          "width_ratio": 1.2261806977834435
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.6969061597315336,
+          "n_point": 40000.00000000003,
+          "n_lo": 33541.58762832302,
+          "n_med": 39982.360875355094,
+          "n_hi": 47971.89765424946,
+          "width_ratio": 1.4302214369167567
+        }
+      }
+    },
+    {
+      "dataset": "pendigits:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 1.4682045394983825,
+          "n_point": 999.9999999999993,
+          "n_lo": 945.4839928358015,
+          "n_med": 999.6337681540521,
+          "n_hi": 1060.2658585070233,
+          "width_ratio": 1.1214001152224218
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.0843441447595645,
+          "n_point": 3999.9999999999986,
+          "n_lo": 3696.464384480339,
+          "n_med": 4001.1238606435845,
+          "n_hi": 4346.860758001553,
+          "width_ratio": 1.175950937401673
+        },
+        "floor_at_n=10000": {
+          "target_floor": 0.8875062734839961,
+          "n_point": 9999.999999999995,
+          "n_lo": 8885.00212889221,
+          "n_med": 9999.538214218945,
+          "n_hi": 11246.711793498864,
+          "width_ratio": 1.2658085648541215
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.6554687750921588,
+          "n_point": 40000.0,
+          "n_lo": 33298.05064391784,
+          "n_med": 39982.340570158165,
+          "n_hi": 48096.15896269466,
+          "width_ratio": 1.4444136528298486
+        }
+      }
+    },
+    {
+      "dataset": "letter:E1",
+      "single_exponent_ok": true,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 1.9317846248807253,
+          "n_point": 999.9999999999989,
+          "n_lo": 973.652579838484,
+          "n_med": 999.8326893592684,
+          "n_hi": 1028.1676043273808,
+          "width_ratio": 1.0559902224034985
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.490407336869348,
+          "n_point": 3999.999999999998,
+          "n_lo": 3856.1001729019717,
+          "n_med": 4000.581667580077,
+          "n_hi": 4149.851245313576,
+          "width_ratio": 1.0761782783745832
+        },
+        "floor_at_n=10000": {
+          "target_floor": 1.255581527267813,
+          "n_point": 9999.999999999993,
+          "n_lo": 9451.829694960457,
+          "n_med": 9999.766838888092,
+          "n_hi": 10545.842109865138,
+          "width_ratio": 1.1157460989260088
+        },
+        "floor_at_n=40000": {
+          "target_floor": 0.9687042210479918,
+          "n_point": 39999.999999999956,
+          "n_lo": 36610.608625289315,
+          "n_med": 39991.93246299542,
+          "n_hi": 43543.198520033446,
+          "width_ratio": 1.1893601378141347
+        }
+      }
+    },
+    {
+      "dataset": "shuttle:E1",
+      "single_exponent_ok": false,
+      "targets": {
+        "floor_at_n=1000": {
+          "target_floor": 2.0097184008442928,
+          "n_point": NaN,
+          "n_lo": 110.06215267857606,
+          "n_med": 1022.6476365482213,
+          "n_hi": 1998.947321836739,
+          "width_ratio": 18.161986415752164
+        },
+        "floor_at_n=4000": {
+          "target_floor": 1.7355839322259388,
+          "n_point": NaN,
+          "n_lo": 2165.6261386048823,
+          "n_med": 3951.5902728060537,
+          "n_hi": 16370.440784976596,
+          "width_ratio": 7.559218321737932
+        },
+        "floor_at_n=10000": {
+          "target_floor": 1.5752485660225324,
+          "n_point": NaN,
+          "n_lo": 4275.587673178545,
+          "n_med": 9616.663273666672,
+          "n_hi": 228259.1023905275,
+          "width_ratio": 53.38660316158031
+        },
+        "floor_at_n=40000": {
+          "target_floor": 1.360377702319937,
+          "n_point": NaN,
+          "n_lo": 9333.438911544396,
+          "n_med": 37415.241505013866,
+          "n_hi": 19679354.020145316,
+          "width_ratio": 2108.478365439796
+        }
+      }
+    }
+  ]
+}

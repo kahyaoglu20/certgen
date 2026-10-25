@@ -1,0 +1,11 @@
+{
+  "status": "clean",
+  "warnings": 0,
+  "lake": "Lake version 5.0.0-1165156 (Lean version 4.15.0)",
+  "mathlib": "v4.15.0",
+  "modules": [
+    "Bridge",
+    "BridgeKantorovich"
+  ],
+  "code_sha256": "d135ef7bc99ad5b73f9fd5cacd08bcbfe687d560c9ae9174ba8e9e07c4bc47a0"
+}

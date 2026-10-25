@@ -1,0 +1,138 @@
+{
+  "_definition": "stress tests of the skill score, the specification test, the dimension estimators and the floor proxy on synthetic laws",
+  "memorisation": {
+    "memoriser_subset": {
+      "skill_T1": 1.1095650594364552,
+      "skill_T2": 1.4790616286233584,
+      "p_hi": 1.0,
+      "p_lo": 0.09090909090909091,
+      "dup_fraction": 0.4866666666666667,
+      "leakage_suspected": true,
+      "valid": false
+    },
+    "exact_copy": {
+      "skill_T1": 1.095894441833626,
+      "skill_T2": 1.419288299728331,
+      "p_hi": 1.0,
+      "p_lo": 0.09090909090909091,
+      "dup_fraction": 0.5,
+      "leakage_suspected": true,
+      "valid": false
+    },
+    "fresh_draw": {
+      "skill_T1": 0.9797712228109603,
+      "skill_T2": 0.9115518122740504,
+      "p_hi": 0.2727272727272727,
+      "p_lo": 0.8181818181818182,
+      "dup_fraction": 0.0,
+      "leakage_suspected": false,
+      "valid": true
+    }
+  },
+  "goodness_of_fit_power": {
+    "noise_sd_log_floor": 0.03,
+    "trials": 150,
+    "by_grid_length": [
+      {
+        "grid": "4-point",
+        "n_points": 4,
+        "power_r2": 0.14,
+        "power_drift": 0.06666666666666667,
+        "size_drift": 0.05333333333333334,
+        "rejection_fixed_cut_1.25_under_null": 0.62
+      },
+      {
+        "grid": "6-point",
+        "n_points": 6,
+        "power_r2": 0.006666666666666667,
+        "power_drift": 0.16666666666666666,
+        "size_drift": 0.03333333333333333,
+        "rejection_fixed_cut_1.25_under_null": 0.3933333333333333
+      },
+      {
+        "grid": "8-point",
+        "n_points": 8,
+        "power_r2": 0.0,
+        "power_drift": 0.37333333333333335,
+        "size_drift": 0.02666666666666667,
+        "rejection_fixed_cut_1.25_under_null": 0.10666666666666667
+      }
+    ]
+  },
+  "tied_observations": [
+    {
+      "levels": "none",
+      "ties": 0.0,
+      "W": 5.21825704622262,
+      "twonn": 5.544034841852716,
+      "mle": 5.294800976695644,
+      "spread": 1.0624303848477377,
+      "mle_zero_distance_replaced": 5.294800976695644,
+      "spread_zero_distance_replaced": 1.0624303848477377,
+      "lattice_suspected": false
+    },
+    {
+      "levels": "50",
+      "ties": 0.002,
+      "W": 5.227413190461363,
+      "twonn": 5.569325684757912,
+      "mle": 5.317404192012279,
+      "spread": 1.0654075891533594,
+      "mle_zero_distance_replaced": 5.148787058782817,
+      "spread_zero_distance_replaced": 1.0816772224552846,
+      "lattice_suspected": false
+    },
+    {
+      "levels": "20",
+      "ties": 0.024,
+      "W": 5.183167570383312,
+      "twonn": 5.486692384760511,
+      "mle": 5.322230304906799,
+      "spread": 1.0585597147411447,
+      "mle_zero_distance_replaced": 2.9339042714190184,
+      "spread_zero_distance_replaced": 1.8700993206253473,
+      "lattice_suspected": true
+    },
+    {
+      "levels": "10",
+      "ties": 0.12725,
+      "W": 5.11469092154716,
+      "twonn": 5.149681033072146,
+      "mle": 5.165227273580523,
+      "spread": 1.0098806267687581,
+      "mle_zero_distance_replaced": 1.0733092740221795,
+      "spread_zero_distance_replaced": 4.797947020222738,
+      "lattice_suspected": true
+    }
+  ],
+  "mdd_proxy": {
+    "n_per_side": 500,
+    "replicates": 200,
+    "floor_median": 0.7989672244199801,
+    "floor_cv": 0.029992227965005572,
+    "cells": [
+      {
+        "model": "fresh draw",
+        "mean_D": 0.8037792324554464,
+        "sd_paired": 0.024591878955538132,
+        "ratio_floor_level": 1.3780373146349187,
+        "ratio_level_scaled": 1.386336937483665
+      },
+      {
+        "model": "T2 gaussian",
+        "mean_D": 0.9963111125240007,
+        "sd_paired": 0.029712621903994433,
+        "ratio_floor_level": 1.1405431317106658,
+        "ratio_level_scaled": 1.4222558344132301
+      },
+      {
+        "model": "T1 marginals",
+        "mean_D": 1.782448493712471,
+        "sd_paired": 0.04310126257888938,
+        "ratio_floor_level": 0.7862536921207278,
+        "ratio_level_scaled": 1.7540853571482415
+      }
+    ]
+  },
+  "elapsed_s": 60.5
+}

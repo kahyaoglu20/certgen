@@ -1,0 +1,328 @@
+{
+ "_definition": "tightness of the plan-pullback bound on trained VAE decoders: PPC/exact and Lipschitz/exact, with exact the output-space W2 between decoded held-out encodings and decoded prior draws",
+ "data": "sklearn load_digits (1797 x 64), standardised on a 1300-row training split; evaluation on the 497 held-out rows",
+ "config": {
+  "archs": {
+   "mlp128x2_lat8": [
+    8,
+    [
+     128,
+     128
+    ]
+   ],
+   "mlp256x3_lat12": [
+    12,
+    [
+     256,
+     256,
+     256
+    ]
+   ]
+  },
+  "train_seeds": [
+   0,
+   1,
+   2
+  ],
+  "sample_seeds": [
+   0,
+   1
+  ],
+  "n_eval": 400,
+  "epochs": 150
+ },
+ "cells": [
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 0,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 20.771108627319336,
+   "w2_latent": 2.098819934347572,
+   "ppc": 5.4182306315707205,
+   "exact": 5.076493477143391,
+   "lipschitz_bound": 70.28492503101096,
+   "L_spectral_product": 33.487829937568875,
+   "L_local_lower": 4.90371583808553,
+   "ppc_over_exact": 1.0673175600374512,
+   "lipschitz_over_exact": 13.845171937571601,
+   "local_lipschitz_over_exact": 2.0273869354287584,
+   "warnings": []
+  },
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 0,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 20.771108627319336,
+   "w2_latent": 2.068485960607067,
+   "ppc": 5.309850964085026,
+   "exact": 4.9172085862319,
+   "lipschitz_bound": 69.26910607705825,
+   "L_spectral_product": 33.487829937568875,
+   "L_local_lower": 5.320968364839767,
+   "ppc_over_exact": 1.0798506654675009,
+   "lipschitz_over_exact": 14.087079053552978,
+   "local_lipschitz_over_exact": 2.2383326162577255,
+   "warnings": []
+  },
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 1,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 27.77729034423828,
+   "w2_latent": 1.8724266903379159,
+   "ppc": 4.586600360393827,
+   "exact": 4.103496664197561,
+   "lipschitz_bound": 56.29236868904867,
+   "L_spectral_product": 30.063857228444878,
+   "L_local_lower": 5.175188049487844,
+   "ppc_over_exact": 1.1177297645715856,
+   "lipschitz_over_exact": 13.718146570019607,
+   "local_lipschitz_over_exact": 2.3614397730414067,
+   "warnings": []
+  },
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 1,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 27.77729034423828,
+   "w2_latent": 2.0919759621621394,
+   "ppc": 5.820651832941369,
+   "exact": 5.433314188653564,
+   "lipschitz_bound": 62.89286665178116,
+   "L_spectral_product": 30.063857228444878,
+   "L_local_lower": 4.741104760666016,
+   "ppc_over_exact": 1.0712893881779717,
+   "lipschitz_over_exact": 11.575415017066538,
+   "local_lipschitz_over_exact": 1.8254562223031774,
+   "warnings": []
+  },
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 2,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 26.799144744873047,
+   "w2_latent": 2.0806833730462486,
+   "ppc": 5.580665277398578,
+   "exact": 5.216283565021685,
+   "lipschitz_bound": 66.71137103049269,
+   "L_spectral_product": 32.06224065357101,
+   "L_local_lower": 5.346008817538477,
+   "ppc_over_exact": 1.069854659516651,
+   "lipschitz_over_exact": 12.789061445553402,
+   "local_lipschitz_over_exact": 2.132428484793216,
+   "warnings": []
+  },
+  {
+   "arch": "mlp128x2_lat8",
+   "d_lat": 8,
+   "hidden": [
+    128,
+    128
+   ],
+   "train_seed": 2,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 26.799144744873047,
+   "w2_latent": 1.8493710168542346,
+   "ppc": 4.630970319766007,
+   "exact": 4.184396194748494,
+   "lipschitz_bound": 59.2949786001198,
+   "L_spectral_product": 32.06224065357101,
+   "L_local_lower": 5.6619905689719,
+   "ppc_over_exact": 1.1067236715246929,
+   "lipschitz_over_exact": 14.17049816519197,
+   "local_lipschitz_over_exact": 2.502421082664239,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 0,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 20.394542694091797,
+   "w2_latent": 2.918959301767962,
+   "ppc": 5.747285832786998,
+   "exact": 5.19654901263493,
+   "lipschitz_bound": 478.9975717265878,
+   "L_spectral_product": 164.09874965932806,
+   "L_local_lower": 5.9032703588327315,
+   "ppc_over_exact": 1.105981261566667,
+   "lipschitz_over_exact": 92.17609043269859,
+   "local_lipschitz_over_exact": 3.3159325319301947,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 0,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 20.394542694091797,
+   "w2_latent": 2.939734992974406,
+   "ppc": 5.278447692162956,
+   "exact": 4.840104808881386,
+   "lipschitz_bound": 482.4068366768736,
+   "L_spectral_product": 164.09874965932806,
+   "L_local_lower": 6.152188283113572,
+   "ppc_over_exact": 1.0905647502668185,
+   "lipschitz_over_exact": 99.66867572612841,
+   "local_lipschitz_over_exact": 3.736655277805022,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 1,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 18.762557983398438,
+   "w2_latent": 2.8294431449447512,
+   "ppc": 4.196166573798972,
+   "exact": 3.7813481381067295,
+   "lipschitz_bound": 452.7981782480116,
+   "L_spectral_product": 160.03084531209166,
+   "L_local_lower": 6.874964541798585,
+   "ppc_over_exact": 1.10970120193692,
+   "lipschitz_over_exact": 119.74517069320191,
+   "local_lipschitz_over_exact": 5.144282034890804,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 1,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 18.762557983398438,
+   "w2_latent": 2.9045085506743975,
+   "ppc": 5.424452653525717,
+   "exact": 5.005478164689894,
+   "lipschitz_bound": 464.810958580622,
+   "L_spectral_product": 160.03084531209166,
+   "L_local_lower": 5.619271579369852,
+   "ppc_over_exact": 1.0837031897954108,
+   "lipschitz_over_exact": 92.86045074764972,
+   "local_lipschitz_over_exact": 3.2606719705573854,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 2,
+   "sample_seed": 0,
+   "n": 400,
+   "final_train_loss": 19.83761215209961,
+   "w2_latent": 2.9195633584444427,
+   "ppc": 5.239370707807904,
+   "exact": 4.810696598419504,
+   "lipschitz_bound": 461.8508473662248,
+   "L_spectral_product": 158.19175358204973,
+   "L_local_lower": 5.89717549049987,
+   "ppc_over_exact": 1.0891085315023266,
+   "lipschitz_over_exact": 96.00498346080695,
+   "local_lipschitz_over_exact": 3.5789364654666747,
+   "warnings": []
+  },
+  {
+   "arch": "mlp256x3_lat12",
+   "d_lat": 12,
+   "hidden": [
+    256,
+    256,
+    256
+   ],
+   "train_seed": 2,
+   "sample_seed": 1,
+   "n": 400,
+   "final_train_loss": 19.83761215209961,
+   "w2_latent": 2.8595388273235876,
+   "ppc": 4.33976244939906,
+   "exact": 3.773218263189549,
+   "lipschitz_bound": 452.3554615302764,
+   "L_spectral_product": 158.19175358204973,
+   "L_local_lower": 6.091608652126206,
+   "ppc_over_exact": 1.150148797840972,
+   "lipschitz_over_exact": 119.88584544480993,
+   "local_lipschitz_over_exact": 4.616534280974918,
+   "warnings": []
+  }
+ ],
+ "summary": {
+  "ppc_over_exact": {
+   "min": 1.0673175600374512,
+   "median": 1.0898366408845725,
+   "max": 1.150148797840972
+  },
+  "lipschitz_over_exact": {
+   "min": 11.575415017066538,
+   "median": 53.17329429894528,
+   "max": 119.88584544480993
+  },
+  "local_lipschitz_over_exact": {
+   "min": 1.8254562223031774,
+   "median": 2.881546526610812,
+   "max": 5.144282034890804
+  },
+  "all_ppc_valid": true,
+  "cells": 12
+ },
+ "torch": "2.14.1+cpu",
+ "platform": "Windows AMD64, Python 3.13.3",
+ "elapsed_s": 37.3
+}

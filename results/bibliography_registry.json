@@ -1,0 +1,7290 @@
+{
+ "_definition": "verification of every entry of paper/references.bib against a primary bibliographic index and OpenAlex",
+ "summary": {
+  "entries": 91,
+  "verified": 82,
+  "manual": 9,
+  "mismatch": [],
+  "unresolved": [],
+  "consensus_agree": 82,
+  "consensus_disagree": {},
+  "date": "2026-10-13"
+ },
+ "entries": [
+  {
+   "key": "ajtai1984",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/bf02579135",
+    "title": "On optimal matchings",
+    "authors": [
+     {
+      "family": "Ajtai",
+      "given": "M."
+     },
+     {
+      "family": "Koml\u00f3s",
+      "given": "J."
+     },
+     {
+      "family": "Tusn\u00e1dy",
+      "given": "G."
+     }
+    ],
+    "year": "1984",
+    "venue": "Combinatorica",
+    "volume": "4",
+    "issue": "4",
+    "page": "259-264"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1981557399",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1984,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "ajtai1984",
+    "type": "article",
+    "year": "1984",
+    "authors": [
+     {
+      "surname": "Ajtai",
+      "initials": "M"
+     },
+     {
+      "surname": "Komlos",
+      "initials": "J"
+     },
+     {
+      "surname": "Tusnady",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "On optimal matchings",
+    "venue": "Combinatorica",
+    "volume": "4",
+    "pages": "259--264",
+    "doi": "10.1007/BF02579135",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "alimoglu1997",
+   "verdict": "manual",
+   "reason": "ICDAR 1997 (Ulm, August 1997), vol. 2, pp. 637-640; Crossref DOI 10.1109/ICDAR.1997.620583 agrees on authors, title and pages but gives no year, and OpenAlex gives 2002",
+   "entry": {
+    "key": "alimoglu1997",
+    "type": "inproceedings",
+    "year": "1997",
+    "authors": [
+     {
+      "surname": "Alimoglu",
+      "initials": "F"
+     },
+     {
+      "surname": "Alpaydin",
+      "initials": "E"
+     }
+    ],
+    "et_al": false,
+    "title": "Combining multiple representations and classifiers for pen-based handwritten digit recognition",
+    "venue": "Proceedings of the Fourth International Conference on Document Analysis and Recognition",
+    "volume": "2",
+    "pages": "637--640",
+    "doi": "10.1109/ICDAR.1997.620583",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bac2021",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.3390/e23101368",
+    "title": "Scikit-Dimension: A Python Package for Intrinsic Dimension Estimation",
+    "authors": [
+     {
+      "family": "Bac",
+      "given": "Jonathan"
+     },
+     {
+      "family": "Mirkes",
+      "given": "Evgeny M."
+     },
+     {
+      "family": "Gorban",
+      "given": "Alexander N."
+     },
+     {
+      "family": "Tyukin",
+      "given": "Ivan"
+     },
+     {
+      "family": "Zinovyev",
+      "given": "Andrei"
+     }
+    ],
+    "year": "2021",
+    "venue": "Entropy",
+    "volume": "23",
+    "issue": "10",
+    "page": "1368"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3198796775",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bac2021",
+    "type": "article",
+    "year": "2021",
+    "authors": [
+     {
+      "surname": "Bac",
+      "initials": "J"
+     },
+     {
+      "surname": "Mirkes",
+      "initials": "EM"
+     },
+     {
+      "surname": "Gorban",
+      "initials": "AN"
+     },
+     {
+      "surname": "Tyukin",
+      "initials": "I"
+     },
+     {
+      "surname": "Zinovyev",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Scikit-dimension: a Python package for intrinsic dimension estimation",
+    "venue": "Entropy",
+    "volume": "23",
+    "pages": "1368",
+    "doi": "10.3390/e23101368",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "baldi2014",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1038/ncomms5308",
+    "title": "Searching for exotic particles in high-energy physics with deep learning",
+    "authors": [
+     {
+      "family": "Baldi",
+      "given": "P."
+     },
+     {
+      "family": "Sadowski",
+      "given": "P."
+     },
+     {
+      "family": "Whiteson",
+      "given": "D."
+     }
+    ],
+    "year": "2014",
+    "venue": "Nature Communications",
+    "volume": "5",
+    "issue": "1",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2125621954",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2014,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "baldi2014",
+    "type": "article",
+    "year": "2014",
+    "authors": [
+     {
+      "surname": "Baldi",
+      "initials": "P"
+     },
+     {
+      "surname": "Sadowski",
+      "initials": "P"
+     },
+     {
+      "surname": "Whiteson",
+      "initials": "D"
+     }
+    ],
+    "et_al": false,
+    "title": "Searching for exotic particles in high-energy physics with deep learning",
+    "venue": "Nature Communications",
+    "volume": "5",
+    "pages": "4308",
+    "doi": "10.1038/ncomms5308",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "baringhaus2004",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/s0047-259x(03)00079-4",
+    "title": "On a new multivariate two-sample test",
+    "authors": [
+     {
+      "family": "Baringhaus",
+      "given": "L."
+     },
+     {
+      "family": "Franz",
+      "given": "C."
+     }
+    ],
+    "year": "2004",
+    "venue": "Journal of Multivariate Analysis",
+    "volume": "88",
+    "issue": "1",
+    "page": "190-206"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2011292888",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2003,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "baringhaus2004",
+    "type": "article",
+    "year": "2004",
+    "authors": [
+     {
+      "surname": "Baringhaus",
+      "initials": "L"
+     },
+     {
+      "surname": "Franz",
+      "initials": "C"
+     }
+    ],
+    "et_al": false,
+    "title": "On a new multivariate two-sample test",
+    "venue": "Journal of Multivariate Analysis",
+    "volume": "88",
+    "pages": "190--206",
+    "doi": "10.1016/S0047-259X(03)00079-4",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bigot2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/19-ejs1637",
+    "title": "Central limit theorems for entropy-regularized optimal transport on finite spaces and statistical applications",
+    "authors": [
+     {
+      "family": "Bigot",
+      "given": "J\u00e9r\u00e9mie"
+     },
+     {
+      "family": "Cazelles",
+      "given": "Elsa"
+     },
+     {
+      "family": "Papadakis",
+      "given": "Nicolas"
+     }
+    ],
+    "year": "2019",
+    "venue": "Electronic Journal of Statistics",
+    "volume": "13",
+    "issue": "2",
+    "page": "5120-5150"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2913699596",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bigot2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Bigot",
+      "initials": "J"
+     },
+     {
+      "surname": "Cazelles",
+      "initials": "E"
+     },
+     {
+      "surname": "Papadakis",
+      "initials": "N"
+     }
+    ],
+    "et_al": false,
+    "title": "Central limit theorems for entropy-regularized optimal transport on finite spaces and statistical applications",
+    "venue": "Electronic Journal of Statistics",
+    "volume": "13",
+    "pages": "5120--5150",
+    "doi": "10.1214/19-EJS1637",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "birkhoff1946",
+   "verdict": "manual",
+   "reason": "Revista Serie A, Universidad Nacional de Tucuman 5 (1946) 147-151; not indexed by arXiv or Crossref; the standard citation of Birkhoff's theorem",
+   "entry": {
+    "key": "birkhoff1946",
+    "type": "article",
+    "year": "1946",
+    "authors": [
+     {
+      "surname": "Birkhoff",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Tres observaciones sobre el algebra lineal",
+    "venue": "Universidad Nacional de Tucuman, Revista Serie A",
+    "volume": "5",
+    "pages": "147--151",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "blackard1999",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/s0168-1699(99)00046-0",
+    "title": "Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables",
+    "authors": [
+     {
+      "family": "Blackard",
+      "given": "Jock A."
+     },
+     {
+      "family": "Dean",
+      "given": "Denis J."
+     }
+    ],
+    "year": "1999",
+    "venue": "Computers and Electronics in Agriculture",
+    "volume": "24",
+    "issue": "3",
+    "page": "131-151"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2015627422",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1999,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "blackard1999",
+    "type": "article",
+    "year": "1999",
+    "authors": [
+     {
+      "surname": "Blackard",
+      "initials": "JA"
+     },
+     {
+      "surname": "Dean",
+      "initials": "DJ"
+     }
+    ],
+    "et_al": false,
+    "title": "Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables",
+    "venue": "Computers and Electronics in Agriculture",
+    "volume": "24",
+    "pages": "131--151",
+    "doi": "10.1016/S0168-1699(99)00046-0",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "block2022",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv-DataCite",
+    "id": "2106.04018",
+    "title": "Intrinsic Dimension Estimation Using Wasserstein Distances",
+    "authors": [
+     {
+      "family": "Block",
+      "given": "Adam"
+     },
+     {
+      "family": "Jia",
+      "given": "Zeyu"
+     },
+     {
+      "family": "Polyanskiy",
+      "given": "Yury"
+     },
+     {
+      "family": "Rakhlin",
+      "given": "Alexander"
+     }
+    ],
+    "year": "2021",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 0.99,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2022 (venue) vs arXiv preprint 2021",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4287124125",
+    "title_similarity": 0.99,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "block2022",
+    "type": "article",
+    "year": "2022",
+    "authors": [
+     {
+      "surname": "Block",
+      "initials": "A"
+     },
+     {
+      "surname": "Jia",
+      "initials": "Z"
+     },
+     {
+      "surname": "Polyanskiy",
+      "initials": "Y"
+     },
+     {
+      "surname": "Rakhlin",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Intrinsic dimension estimation using Wasserstein distance",
+    "venue": "Journal of Machine Learning Research",
+    "volume": "23",
+    "pages": "1--37",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bobkov2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1090/memo/1259",
+    "title": "One-dimensional empirical measures, order statistics, and Kantorovich transport distances",
+    "authors": [
+     {
+      "family": "Bobkov",
+      "given": "Sergey"
+     },
+     {
+      "family": "Ledoux",
+      "given": "Michel"
+     }
+    ],
+    "year": "2019",
+    "venue": "Memoirs of the American Mathematical Society",
+    "volume": "261",
+    "issue": "1259",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2988160852",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bobkov2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Bobkov",
+      "initials": "S"
+     },
+     {
+      "surname": "Ledoux",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "One-dimensional empirical measures, order statistics, and Kantorovich transport distances",
+    "venue": "Memoirs of the American Mathematical Society",
+    "volume": "261",
+    "pages": "",
+    "doi": "10.1090/memo/1259",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bock2004",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/j.nima.2003.08.157",
+    "title": "Methods for multidimensional event classification: a case study using images from a Cherenkov gamma-ray telescope",
+    "authors": [
+     {
+      "family": "Bock",
+      "given": "R.K."
+     },
+     {
+      "family": "Chilingarian",
+      "given": "A."
+     },
+     {
+      "family": "Gaug",
+      "given": "M."
+     },
+     {
+      "family": "Hakl",
+      "given": "F."
+     },
+     {
+      "family": "Hengstebeck",
+      "given": "T."
+     },
+     {
+      "family": "Ji\u0159ina",
+      "given": "M."
+     },
+     {
+      "family": "Klaschka",
+      "given": "J."
+     },
+     {
+      "family": "Kotr\u010d",
+      "given": "E."
+     },
+     {
+      "family": "Savick\u00fd",
+      "given": "P."
+     },
+     {
+      "family": "Towers",
+      "given": "S."
+     },
+     {
+      "family": "Vaiciulis",
+      "given": "A."
+     },
+     {
+      "family": "Wittek",
+      "given": "W."
+     }
+    ],
+    "year": "2004",
+    "venue": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+    "volume": "516",
+    "issue": "2-3",
+    "page": "511-528"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2046518304",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2003,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bock2004",
+    "type": "article",
+    "year": "2004",
+    "authors": [
+     {
+      "surname": "Bock",
+      "initials": "RK"
+     },
+     {
+      "surname": "Chilingarian",
+      "initials": "A"
+     },
+     {
+      "surname": "Gaug",
+      "initials": "M"
+     },
+     {
+      "surname": "Hakl",
+      "initials": "F"
+     },
+     {
+      "surname": "Hengstebeck",
+      "initials": "T"
+     },
+     {
+      "surname": "Jirina",
+      "initials": "M"
+     },
+     {
+      "surname": "Klaschka",
+      "initials": "J"
+     },
+     {
+      "surname": "Kotrc",
+      "initials": "E"
+     },
+     {
+      "surname": "Savicky",
+      "initials": "P"
+     },
+     {
+      "surname": "Towers",
+      "initials": "S"
+     },
+     {
+      "surname": "Vaiciulis",
+      "initials": "A"
+     },
+     {
+      "surname": "Wittek",
+      "initials": "W"
+     }
+    ],
+    "et_al": false,
+    "title": "Methods for multidimensional event classification: a case study using images from a Cherenkov gamma-ray telescope",
+    "venue": "Nuclear Instruments and Methods in Physics Research Section A",
+    "volume": "516",
+    "pages": "511--528",
+    "doi": "10.1016/j.nima.2003.08.157",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bonneel2015",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/s10851-014-0506-3",
+    "title": "Sliced and Radon Wasserstein Barycenters of Measures",
+    "authors": [
+     {
+      "family": "Bonneel",
+      "given": "Nicolas"
+     },
+     {
+      "family": "Rabin",
+      "given": "Julien"
+     },
+     {
+      "family": "Peyr\u00e9",
+      "given": "Gabriel"
+     },
+     {
+      "family": "Pfister",
+      "given": "Hanspeter"
+     }
+    ],
+    "year": "2014",
+    "venue": "Journal of Mathematical Imaging and Vision",
+    "volume": "51",
+    "issue": "1",
+    "page": "22-45"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "year 2015 vs index 2014 (online and print years differ)",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2019106840",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2014,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bonneel2015",
+    "type": "article",
+    "year": "2015",
+    "authors": [
+     {
+      "surname": "Bonneel",
+      "initials": "N"
+     },
+     {
+      "surname": "Rabin",
+      "initials": "J"
+     },
+     {
+      "surname": "Peyre",
+      "initials": "G"
+     },
+     {
+      "surname": "Pfister",
+      "initials": "H"
+     }
+    ],
+    "et_al": false,
+    "title": "Sliced and Radon Wasserstein barycenters of measures",
+    "venue": "Journal of Mathematical Imaging and Vision",
+    "volume": "51",
+    "pages": "22--45",
+    "doi": "10.1007/s10851-014-0506-3",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "borisov2023",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv-DataCite",
+    "id": "2210.06280",
+    "title": "Language Models are Realistic Tabular Data Generators",
+    "authors": [
+     {
+      "family": "Borisov",
+      "given": "Vadim"
+     },
+     {
+      "family": "Se\u00dfler",
+      "given": "Kathrin"
+     },
+     {
+      "family": "Leemann",
+      "given": "Tobias"
+     },
+     {
+      "family": "Pawelczyk",
+      "given": "Martin"
+     },
+     {
+      "family": "Kasneci",
+      "given": "Gjergji"
+     }
+    ],
+    "year": "2022",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2023 (venue) vs arXiv preprint 2022",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4306178203",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2022,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "borisov2023",
+    "type": "inproceedings",
+    "year": "2023",
+    "authors": [
+     {
+      "surname": "Borisov",
+      "initials": "V"
+     },
+     {
+      "surname": "Sessler",
+      "initials": "K"
+     },
+     {
+      "surname": "Leemann",
+      "initials": "T"
+     },
+     {
+      "surname": "Pawelczyk",
+      "initials": "M"
+     },
+     {
+      "surname": "Kasneci",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Language models are realistic tabular data generators",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bounliphone2016",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1511.04581",
+    "title": "A Test of Relative Similarity For Model Selection in Generative Models",
+    "authors": [
+     {
+      "family": "Bounliphone",
+      "given": "Wacha"
+     },
+     {
+      "family": "Belilovsky",
+      "given": "Eugene"
+     },
+     {
+      "family": "Blaschko",
+      "given": "Matthew B."
+     },
+     {
+      "family": "Antonoglou",
+      "given": "Ioannis"
+     },
+     {
+      "family": "Gretton",
+      "given": "Arthur"
+     }
+    ],
+    "year": "2015",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2016 (venue) vs arXiv preprint 2015",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2963321603",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2015,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bounliphone2016",
+    "type": "inproceedings",
+    "year": "2016",
+    "authors": [
+     {
+      "surname": "Bounliphone",
+      "initials": "W"
+     },
+     {
+      "surname": "Belilovsky",
+      "initials": "E"
+     },
+     {
+      "surname": "Blaschko",
+      "initials": "MB"
+     },
+     {
+      "surname": "Antonoglou",
+      "initials": "I"
+     },
+     {
+      "surname": "Gretton",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "A test of relative similarity for model selection in generative models",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "bouthillier2021",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2103.03098",
+    "title": "Accounting for Variance in Machine Learning Benchmarks",
+    "authors": [
+     {
+      "family": "Bouthillier",
+      "given": "Xavier"
+     },
+     {
+      "family": "Delaunay",
+      "given": "Pierre"
+     },
+     {
+      "family": "Bronzi",
+      "given": "Mirko"
+     },
+     {
+      "family": "Trofimov",
+      "given": "Assya"
+     },
+     {
+      "family": "Nichyporuk",
+      "given": "Brennan"
+     },
+     {
+      "family": "Szeto",
+      "given": "Justin"
+     },
+     {
+      "family": "Sepah",
+      "given": "Naz"
+     },
+     {
+      "family": "Raff",
+      "given": "Edward"
+     },
+     {
+      "family": "Madan",
+      "given": "Kanika"
+     },
+     {
+      "family": "Voleti",
+      "given": "Vikram"
+     },
+     {
+      "family": "Kahou",
+      "given": "Samira Ebrahimi"
+     },
+     {
+      "family": "Michalski",
+      "given": "Vincent"
+     },
+     {
+      "family": "Serdyuk",
+      "given": "Dmitriy"
+     },
+     {
+      "family": "Arbel",
+      "given": "Tal"
+     },
+     {
+      "family": "Pal",
+      "given": "Chris"
+     },
+     {
+      "family": "Varoquaux",
+      "given": "Ga\u00ebl"
+     },
+     {
+      "family": "Vincent",
+      "given": "Pascal"
+     }
+    ],
+    "year": "2021",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3135261467",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "bouthillier2021",
+    "type": "inproceedings",
+    "year": "2021",
+    "authors": [
+     {
+      "surname": "Bouthillier",
+      "initials": "X"
+     },
+     {
+      "surname": "Delaunay",
+      "initials": "P"
+     },
+     {
+      "surname": "Bronzi",
+      "initials": "M"
+     },
+     {
+      "surname": "Trofimov",
+      "initials": "A"
+     },
+     {
+      "surname": "Nichyporuk",
+      "initials": "B"
+     },
+     {
+      "surname": "Szeto",
+      "initials": "J"
+     },
+     {
+      "surname": "Sepah",
+      "initials": "N"
+     },
+     {
+      "surname": "Raff",
+      "initials": "E"
+     },
+     {
+      "surname": "Madan",
+      "initials": "K"
+     },
+     {
+      "surname": "Voleti",
+      "initials": "V"
+     }
+    ],
+    "et_al": true,
+    "title": "Accounting for variance in machine learning benchmarks",
+    "venue": "Proceedings of Machine Learning and Systems",
+    "volume": "3",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "card2020",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.18653/v1/2020.emnlp-main.745",
+    "title": "With Little Power Comes Great Responsibility",
+    "authors": [
+     {
+      "family": "Card",
+      "given": "Dallas"
+     },
+     {
+      "family": "Henderson",
+      "given": "Peter"
+     },
+     {
+      "family": "Khandelwal",
+      "given": "Urvashi"
+     },
+     {
+      "family": "Jia",
+      "given": "Robin"
+     },
+     {
+      "family": "Mahowald",
+      "given": "Kyle"
+     },
+     {
+      "family": "Jurafsky",
+      "given": "Dan"
+     }
+    ],
+    "year": "2020",
+    "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "volume": "",
+    "issue": "",
+    "page": "9263-9274"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3100501376",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2020,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "card2020",
+    "type": "inproceedings",
+    "year": "2020",
+    "authors": [
+     {
+      "surname": "Card",
+      "initials": "D"
+     },
+     {
+      "surname": "Henderson",
+      "initials": "P"
+     },
+     {
+      "surname": "Khandelwal",
+      "initials": "U"
+     },
+     {
+      "surname": "Jia",
+      "initials": "R"
+     },
+     {
+      "surname": "Mahowald",
+      "initials": "K"
+     },
+     {
+      "surname": "Jurafsky",
+      "initials": "D"
+     }
+    ],
+    "et_al": false,
+    "title": "With little power comes great responsibility",
+    "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+    "volume": "",
+    "pages": "9263--9274",
+    "doi": "10.18653/v1/2020.emnlp-main.745",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "carlier2025",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2510.16465",
+    "title": "Sharp comparisons between sliced and standard $1$-Wasserstein distances",
+    "authors": [
+     {
+      "family": "Carlier",
+      "given": "Guillaume"
+     },
+     {
+      "family": "Figalli",
+      "given": "Alessio"
+     },
+     {
+      "family": "M\u00e9rigot",
+      "given": "Quentin"
+     },
+     {
+      "family": "Wang",
+      "given": "Yi"
+     }
+    ],
+    "year": "2025",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4415953526",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2025,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "carlier2025",
+    "type": "misc",
+    "year": "2025",
+    "authors": [
+     {
+      "surname": "Carlier",
+      "initials": "G"
+     },
+     {
+      "surname": "Figalli",
+      "initials": "A"
+     },
+     {
+      "surname": "Merigot",
+      "initials": "Q"
+     },
+     {
+      "surname": "Wang",
+      "initials": "Y"
+     }
+    ],
+    "et_al": false,
+    "title": "Sharp comparisons between sliced and standard 1-Wasserstein distances",
+    "venue": "arXiv:2510.16465",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2510.16465"
+   }
+  },
+  {
+   "key": "chen2026",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2608.24881",
+    "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+    "authors": [
+     {
+      "family": "Chen",
+      "given": "Hao"
+     }
+    ],
+    "year": "2026",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W7204248739",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2026,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "chen2026",
+    "type": "misc",
+    "year": "2026",
+    "authors": [
+     {
+      "surname": "Chen",
+      "initials": "H"
+     }
+    ],
+    "et_al": false,
+    "title": "What FID hides: detecting, ranking, and diagnosing deviations in generative evaluation",
+    "venue": "arXiv:2608.24881",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2608.24881"
+   }
+  },
+  {
+   "key": "chong2020",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1109/cvpr42600.2020.00611",
+    "title": "Effectively Unbiased FID and Inception Score and Where to Find Them",
+    "authors": [
+     {
+      "family": "Chong",
+      "given": "Min Jin"
+     },
+     {
+      "family": "Forsyth",
+      "given": "David"
+     }
+    ],
+    "year": "2020",
+    "venue": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "volume": "",
+    "issue": "",
+    "page": "6069-6078"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2985516053",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2020,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "chong2020",
+    "type": "inproceedings",
+    "year": "2020",
+    "authors": [
+     {
+      "surname": "Chong",
+      "initials": "MJ"
+     },
+     {
+      "surname": "Forsyth",
+      "initials": "D"
+     }
+    ],
+    "et_al": false,
+    "title": "Effectively unbiased FID and Inception Score and where to find them",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "volume": "",
+    "pages": "6069--6078",
+    "doi": "10.1109/CVPR42600.2020.00611",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "clauset2009",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1137/070710111",
+    "title": "Power-Law Distributions in Empirical Data",
+    "authors": [
+     {
+      "family": "Clauset",
+      "given": "Aaron"
+     },
+     {
+      "family": "Shalizi",
+      "given": "Cosma Rohilla"
+     },
+     {
+      "family": "Newman",
+      "given": "M. E. J."
+     }
+    ],
+    "year": "2009",
+    "venue": "SIAM Review",
+    "volume": "51",
+    "issue": "4",
+    "page": "661-703"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2000042664",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2009,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "clauset2009",
+    "type": "article",
+    "year": "2009",
+    "authors": [
+     {
+      "surname": "Clauset",
+      "initials": "A"
+     },
+     {
+      "surname": "Shalizi",
+      "initials": "CR"
+     },
+     {
+      "surname": "Newman",
+      "initials": "MEJ"
+     }
+    ],
+    "et_al": false,
+    "title": "Power-law distributions in empirical data",
+    "venue": "SIAM Review",
+    "volume": "51",
+    "pages": "661--703",
+    "doi": "10.1137/070710111",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "crouse2016",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1109/taes.2016.140952",
+    "title": "On implementing 2D rectangular assignment algorithms",
+    "authors": [
+     {
+      "family": "Crouse",
+      "given": "David F."
+     }
+    ],
+    "year": "2016",
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+    "volume": "52",
+    "issue": "4",
+    "page": "1679-1696"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2557169239",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2016,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "crouse2016",
+    "type": "article",
+    "year": "2016",
+    "authors": [
+     {
+      "surname": "Crouse",
+      "initials": "DF"
+     }
+    ],
+    "et_al": false,
+    "title": "On implementing 2D rectangular assignment algorithms",
+    "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+    "volume": "52",
+    "pages": "1679--1696",
+    "doi": "10.1109/TAES.2016.140952",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "cuturi2013",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1306.0895",
+    "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transportation Distances",
+    "authors": [
+     {
+      "family": "Cuturi",
+      "given": "Marco"
+     }
+    ],
+    "year": "2013",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1511358834",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2013,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "cuturi2013",
+    "type": "inproceedings",
+    "year": "2013",
+    "authors": [
+     {
+      "surname": "Cuturi",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Sinkhorn distances: lightspeed computation of optimal transportation distances",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "26",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "dao2023",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2307.08698",
+    "title": "Flow Matching in Latent Space",
+    "authors": [
+     {
+      "family": "Dao",
+      "given": "Quan"
+     },
+     {
+      "family": "Phung",
+      "given": "Hao"
+     },
+     {
+      "family": "Nguyen",
+      "given": "Binh"
+     },
+     {
+      "family": "Tran",
+      "given": "Anh"
+     }
+    ],
+    "year": "2023",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4384648648",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2023,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "dao2023",
+    "type": "misc",
+    "year": "2023",
+    "authors": [
+     {
+      "surname": "Dao",
+      "initials": "Q"
+     },
+     {
+      "surname": "Phung",
+      "initials": "H"
+     },
+     {
+      "surname": "Nguyen",
+      "initials": "B"
+     },
+     {
+      "surname": "Tran",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Flow matching in latent space",
+    "venue": "arXiv:2307.08698",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2307.08698"
+   }
+  },
+  {
+   "key": "davison1997",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1017/cbo9780511802843",
+    "title": "Bootstrap Methods and their Application",
+    "authors": [
+     {
+      "family": "Davison",
+      "given": "A. C."
+     },
+     {
+      "family": "Hinkley",
+      "given": "D. V."
+     }
+    ],
+    "year": "1997",
+    "venue": "",
+    "volume": "",
+    "issue": "",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4298872162",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1997,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "davison1997",
+    "type": "book",
+    "year": "1997",
+    "authors": [
+     {
+      "surname": "Davison",
+      "initials": "AC"
+     },
+     {
+      "surname": "Hinkley",
+      "initials": "DV"
+     }
+    ],
+    "et_al": false,
+    "title": "Bootstrap Methods and their Application",
+    "venue": "Cambridge University Press",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1017/CBO9780511802843",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "delbario1999",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/aop/1022677394",
+    "title": "Central Limit Theorems for the Wasserstein Distance Between the Empirical and the True Distributions",
+    "authors": [
+     {
+      "family": "del Barrio",
+      "given": "Eustasio"
+     },
+     {
+      "family": "Gin\u00e9",
+      "given": "Evarist"
+     },
+     {
+      "family": "Matr\u00e1n",
+      "given": "Carlos"
+     }
+    ],
+    "year": "1999",
+    "venue": "The Annals of Probability",
+    "volume": "27",
+    "issue": "2",
+    "page": "1009-1071"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2083454075",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1999,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "delbario1999",
+    "type": "article",
+    "year": "1999",
+    "authors": [
+     {
+      "surname": "del Barrio",
+      "initials": "E"
+     },
+     {
+      "surname": "Gine",
+      "initials": "E"
+     },
+     {
+      "surname": "Matran",
+      "initials": "C"
+     }
+    ],
+    "et_al": false,
+    "title": "Central limit theorems for the Wasserstein distance between the empirical and the true distributions",
+    "venue": "The Annals of Probability",
+    "volume": "27",
+    "pages": "",
+    "doi": "10.1214/aop/1022677394",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "delbarioloubes2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/18-aop1275",
+    "title": "Central limit theorems for empirical transportation cost in general dimension",
+    "authors": [
+     {
+      "family": "del Barrio",
+      "given": "Eustasio"
+     },
+     {
+      "family": "Loubes",
+      "given": "Jean-Michel"
+     }
+    ],
+    "year": "2019",
+    "venue": "The Annals of Probability",
+    "volume": "47",
+    "issue": "2",
+    "page": "926-951"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2963047551",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "delbarioloubes2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "del Barrio",
+      "initials": "E"
+     },
+     {
+      "surname": "Loubes",
+      "initials": "JM"
+     }
+    ],
+    "et_al": false,
+    "title": "Central limit theorems for empirical transportation cost in general dimension",
+    "venue": "The Annals of Probability",
+    "volume": "47",
+    "pages": "926--951",
+    "doi": "10.1214/18-AOP1275",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "demoura2021",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/978-3-030-79876-5_37",
+    "title": "The Lean 4 Theorem Prover and Programming Language",
+    "authors": [
+     {
+      "family": "Moura",
+      "given": "Leonardo de"
+     },
+     {
+      "family": "Ullrich",
+      "given": "Sebastian"
+     }
+    ],
+    "year": "2021",
+    "venue": "Lecture Notes in Computer Science",
+    "volume": "",
+    "issue": "",
+    "page": "625-635"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3178506813",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "demoura2021",
+    "type": "inproceedings",
+    "year": "2021",
+    "authors": [
+     {
+      "surname": "de Moura",
+      "initials": "L"
+     },
+     {
+      "surname": "Ullrich",
+      "initials": "S"
+     }
+    ],
+    "et_al": false,
+    "title": "The Lean 4 theorem prover and programming language",
+    "venue": "Automated Deduction - CADE 28",
+    "volume": "12699",
+    "pages": "625--635",
+    "doi": "10.1007/978-3-030-79876-5_37",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "dudley1969",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/aoms/1177697802",
+    "title": "The Speed of Mean Glivenko-Cantelli Convergence",
+    "authors": [
+     {
+      "family": "Dudley",
+      "given": "R. M."
+     }
+    ],
+    "year": "1969",
+    "venue": "The Annals of Mathematical Statistics",
+    "volume": "40",
+    "issue": "1",
+    "page": "40-50"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2037468546",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1969,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "dudley1969",
+    "type": "article",
+    "year": "1969",
+    "authors": [
+     {
+      "surname": "Dudley",
+      "initials": "RM"
+     }
+    ],
+    "et_al": false,
+    "title": "The speed of mean Glivenko-Cantelli convergence",
+    "venue": "The Annals of Mathematical Statistics",
+    "volume": "40",
+    "pages": "40--50",
+    "doi": "10.1214/aoms/1177697802",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "dufour2026",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2606.20536",
+    "title": "The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation",
+    "authors": [
+     {
+      "family": "Dufour",
+      "given": "Nicolas"
+     },
+     {
+      "family": "Efros",
+      "given": "Alexei A."
+     },
+     {
+      "family": "P\u00e9rez",
+      "given": "Patrick"
+     }
+    ],
+    "year": "2026",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W7165397863",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2026,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "dufour2026",
+    "type": "misc",
+    "year": "2026",
+    "authors": [
+     {
+      "surname": "Dufour",
+      "initials": "N"
+     },
+     {
+      "surname": "Efros",
+      "initials": "AA"
+     },
+     {
+      "surname": "Perez",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "The FID lottery: quantifying hidden randomness in generative-model evaluation",
+    "venue": "arXiv:2606.20536",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2606.20536"
+   }
+  },
+  {
+   "key": "dziugaite2017",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1703.11008",
+    "title": "Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data",
+    "authors": [
+     {
+      "family": "Dziugaite",
+      "given": "Gintare Karolina"
+     },
+     {
+      "family": "Roy",
+      "given": "Daniel M."
+     }
+    ],
+    "year": "2017",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2604117713",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "dziugaite2017",
+    "type": "inproceedings",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Dziugaite",
+      "initials": "GK"
+     },
+     {
+      "surname": "Roy",
+      "initials": "DM"
+     }
+    ],
+    "et_al": false,
+    "title": "Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data",
+    "venue": "Proceedings of the 33rd Conference on Uncertainty in Artificial Intelligence",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "efron1979",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/aos/1176344552",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "authors": [
+     {
+      "family": "Efron",
+      "given": "B."
+     }
+    ],
+    "year": "1979",
+    "venue": "The Annals of Statistics",
+    "volume": "7",
+    "issue": "1",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2117897510",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1979,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "efron1979",
+    "type": "article",
+    "year": "1979",
+    "authors": [
+     {
+      "surname": "Efron",
+      "initials": "B"
+     }
+    ],
+    "et_al": false,
+    "title": "Bootstrap methods: another look at the jackknife",
+    "venue": "The Annals of Statistics",
+    "volume": "7",
+    "pages": "1--26",
+    "doi": "10.1214/aos/1176344552",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "esteban2017",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1706.02633",
+    "title": "Real-valued (Medical) Time Series Generation with Recurrent Conditional GANs",
+    "authors": [
+     {
+      "family": "Esteban",
+      "given": "Crist\u00f3bal"
+     },
+     {
+      "family": "Hyland",
+      "given": "Stephanie L."
+     },
+     {
+      "family": "R\u00e4tsch",
+      "given": "Gunnar"
+     }
+    ],
+    "year": "2017",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2622068151",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "esteban2017",
+    "type": "misc",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Esteban",
+      "initials": "C"
+     },
+     {
+      "surname": "Hyland",
+      "initials": "SL"
+     },
+     {
+      "surname": "Ratsch",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Real-valued (medical) time series generation with recurrent conditional GANs",
+    "venue": "arXiv:1706.02633",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "1706.02633"
+   }
+  },
+  {
+   "key": "facco2017",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1038/s41598-017-11873-y",
+    "title": "Estimating the intrinsic dimension of datasets by a minimal neighborhood information",
+    "authors": [
+     {
+      "family": "Facco",
+      "given": "Elena"
+     },
+     {
+      "family": "d\u2019Errico",
+      "given": "Maria"
+     },
+     {
+      "family": "Rodriguez",
+      "given": "Alex"
+     },
+     {
+      "family": "Laio",
+      "given": "Alessandro"
+     }
+    ],
+    "year": "2017",
+    "venue": "Scientific Reports",
+    "volume": "7",
+    "issue": "1",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2754478492",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "facco2017",
+    "type": "article",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Facco",
+      "initials": "E"
+     },
+     {
+      "surname": "d'Errico",
+      "initials": "M"
+     },
+     {
+      "surname": "Rodriguez",
+      "initials": "A"
+     },
+     {
+      "surname": "Laio",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Estimating the intrinsic dimension of datasets by a minimal neighborhood information",
+    "venue": "Scientific Reports",
+    "volume": "7",
+    "pages": "12140",
+    "doi": "10.1038/s41598-017-11873-y",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "fazlyab2019",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1906.04893",
+    "title": "Efficient and Accurate Estimation of Lipschitz Constants for Deep Neural Networks",
+    "authors": [
+     {
+      "family": "Fazlyab",
+      "given": "Mahyar"
+     },
+     {
+      "family": "Robey",
+      "given": "Alexander"
+     },
+     {
+      "family": "Hassani",
+      "given": "Hamed"
+     },
+     {
+      "family": "Morari",
+      "given": "Manfred"
+     },
+     {
+      "family": "Pappas",
+      "given": "George J."
+     }
+    ],
+    "year": "2019",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2949482052",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "fazlyab2019",
+    "type": "inproceedings",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Fazlyab",
+      "initials": "M"
+     },
+     {
+      "surname": "Robey",
+      "initials": "A"
+     },
+     {
+      "surname": "Hassani",
+      "initials": "H"
+     },
+     {
+      "surname": "Morari",
+      "initials": "M"
+     },
+     {
+      "surname": "Pappas",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Efficient and accurate estimation of Lipschitz constants for deep neural networks",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "32",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "fournier2015",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/s00440-014-0583-7",
+    "title": "On the rate of convergence in Wasserstein distance of the empirical measure",
+    "authors": [
+     {
+      "family": "Fournier",
+      "given": "Nicolas"
+     },
+     {
+      "family": "Guillin",
+      "given": "Arnaud"
+     }
+    ],
+    "year": "2014",
+    "venue": "Probability Theory and Related Fields",
+    "volume": "162",
+    "issue": "3-4",
+    "page": "707-738"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "year 2015 vs index 2014 (online and print years differ)",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2066856724",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2014,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "fournier2015",
+    "type": "article",
+    "year": "2015",
+    "authors": [
+     {
+      "surname": "Fournier",
+      "initials": "N"
+     },
+     {
+      "surname": "Guillin",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "On the rate of convergence in Wasserstein distance of the empirical measure",
+    "venue": "Probability Theory and Related Fields",
+    "volume": "162",
+    "pages": "707--738",
+    "doi": "10.1007/s00440-014-0583-7",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "frey1991",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/bf00114162",
+    "title": "Letter recognition using Holland-style adaptive classifiers",
+    "authors": [
+     {
+      "family": "Frey",
+      "given": "Peter W."
+     },
+     {
+      "family": "Slate",
+      "given": "David J."
+     }
+    ],
+    "year": "1991",
+    "venue": "Machine Learning",
+    "volume": "6",
+    "issue": "2",
+    "page": "161-182"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2021404082",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1991,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "frey1991",
+    "type": "article",
+    "year": "1991",
+    "authors": [
+     {
+      "surname": "Frey",
+      "initials": "PW"
+     },
+     {
+      "surname": "Slate",
+      "initials": "DJ"
+     }
+    ],
+    "et_al": false,
+    "title": "Letter recognition using Holland-style adaptive classifiers",
+    "venue": "Machine Learning",
+    "volume": "6",
+    "pages": "161--182",
+    "doi": "10.1007/BF00114162",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "friedman2003",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref",
+    "id": "10.2172/826696",
+    "title": "On Multivariate Goodness-of-Fit and Two-Sample Testing",
+    "authors": [
+     {
+      "family": "Friedman",
+      "given": "J"
+     }
+    ],
+    "year": "2004",
+    "venue": "",
+    "volume": "",
+    "issue": "",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "year 2003 vs index 2004 (online and print years differ)",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W362526619",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2004,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "friedman2003",
+    "type": "inproceedings",
+    "year": "2003",
+    "authors": [
+     {
+      "surname": "Friedman",
+      "initials": "JH"
+     }
+    ],
+    "et_al": false,
+    "title": "On multivariate goodness-of-fit and two-sample testing",
+    "venue": "Proceedings of PHYSTAT 2003, eConf C030908",
+    "volume": "",
+    "pages": "311--313",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "gama2004",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/978-3-540-28645-5_29",
+    "title": "Learning with Drift Detection",
+    "authors": [
+     {
+      "family": "Gama",
+      "given": "Jo\u00e3o"
+     },
+     {
+      "family": "Medas",
+      "given": "Pedro"
+     },
+     {
+      "family": "Castillo",
+      "given": "Gladys"
+     },
+     {
+      "family": "Rodrigues",
+      "given": "Pedro"
+     }
+    ],
+    "year": "2004",
+    "venue": "Lecture Notes in Computer Science",
+    "volume": "",
+    "issue": "",
+    "page": "286-295"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1585854823",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2004,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "gama2004",
+    "type": "inproceedings",
+    "year": "2004",
+    "authors": [
+     {
+      "surname": "Gama",
+      "initials": "J"
+     },
+     {
+      "surname": "Medas",
+      "initials": "P"
+     },
+     {
+      "surname": "Castillo",
+      "initials": "G"
+     },
+     {
+      "surname": "Rodrigues",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "Learning with drift detection",
+    "venue": "Advances in Artificial Intelligence - SBIA 2004",
+    "volume": "3171",
+    "pages": "286--295",
+    "doi": "10.1007/978-3-540-28645-5_29",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "gao2025",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2501.18897",
+    "title": "Statistical Inference for Generative Model Comparison",
+    "authors": [
+     {
+      "family": "Gao",
+      "given": "Zijun"
+     },
+     {
+      "family": "Sun",
+      "given": "Yan"
+     },
+     {
+      "family": "Su",
+      "given": "Han"
+     }
+    ],
+    "year": "2025",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4407093106",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2025,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "gao2025",
+    "type": "misc",
+    "year": "2025",
+    "authors": [
+     {
+      "surname": "Gao",
+      "initials": "Z"
+     },
+     {
+      "surname": "Sun",
+      "initials": "Y"
+     },
+     {
+      "surname": "Su",
+      "initials": "H"
+     }
+    ],
+    "et_al": false,
+    "title": "Statistical inference for generative model comparison",
+    "venue": "arXiv:2501.18897",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2501.18897"
+   }
+  },
+  {
+   "key": "gretton2007",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref",
+    "id": "10.7551/mitpress/7503.003.0069",
+    "title": "A Kernel Method for the Two-Sample-Problem",
+    "authors": [
+     {
+      "family": "Gretton",
+      "given": "Arthur"
+     },
+     {
+      "family": "Borgwardt",
+      "given": "Karsten M."
+     },
+     {
+      "family": "Rasch",
+      "given": "Malte"
+     },
+     {
+      "family": "Sch\u00f6lkopf",
+      "given": "Bernhard"
+     },
+     {
+      "family": "Smola",
+      "given": "Alexander J."
+     }
+    ],
+    "year": "2007",
+    "venue": "Advances in Neural Information Processing Systems 19",
+    "volume": "",
+    "issue": "",
+    "page": "513-520"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2125865219",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2007,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "gretton2007",
+    "type": "inproceedings",
+    "year": "2007",
+    "authors": [
+     {
+      "surname": "Gretton",
+      "initials": "A"
+     },
+     {
+      "surname": "Borgwardt",
+      "initials": "KM"
+     },
+     {
+      "surname": "Rasch",
+      "initials": "M"
+     },
+     {
+      "surname": "Scholkopf",
+      "initials": "B"
+     },
+     {
+      "surname": "Smola",
+      "initials": "AJ"
+     }
+    ],
+    "et_al": false,
+    "title": "A kernel method for the two-sample-problem",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "19",
+    "pages": "513--520",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "gretton2012",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://jmlr.org/papers/v13/gretton12a.html",
+    "title": "A Kernel Two-Sample Test",
+    "authors": [
+     {
+      "family": "Gretton",
+      "given": "Arthur"
+     },
+     {
+      "family": "Borgwardt",
+      "given": "Karsten M."
+     },
+     {
+      "family": "Rasch",
+      "given": "Malte J."
+     },
+     {
+      "family": "Sch\u00f6lkopf",
+      "given": "Bernhard"
+     },
+     {
+      "family": "Smola",
+      "given": "Alexander"
+     }
+    ],
+    "year": "2012",
+    "venue": "Journal of Machine Learning Research"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2212660284",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2012,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "gretton2012",
+    "type": "article",
+    "year": "2012",
+    "authors": [
+     {
+      "surname": "Gretton",
+      "initials": "A"
+     },
+     {
+      "surname": "Borgwardt",
+      "initials": "KM"
+     },
+     {
+      "surname": "Rasch",
+      "initials": "MJ"
+     },
+     {
+      "surname": "Scholkopf",
+      "initials": "B"
+     },
+     {
+      "surname": "Smola",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "A kernel two-sample test",
+    "venue": "Journal of Machine Learning Research",
+    "volume": "13",
+    "pages": "723--773",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "hanley1983",
+   "verdict": "manual",
+   "reason": "JAMA 249(13):1743-1745, 1983, DOI 10.1001/jama.1983.03330370053031; Crossref lists only the first author and the first page; the article is by Hanley and Lippman-Hand",
+   "entry": {
+    "key": "hanley1983",
+    "type": "article",
+    "year": "1983",
+    "authors": [
+     {
+      "surname": "Hanley",
+      "initials": "JA"
+     },
+     {
+      "surname": "Lippman-Hand",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "If nothing goes wrong, is everything all right? Interpreting zero numerators",
+    "venue": "JAMA",
+    "volume": "249",
+    "pages": "1743--1745",
+    "doi": "10.1001/jama.1983.03330370053031",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "harris2020",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1038/s41586-020-2649-2",
+    "title": "Array programming with NumPy",
+    "authors": [
+     {
+      "family": "Harris",
+      "given": "Charles R."
+     },
+     {
+      "family": "Millman",
+      "given": "K. Jarrod"
+     },
+     {
+      "family": "van der Walt",
+      "given": "St\u00e9fan J."
+     },
+     {
+      "family": "Gommers",
+      "given": "Ralf"
+     },
+     {
+      "family": "Virtanen",
+      "given": "Pauli"
+     },
+     {
+      "family": "Cournapeau",
+      "given": "David"
+     },
+     {
+      "family": "Wieser",
+      "given": "Eric"
+     },
+     {
+      "family": "Taylor",
+      "given": "Julian"
+     },
+     {
+      "family": "Berg",
+      "given": "Sebastian"
+     },
+     {
+      "family": "Smith",
+      "given": "Nathaniel J."
+     },
+     {
+      "family": "Kern",
+      "given": "Robert"
+     },
+     {
+      "family": "Picus",
+      "given": "Matti"
+     },
+     {
+      "family": "Hoyer",
+      "given": "Stephan"
+     },
+     {
+      "family": "van Kerkwijk",
+      "given": "Marten H."
+     },
+     {
+      "family": "Brett",
+      "given": "Matthew"
+     },
+     {
+      "family": "Haldane",
+      "given": "Allan"
+     },
+     {
+      "family": "del R\u00edo",
+      "given": "Jaime Fern\u00e1ndez"
+     },
+     {
+      "family": "Wiebe",
+      "given": "Mark"
+     },
+     {
+      "family": "Peterson",
+      "given": "Pearu"
+     },
+     {
+      "family": "G\u00e9rard-Marchant",
+      "given": "Pierre"
+     },
+     {
+      "family": "Sheppard",
+      "given": "Kevin"
+     },
+     {
+      "family": "Reddy",
+      "given": "Tyler"
+     },
+     {
+      "family": "Weckesser",
+      "given": "Warren"
+     },
+     {
+      "family": "Abbasi",
+      "given": "Hameer"
+     },
+     {
+      "family": "Gohlke",
+      "given": "Christoph"
+     },
+     {
+      "family": "Oliphant",
+      "given": "Travis E."
+     }
+    ],
+    "year": "2020",
+    "venue": "Nature",
+    "volume": "585",
+    "issue": "7825",
+    "page": "357-362"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3035965352",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2020,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "harris2020",
+    "type": "article",
+    "year": "2020",
+    "authors": [
+     {
+      "surname": "Harris",
+      "initials": "CR"
+     },
+     {
+      "surname": "Millman",
+      "initials": "KJ"
+     },
+     {
+      "surname": "van der Walt",
+      "initials": "SJ"
+     },
+     {
+      "surname": "Gommers",
+      "initials": "R"
+     },
+     {
+      "surname": "Virtanen",
+      "initials": "P"
+     },
+     {
+      "surname": "Cournapeau",
+      "initials": "D"
+     },
+     {
+      "surname": "Wieser",
+      "initials": "E"
+     },
+     {
+      "surname": "Taylor",
+      "initials": "J"
+     },
+     {
+      "surname": "Berg",
+      "initials": "S"
+     },
+     {
+      "surname": "Smith",
+      "initials": "NJ"
+     }
+    ],
+    "et_al": true,
+    "title": "Array programming with NumPy",
+    "venue": "Nature",
+    "volume": "585",
+    "pages": "357--362",
+    "doi": "10.1038/s41586-020-2649-2",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "heusel2017",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1706.08500",
+    "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+    "authors": [
+     {
+      "family": "Heusel",
+      "given": "Martin"
+     },
+     {
+      "family": "Ramsauer",
+      "given": "Hubert"
+     },
+     {
+      "family": "Unterthiner",
+      "given": "Thomas"
+     },
+     {
+      "family": "Nessler",
+      "given": "Bernhard"
+     },
+     {
+      "family": "Hochreiter",
+      "given": "Sepp"
+     }
+    ],
+    "year": "2017",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2963981733",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "heusel2017",
+    "type": "inproceedings",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Heusel",
+      "initials": "M"
+     },
+     {
+      "surname": "Ramsauer",
+      "initials": "H"
+     },
+     {
+      "surname": "Unterthiner",
+      "initials": "T"
+     },
+     {
+      "surname": "Nessler",
+      "initials": "B"
+     },
+     {
+      "surname": "Hochreiter",
+      "initials": "S"
+     }
+    ],
+    "et_al": false,
+    "title": "GANs trained by a two time-scale update rule converge to a local Nash equilibrium",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "30",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "hill1975",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/aos/1176343247",
+    "title": "A Simple General Approach to Inference About the Tail of a Distribution",
+    "authors": [
+     {
+      "family": "Hill",
+      "given": "Bruce M."
+     }
+    ],
+    "year": "1975",
+    "venue": "The Annals of Statistics",
+    "volume": "3",
+    "issue": "5",
+    "page": ""
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2048649579",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1975,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "hill1975",
+    "type": "article",
+    "year": "1975",
+    "authors": [
+     {
+      "surname": "Hill",
+      "initials": "BM"
+     }
+    ],
+    "et_al": false,
+    "title": "A simple general approach to inference about the tail of a distribution",
+    "venue": "The Annals of Statistics",
+    "volume": "3",
+    "pages": "1163--1174",
+    "doi": "10.1214/aos/1176343247",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "hope1968",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1111/j.2517-6161.1968.tb00759.x",
+    "title": "A Simplified Monte Carlo Significance Test Procedure",
+    "authors": [
+     {
+      "family": "Hope",
+      "given": "Adery C. A."
+     }
+    ],
+    "year": "1968",
+    "venue": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "volume": "30",
+    "issue": "3",
+    "page": "582-598"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2905482938",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1968,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "hope1968",
+    "type": "article",
+    "year": "1968",
+    "authors": [
+     {
+      "surname": "Hope",
+      "initials": "ACA"
+     }
+    ],
+    "et_al": false,
+    "title": "A simplified Monte Carlo significance test procedure",
+    "venue": "Journal of the Royal Statistical Society, Series B",
+    "volume": "30",
+    "pages": "582--598",
+    "doi": "10.1111/j.2517-6161.1968.tb00759.x",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "hundrieser2024",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/23-aihp1369",
+    "title": "Empirical optimal transport between different measures adapts to lower complexity",
+    "authors": [
+     {
+      "family": "Hundrieser",
+      "given": "Shayan"
+     },
+     {
+      "family": "Staudt",
+      "given": "Thomas"
+     },
+     {
+      "family": "Munk",
+      "given": "Axel"
+     }
+    ],
+    "year": "2024",
+    "venue": "Annales de l'Institut Henri Poincar\u00e9, Probabilit\u00e9s et Statistiques",
+    "volume": "60",
+    "issue": "2",
+    "page": "824-846"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4399591025",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2024,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "hundrieser2024",
+    "type": "article",
+    "year": "2024",
+    "authors": [
+     {
+      "surname": "Hundrieser",
+      "initials": "S"
+     },
+     {
+      "surname": "Staudt",
+      "initials": "T"
+     },
+     {
+      "surname": "Munk",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Empirical optimal transport between different measures adapts to lower complexity",
+    "venue": "Annales de l'Institut Henri Poincare, Probabilites et Statistiques",
+    "volume": "60",
+    "pages": "824--846",
+    "doi": "10.1214/23-AIHP1369",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "jayasumana2024",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1109/cvpr52733.2024.00889",
+    "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
+    "authors": [
+     {
+      "family": "Jayasumana",
+      "given": "Sadeep"
+     },
+     {
+      "family": "Ramalingam",
+      "given": "Srikumar"
+     },
+     {
+      "family": "Veit",
+      "given": "Andreas"
+     },
+     {
+      "family": "Glasner",
+      "given": "Daniel"
+     },
+     {
+      "family": "Chakrabarti",
+      "given": "Ayan"
+     },
+     {
+      "family": "Kumar",
+      "given": "Sanjiv"
+     }
+    ],
+    "year": "2024",
+    "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "volume": "",
+    "issue": "",
+    "page": "9307-9315"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4402727293",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2024,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "jayasumana2024",
+    "type": "inproceedings",
+    "year": "2024",
+    "authors": [
+     {
+      "surname": "Jayasumana",
+      "initials": "S"
+     },
+     {
+      "surname": "Ramalingam",
+      "initials": "S"
+     },
+     {
+      "surname": "Veit",
+      "initials": "A"
+     },
+     {
+      "surname": "Glasner",
+      "initials": "D"
+     },
+     {
+      "surname": "Chakrabarti",
+      "initials": "A"
+     },
+     {
+      "surname": "Kumar",
+      "initials": "S"
+     }
+    ],
+    "et_al": false,
+    "title": "Rethinking FID: towards a better evaluation metric for image generation",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "volume": "",
+    "pages": "9307--9315",
+    "doi": "10.1109/CVPR52733.2024.00889",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "jonker1987",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/bf02278710",
+    "title": "A shortest augmenting path algorithm for dense and sparse linear assignment problems",
+    "authors": [
+     {
+      "family": "Jonker",
+      "given": "R."
+     },
+     {
+      "family": "Volgenant",
+      "given": "A."
+     }
+    ],
+    "year": "1987",
+    "venue": "Computing",
+    "volume": "38",
+    "issue": "4",
+    "page": "325-340"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2139688603",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1987,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "jonker1987",
+    "type": "article",
+    "year": "1987",
+    "authors": [
+     {
+      "surname": "Jonker",
+      "initials": "R"
+     },
+     {
+      "surname": "Volgenant",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "A shortest augmenting path algorithm for dense and sparse linear assignment problems",
+    "venue": "Computing",
+    "volume": "38",
+    "pages": "325--340",
+    "doi": "10.1007/BF02278710",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kantorovich1942",
+   "verdict": "manual",
+   "reason": "Doklady Akademii Nauk SSSR 37 (1942) 199-201; zbMATH Zbl 0061.09705; Crossref indexes the English translation, J. Math. Sci. 133(4):1381-1382 (2006), DOI 10.1007/s10958-006-0049-2",
+   "entry": {
+    "key": "kantorovich1942",
+    "type": "article",
+    "year": "1942",
+    "authors": [
+     {
+      "surname": "Kantorovich",
+      "initials": "LV"
+     }
+    ],
+    "et_al": false,
+    "title": "On the translocation of masses",
+    "venue": "Doklady Akademii Nauk SSSR",
+    "volume": "37",
+    "pages": "199--201",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kelly2026",
+   "verdict": "manual",
+   "reason": "the citation the repository requests for several of its data sets together, https://archive.ics.uci.edu/citation",
+   "entry": {
+    "key": "kelly2026",
+    "type": "misc",
+    "year": "2026",
+    "authors": [
+     {
+      "surname": "Kelly",
+      "initials": "M"
+     },
+     {
+      "surname": "Longjohn",
+      "initials": "R"
+     },
+     {
+      "surname": "Nottingham",
+      "initials": "K"
+     }
+    ],
+    "et_al": false,
+    "title": "The UCI Machine Learning Repository",
+    "venue": "rlhttps://archive.ics.uci.edu",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kingma2014",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
+    "authors": [
+     {
+      "family": "Kingma",
+      "given": "Diederik P"
+     },
+     {
+      "family": "Welling",
+      "given": "Max"
+     }
+    ],
+    "year": "2013",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2014 (venue) vs arXiv preprint 2013",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1959608418",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2013,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "kingma2014",
+    "type": "inproceedings",
+    "year": "2014",
+    "authors": [
+     {
+      "surname": "Kingma",
+      "initials": "DP"
+     },
+     {
+      "surname": "Welling",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Auto-encoding variational Bayes",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kingma2015",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "authors": [
+     {
+      "family": "Kingma",
+      "given": "Diederik P."
+     },
+     {
+      "family": "Ba",
+      "given": "Jimmy"
+     }
+    ],
+    "year": "2014",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2015 (venue) vs arXiv preprint 2014",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1522301498",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2014,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "kingma2015",
+    "type": "inproceedings",
+    "year": "2015",
+    "authors": [
+     {
+      "surname": "Kingma",
+      "initials": "DP"
+     },
+     {
+      "surname": "Ba",
+      "initials": "J"
+     }
+    ],
+    "et_al": false,
+    "title": "Adam: a method for stochastic optimization",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kuhn1955",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1002/nav.3800020109",
+    "title": "The Hungarian method for the assignment problem",
+    "authors": [
+     {
+      "family": "Kuhn",
+      "given": "H. W."
+     }
+    ],
+    "year": "1955",
+    "venue": "Naval Research Logistics Quarterly",
+    "volume": "2",
+    "issue": "1-2",
+    "page": "83-97"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2222512263",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1955,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "kuhn1955",
+    "type": "article",
+    "year": "1955",
+    "authors": [
+     {
+      "surname": "Kuhn",
+      "initials": "HW"
+     }
+    ],
+    "et_al": false,
+    "title": "The Hungarian method for the assignment problem",
+    "venue": "Naval Research Logistics Quarterly",
+    "volume": "2",
+    "pages": "83--97",
+    "doi": "10.1002/nav.3800020109",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "kynkanniemi2019",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1904.06991",
+    "title": "Improved Precision and Recall Metric for Assessing Generative Models",
+    "authors": [
+     {
+      "family": "Kynk\u00e4\u00e4nniemi",
+      "given": "Tuomas"
+     },
+     {
+      "family": "Karras",
+      "given": "Tero"
+     },
+     {
+      "family": "Laine",
+      "given": "Samuli"
+     },
+     {
+      "family": "Lehtinen",
+      "given": "Jaakko"
+     },
+     {
+      "family": "Aila",
+      "given": "Timo"
+     }
+    ],
+    "year": "2019",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2937274663",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "kynkanniemi2019",
+    "type": "inproceedings",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Kynkaanniemi",
+      "initials": "T"
+     },
+     {
+      "surname": "Karras",
+      "initials": "T"
+     },
+     {
+      "surname": "Laine",
+      "initials": "S"
+     },
+     {
+      "surname": "Lehtinen",
+      "initials": "J"
+     },
+     {
+      "surname": "Aila",
+      "initials": "T"
+     }
+    ],
+    "et_al": false,
+    "title": "Improved precision and recall metric for assessing generative models",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "32",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "lee2025",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2501.09876",
+    "title": "Geometry-Preserving Encoder/Decoder in Latent Generative Models",
+    "authors": [
+     {
+      "family": "Lee",
+      "given": "Wonjun"
+     },
+     {
+      "family": "O'Neill",
+      "given": "Riley C. W."
+     },
+     {
+      "family": "Zou",
+      "given": "Dongmian"
+     },
+     {
+      "family": "Calder",
+      "given": "Jeff"
+     },
+     {
+      "family": "Lerman",
+      "given": "Gilad"
+     }
+    ],
+    "year": "2025",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4406603681",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2025,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "lee2025",
+    "type": "misc",
+    "year": "2025",
+    "authors": [
+     {
+      "surname": "Lee",
+      "initials": "W"
+     },
+     {
+      "surname": "O'Neill",
+      "initials": "RCW"
+     },
+     {
+      "surname": "Zou",
+      "initials": "D"
+     },
+     {
+      "surname": "Calder",
+      "initials": "J"
+     },
+     {
+      "surname": "Lerman",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Geometry-preserving encoder/decoder in latent generative models",
+    "venue": "arXiv:2501.09876",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2501.09876"
+   }
+  },
+  {
+   "key": "levina2004",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://papers.nips.cc/paper/2577-maximum-likelihood-estimation-of-intrinsic-dimension",
+    "title": "Maximum Likelihood Estimation of Intrinsic Dimension",
+    "authors": [
+     {
+      "family": "Levina",
+      "given": "Elizaveta"
+     },
+     {
+      "family": "Bickel",
+      "given": "Peter"
+     }
+    ],
+    "year": "2004",
+    "venue": "Advances in Neural Information Processing Systems"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2157169955",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2004,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "levina2004",
+    "type": "inproceedings",
+    "year": "2004",
+    "authors": [
+     {
+      "surname": "Levina",
+      "initials": "E"
+     },
+     {
+      "surname": "Bickel",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "Maximum likelihood estimation of intrinsic dimension",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "17",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "lopezpaz2017",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1610.06545",
+    "title": "Revisiting Classifier Two-Sample Tests",
+    "authors": [
+     {
+      "family": "Lopez-Paz",
+      "given": "David"
+     },
+     {
+      "family": "Oquab",
+      "given": "Maxime"
+     }
+    ],
+    "year": "2016",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2017 (venue) vs arXiv preprint 2016",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2599043313",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2016,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "lopezpaz2017",
+    "type": "inproceedings",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Lopez-Paz",
+      "initials": "D"
+     },
+     {
+      "surname": "Oquab",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Revisiting classifier two-sample tests",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "mathlib2020",
+   "verdict": "manual",
+   "reason": "corporate author; Crossref DOI 10.1145/3372885.3373824 (CPP 2020, pp. 367-381), title 'The lean mathematical library', author 'The mathlib Community'",
+   "entry": {
+    "key": "mathlib2020",
+    "type": "inproceedings",
+    "year": "2020",
+    "authors": [
+     {
+      "surname": "The mathlib Community",
+      "initials": ""
+     }
+    ],
+    "et_al": false,
+    "title": "The Lean mathematical library",
+    "venue": "Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "volume": "",
+    "pages": "367--381",
+    "doi": "10.1145/3372885.3373824",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "miller2024",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2411.00640",
+    "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+    "authors": [
+     {
+      "family": "Miller",
+      "given": "Evan"
+     }
+    ],
+    "year": "2024",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4404345312",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2024,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "miller2024",
+    "type": "misc",
+    "year": "2024",
+    "authors": [
+     {
+      "surname": "Miller",
+      "initials": "E"
+     }
+    ],
+    "et_al": false,
+    "title": "Adding error bars to evals: a statistical approach to language model evaluations",
+    "venue": "arXiv:2411.00640",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2411.00640"
+   }
+  },
+  {
+   "key": "moro2014",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/j.dss.2014.03.001",
+    "title": "A data-driven approach to predict the success of bank telemarketing",
+    "authors": [
+     {
+      "family": "Moro",
+      "given": "S\u00e9rgio"
+     },
+     {
+      "family": "Cortez",
+      "given": "Paulo"
+     },
+     {
+      "family": "Rita",
+      "given": "Paulo"
+     }
+    ],
+    "year": "2014",
+    "venue": "Decision Support Systems",
+    "volume": "62",
+    "issue": "",
+    "page": "22-31"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2130486630",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2014,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "moro2014",
+    "type": "article",
+    "year": "2014",
+    "authors": [
+     {
+      "surname": "Moro",
+      "initials": "S"
+     },
+     {
+      "surname": "Cortez",
+      "initials": "P"
+     },
+     {
+      "surname": "Rita",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "A data-driven approach to predict the success of bank telemarketing",
+    "venue": "Decision Support Systems",
+    "volume": "62",
+    "pages": "22--31",
+    "doi": "10.1016/j.dss.2014.03.001",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "morris2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1002/sim.8086",
+    "title": "Using simulation studies to evaluate statistical methods",
+    "authors": [
+     {
+      "family": "Morris",
+      "given": "Tim P."
+     },
+     {
+      "family": "White",
+      "given": "Ian R."
+     },
+     {
+      "family": "Crowther",
+      "given": "Michael J."
+     }
+    ],
+    "year": "2019",
+    "venue": "Statistics in Medicine",
+    "volume": "38",
+    "issue": "11",
+    "page": "2074-2102"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2775363893",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "morris2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Morris",
+      "initials": "TP"
+     },
+     {
+      "surname": "White",
+      "initials": "IR"
+     },
+     {
+      "surname": "Crowther",
+      "initials": "MJ"
+     }
+    ],
+    "et_al": false,
+    "title": "Using simulation studies to evaluate statistical methods",
+    "venue": "Statistics in Medicine",
+    "volume": "38",
+    "pages": "2074--2102",
+    "doi": "10.1002/sim.8086",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "nilesweed2022",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.3150/21-bej1433",
+    "title": "Estimation of Wasserstein distances in the Spiked Transport Model",
+    "authors": [
+     {
+      "family": "Niles-Weed",
+      "given": "Jonathan"
+     },
+     {
+      "family": "Rigollet",
+      "given": "Philippe"
+     }
+    ],
+    "year": "2022",
+    "venue": "Bernoulli",
+    "volume": "28",
+    "issue": "4",
+    "page": "2663-2688"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2973816395",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2022,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "nilesweed2022",
+    "type": "article",
+    "year": "2022",
+    "authors": [
+     {
+      "surname": "Niles-Weed",
+      "initials": "J"
+     },
+     {
+      "surname": "Rigollet",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "Estimation of Wasserstein distances in the spiked transport model",
+    "venue": "Bernoulli",
+    "volume": "28",
+    "pages": "2663--2688",
+    "doi": "10.3150/21-BEJ1433",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "nilesweed2026",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2608.13374",
+    "title": "Nearly sharp comparison results for sliced and max-sliced Wasserstein distances",
+    "authors": [
+     {
+      "family": "Niles-Weed",
+      "given": "Jonathan"
+     },
+     {
+      "family": "Shkrob",
+      "given": "Jacob"
+     }
+    ],
+    "year": "2026",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W7203456908",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2026,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "nilesweed2026",
+    "type": "misc",
+    "year": "2026",
+    "authors": [
+     {
+      "surname": "Niles-Weed",
+      "initials": "J"
+     },
+     {
+      "surname": "Shkrob",
+      "initials": "J"
+     }
+    ],
+    "et_al": false,
+    "title": "Nearly sharp comparison results for sliced and max-sliced Wasserstein distances",
+    "venue": "arXiv:2608.13374",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2608.13374"
+   }
+  },
+  {
+   "key": "park2018",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.14778/3231751.3231757",
+    "title": "Data synthesis based on generative adversarial networks",
+    "authors": [
+     {
+      "family": "Park",
+      "given": "Noseong"
+     },
+     {
+      "family": "Mohammadi",
+      "given": "Mahmoud"
+     },
+     {
+      "family": "Gorde",
+      "given": "Kshitij"
+     },
+     {
+      "family": "Jajodia",
+      "given": "Sushil"
+     },
+     {
+      "family": "Park",
+      "given": "Hongkyu"
+     },
+     {
+      "family": "Kim",
+      "given": "Youngmin"
+     }
+    ],
+    "year": "2018",
+    "venue": "Proceedings of the VLDB Endowment",
+    "volume": "11",
+    "issue": "10",
+    "page": "1071-1083"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2806276686",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2018,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "park2018",
+    "type": "article",
+    "year": "2018",
+    "authors": [
+     {
+      "surname": "Park",
+      "initials": "N"
+     },
+     {
+      "surname": "Mohammadi",
+      "initials": "M"
+     },
+     {
+      "surname": "Gorde",
+      "initials": "K"
+     },
+     {
+      "surname": "Jajodia",
+      "initials": "S"
+     },
+     {
+      "surname": "Park",
+      "initials": "H"
+     },
+     {
+      "surname": "Kim",
+      "initials": "Y"
+     }
+    ],
+    "et_al": false,
+    "title": "Data synthesis based on generative adversarial networks",
+    "venue": "Proceedings of the VLDB Endowment",
+    "volume": "11",
+    "pages": "1071--1083",
+    "doi": "10.14778/3231751.3231757",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "paszke2019",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1912.01703",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+    "authors": [
+     {
+      "family": "Paszke",
+      "given": "Adam"
+     },
+     {
+      "family": "Gross",
+      "given": "Sam"
+     },
+     {
+      "family": "Massa",
+      "given": "Francisco"
+     },
+     {
+      "family": "Lerer",
+      "given": "Adam"
+     },
+     {
+      "family": "Bradbury",
+      "given": "James"
+     },
+     {
+      "family": "Chanan",
+      "given": "Gregory"
+     },
+     {
+      "family": "Killeen",
+      "given": "Trevor"
+     },
+     {
+      "family": "Lin",
+      "given": "Zeming"
+     },
+     {
+      "family": "Gimelshein",
+      "given": "Natalia"
+     },
+     {
+      "family": "Antiga",
+      "given": "Luca"
+     },
+     {
+      "family": "Desmaison",
+      "given": "Alban"
+     },
+     {
+      "family": "K\u00f6pf",
+      "given": "Andreas"
+     },
+     {
+      "family": "Yang",
+      "given": "Edward"
+     },
+     {
+      "family": "DeVito",
+      "given": "Zach"
+     },
+     {
+      "family": "Raison",
+      "given": "Martin"
+     },
+     {
+      "family": "Tejani",
+      "given": "Alykhan"
+     },
+     {
+      "family": "Chilamkurthy",
+      "given": "Sasank"
+     },
+     {
+      "family": "Steiner",
+      "given": "Benoit"
+     },
+     {
+      "family": "Fang",
+      "given": "Lu"
+     },
+     {
+      "family": "Bai",
+      "given": "Junjie"
+     },
+     {
+      "family": "Chintala",
+      "given": "Soumith"
+     }
+    ],
+    "year": "2019",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2970971581",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "paszke2019",
+    "type": "inproceedings",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Paszke",
+      "initials": "A"
+     },
+     {
+      "surname": "Gross",
+      "initials": "S"
+     },
+     {
+      "surname": "Massa",
+      "initials": "F"
+     },
+     {
+      "surname": "Lerer",
+      "initials": "A"
+     },
+     {
+      "surname": "Bradbury",
+      "initials": "J"
+     },
+     {
+      "surname": "Chanan",
+      "initials": "G"
+     },
+     {
+      "surname": "Killeen",
+      "initials": "T"
+     },
+     {
+      "surname": "Lin",
+      "initials": "Z"
+     },
+     {
+      "surname": "Gimelshein",
+      "initials": "N"
+     },
+     {
+      "surname": "Antiga",
+      "initials": "L"
+     }
+    ],
+    "et_al": true,
+    "title": "PyTorch: an imperative style, high-performance deep learning library",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "32",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "patki2016",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1109/dsaa.2016.49",
+    "title": "The Synthetic Data Vault",
+    "authors": [
+     {
+      "family": "Patki",
+      "given": "Neha"
+     },
+     {
+      "family": "Wedge",
+      "given": "Roy"
+     },
+     {
+      "family": "Veeramachaneni",
+      "given": "Kalyan"
+     }
+    ],
+    "year": "2016",
+    "venue": "2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)",
+    "volume": "",
+    "issue": "",
+    "page": "399-410"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2565167788",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2016,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "patki2016",
+    "type": "inproceedings",
+    "year": "2016",
+    "authors": [
+     {
+      "surname": "Patki",
+      "initials": "N"
+     },
+     {
+      "surname": "Wedge",
+      "initials": "R"
+     },
+     {
+      "surname": "Veeramachaneni",
+      "initials": "K"
+     }
+    ],
+    "et_al": false,
+    "title": "The Synthetic Data Vault",
+    "venue": "IEEE International Conference on Data Science and Advanced Analytics",
+    "volume": "",
+    "pages": "399--410",
+    "doi": "10.1109/DSAA.2016.49",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "pedregosa2011",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://jmlr.org/papers/v12/pedregosa11a.html",
+    "title": "Scikit-learn: Machine Learning in Python",
+    "authors": [
+     {
+      "family": "Pedregosa",
+      "given": "Fabian"
+     },
+     {
+      "family": "Varoquaux",
+      "given": "Ga\u00ebl"
+     },
+     {
+      "family": "Gramfort",
+      "given": "Alexandre"
+     },
+     {
+      "family": "Michel",
+      "given": "Vincent"
+     },
+     {
+      "family": "Thirion",
+      "given": "Bertrand"
+     },
+     {
+      "family": "Grisel",
+      "given": "Olivier"
+     },
+     {
+      "family": "Blondel",
+      "given": "Mathieu"
+     },
+     {
+      "family": "Prettenhofer",
+      "given": "Peter"
+     },
+     {
+      "family": "Weiss",
+      "given": "Ron"
+     },
+     {
+      "family": "Dubourg",
+      "given": "Vincent"
+     },
+     {
+      "family": "Vanderplas",
+      "given": "Jake"
+     },
+     {
+      "family": "Passos",
+      "given": "Alexandre"
+     },
+     {
+      "family": "Cournapeau",
+      "given": "David"
+     },
+     {
+      "family": "Brucher",
+      "given": "Matthieu"
+     },
+     {
+      "family": "Perrot",
+      "given": "Matthieu"
+     },
+     {
+      "family": "Duchesnay",
+      "given": "\u00c9douard"
+     }
+    ],
+    "year": "2011",
+    "venue": "Journal of Machine Learning Research"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2997591727",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2011,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "pedregosa2011",
+    "type": "article",
+    "year": "2011",
+    "authors": [
+     {
+      "surname": "Pedregosa",
+      "initials": "F"
+     },
+     {
+      "surname": "Varoquaux",
+      "initials": "G"
+     },
+     {
+      "surname": "Gramfort",
+      "initials": "A"
+     },
+     {
+      "surname": "Michel",
+      "initials": "V"
+     },
+     {
+      "surname": "Thirion",
+      "initials": "B"
+     },
+     {
+      "surname": "Grisel",
+      "initials": "O"
+     },
+     {
+      "surname": "Blondel",
+      "initials": "M"
+     },
+     {
+      "surname": "Prettenhofer",
+      "initials": "P"
+     },
+     {
+      "surname": "Weiss",
+      "initials": "R"
+     },
+     {
+      "surname": "Dubourg",
+      "initials": "V"
+     }
+    ],
+    "et_al": true,
+    "title": "Scikit-learn: machine learning in Python",
+    "venue": "Journal of Machine Learning Research",
+    "volume": "12",
+    "pages": "2825--2830",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "peyre2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1561/2200000073",
+    "title": "Computational Optimal Transport with Applications to Data Sciences",
+    "authors": [
+     {
+      "family": "Peyr\u00e9",
+      "given": "Gabriel"
+     },
+     {
+      "family": "Cuturi",
+      "given": "Marco"
+     }
+    ],
+    "year": "2019",
+    "venue": "Foundations and Trends\u00ae in Machine Learning",
+    "volume": "11",
+    "issue": "5-6",
+    "page": "355-607"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 0.991,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3039256091",
+    "title_similarity": 0.991,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "peyre2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Peyre",
+      "initials": "G"
+     },
+     {
+      "surname": "Cuturi",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Computational optimal transport: with applications to data science",
+    "venue": "Foundations and Trends in Machine Learning",
+    "volume": "11",
+    "pages": "355--607",
+    "doi": "10.1561/2200000073",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "pope2021",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2104.08894",
+    "title": "The Intrinsic Dimension of Images and Its Impact on Learning",
+    "authors": [
+     {
+      "family": "Pope",
+      "given": "Phillip"
+     },
+     {
+      "family": "Zhu",
+      "given": "Chen"
+     },
+     {
+      "family": "Abdelkader",
+      "given": "Ahmed"
+     },
+     {
+      "family": "Goldblum",
+      "given": "Micah"
+     },
+     {
+      "family": "Goldstein",
+      "given": "Tom"
+     }
+    ],
+    "year": "2021",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3131200319",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "pope2021",
+    "type": "inproceedings",
+    "year": "2021",
+    "authors": [
+     {
+      "surname": "Pope",
+      "initials": "P"
+     },
+     {
+      "surname": "Zhu",
+      "initials": "C"
+     },
+     {
+      "surname": "Abdelkader",
+      "initials": "A"
+     },
+     {
+      "surname": "Goldblum",
+      "initials": "M"
+     },
+     {
+      "surname": "Goldstein",
+      "initials": "T"
+     }
+    ],
+    "et_al": false,
+    "title": "The intrinsic dimension of images and its impact on learning",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "rabin2012",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/978-3-642-24785-9_37",
+    "title": "Wasserstein Barycenter and Its Application to Texture Mixing",
+    "authors": [
+     {
+      "family": "Rabin",
+      "given": "Julien"
+     },
+     {
+      "family": "Peyr\u00e9",
+      "given": "Gabriel"
+     },
+     {
+      "family": "Delon",
+      "given": "Julie"
+     },
+     {
+      "family": "Bernot",
+      "given": "Marc"
+     }
+    ],
+    "year": "2012",
+    "venue": "Lecture Notes in Computer Science",
+    "volume": "",
+    "issue": "",
+    "page": "435-446"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1639961155",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2012,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "rabin2012",
+    "type": "inproceedings",
+    "year": "2012",
+    "authors": [
+     {
+      "surname": "Rabin",
+      "initials": "J"
+     },
+     {
+      "surname": "Peyre",
+      "initials": "G"
+     },
+     {
+      "surname": "Delon",
+      "initials": "J"
+     },
+     {
+      "surname": "Bernot",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Wasserstein barycenter and its application to texture mixing",
+    "venue": "Scale Space and Variational Methods in Computer Vision",
+    "volume": "6667",
+    "pages": "435--446",
+    "doi": "10.1007/978-3-642-24785-9_37",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "ramdas2017",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.3390/e19020047",
+    "title": "On Wasserstein Two-Sample Testing and Related Families of Nonparametric Tests",
+    "authors": [
+     {
+      "family": "Ramdas",
+      "given": "Aaditya"
+     },
+     {
+      "family": "Trillos",
+      "given": "Nicol\u00e1s"
+     },
+     {
+      "family": "Cuturi",
+      "given": "Marco"
+     }
+    ],
+    "year": "2017",
+    "venue": "Entropy",
+    "volume": "19",
+    "issue": "2",
+    "page": "47"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2222339201",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "ramdas2017",
+    "type": "article",
+    "year": "2017",
+    "authors": [
+     {
+      "surname": "Ramdas",
+      "initials": "A"
+     },
+     {
+      "surname": "Garcia Trillos",
+      "initials": "N"
+     },
+     {
+      "surname": "Cuturi",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "On Wasserstein two-sample testing and related families of nonparametric tests",
+    "venue": "Entropy",
+    "volume": "19",
+    "pages": "47",
+    "doi": "10.3390/e19020047",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "roe2005",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/j.nima.2004.12.018",
+    "title": "Boosted decision trees as an alternative to artificial neural networks for particle identification",
+    "authors": [
+     {
+      "family": "Roe",
+      "given": "Byron P."
+     },
+     {
+      "family": "Yang",
+      "given": "Hai-Jun"
+     },
+     {
+      "family": "Zhu",
+      "given": "Ji"
+     },
+     {
+      "family": "Liu",
+      "given": "Yong"
+     },
+     {
+      "family": "Stancu",
+      "given": "Ion"
+     },
+     {
+      "family": "McGregor",
+      "given": "Gordon"
+     }
+    ],
+    "year": "2005",
+    "venue": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+    "volume": "543",
+    "issue": "2-3",
+    "page": "577-584"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2165960883",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2005,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "roe2005",
+    "type": "article",
+    "year": "2005",
+    "authors": [
+     {
+      "surname": "Roe",
+      "initials": "BP"
+     },
+     {
+      "surname": "Yang",
+      "initials": "HJ"
+     },
+     {
+      "surname": "Zhu",
+      "initials": "J"
+     },
+     {
+      "surname": "Liu",
+      "initials": "Y"
+     },
+     {
+      "surname": "Stancu",
+      "initials": "I"
+     },
+     {
+      "surname": "McGregor",
+      "initials": "G"
+     }
+    ],
+    "et_al": false,
+    "title": "Boosted decision trees as an alternative to artificial neural networks for particle identification",
+    "venue": "Nuclear Instruments and Methods in Physics Research Section A",
+    "volume": "543",
+    "pages": "577--584",
+    "doi": "10.1016/j.nima.2004.12.018",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "sajjadi2018",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1806.00035",
+    "title": "Assessing Generative Models via Precision and Recall",
+    "authors": [
+     {
+      "family": "Sajjadi",
+      "given": "Mehdi S. M."
+     },
+     {
+      "family": "Bachem",
+      "given": "Olivier"
+     },
+     {
+      "family": "Lucic",
+      "given": "Mario"
+     },
+     {
+      "family": "Bousquet",
+      "given": "Olivier"
+     },
+     {
+      "family": "Gelly",
+      "given": "Sylvain"
+     }
+    ],
+    "year": "2018",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2805984778",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2018,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "sajjadi2018",
+    "type": "inproceedings",
+    "year": "2018",
+    "authors": [
+     {
+      "surname": "Sajjadi",
+      "initials": "MSM"
+     },
+     {
+      "surname": "Bachem",
+      "initials": "O"
+     },
+     {
+      "surname": "Lucic",
+      "initials": "M"
+     },
+     {
+      "surname": "Bousquet",
+      "initials": "O"
+     },
+     {
+      "surname": "Gelly",
+      "initials": "S"
+     }
+    ],
+    "et_al": false,
+    "title": "Assessing generative models via precision and recall",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "31",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "salimans2016",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1606.03498",
+    "title": "Improved Techniques for Training GANs",
+    "authors": [
+     {
+      "family": "Salimans",
+      "given": "Tim"
+     },
+     {
+      "family": "Goodfellow",
+      "given": "Ian"
+     },
+     {
+      "family": "Zaremba",
+      "given": "Wojciech"
+     },
+     {
+      "family": "Cheung",
+      "given": "Vicki"
+     },
+     {
+      "family": "Radford",
+      "given": "Alec"
+     },
+     {
+      "family": "Chen",
+      "given": "Xi"
+     }
+    ],
+    "year": "2016",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2432004435",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2016,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "salimans2016",
+    "type": "inproceedings",
+    "year": "2016",
+    "authors": [
+     {
+      "surname": "Salimans",
+      "initials": "T"
+     },
+     {
+      "surname": "Goodfellow",
+      "initials": "I"
+     },
+     {
+      "surname": "Zaremba",
+      "initials": "W"
+     },
+     {
+      "surname": "Cheung",
+      "initials": "V"
+     },
+     {
+      "surname": "Radford",
+      "initials": "A"
+     },
+     {
+      "surname": "Chen",
+      "initials": "X"
+     }
+    ],
+    "et_al": false,
+    "title": "Improved techniques for training GANs",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "29",
+    "pages": "2234--2242",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "schrab2023",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://jmlr.org/papers/v24/21-1289.html",
+    "title": "MMD Aggregated Two-Sample Test",
+    "authors": [
+     {
+      "family": "Schrab",
+      "given": "Antonin"
+     },
+     {
+      "family": "Kim",
+      "given": "Ilmun"
+     },
+     {
+      "family": "Albert",
+      "given": "M\u00e9lisande"
+     },
+     {
+      "family": "Laurent",
+      "given": "B\u00e9atrice"
+     },
+     {
+      "family": "Guedj",
+      "given": "Benjamin"
+     },
+     {
+      "family": "Gretton",
+      "given": "Arthur"
+     }
+    ],
+    "year": "2023",
+    "venue": "Journal of Machine Learning Research"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4286891023",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2021,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "schrab2023",
+    "type": "article",
+    "year": "2023",
+    "authors": [
+     {
+      "surname": "Schrab",
+      "initials": "A"
+     },
+     {
+      "surname": "Kim",
+      "initials": "I"
+     },
+     {
+      "surname": "Albert",
+      "initials": "M"
+     },
+     {
+      "surname": "Laurent",
+      "initials": "B"
+     },
+     {
+      "surname": "Guedj",
+      "initials": "B"
+     },
+     {
+      "surname": "Gretton",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "MMD aggregated two-sample test",
+    "venue": "Journal of Machine Learning Research",
+    "volume": "24",
+    "pages": "1--81",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "schuirmann1987",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1007/bf01068419",
+    "title": "A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability",
+    "authors": [
+     {
+      "family": "Schuirmann",
+      "given": "Donald J."
+     }
+    ],
+    "year": "1987",
+    "venue": "Journal of Pharmacokinetics and Biopharmaceutics",
+    "volume": "15",
+    "issue": "6",
+    "page": "657-680"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2037698344",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 1987,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "schuirmann1987",
+    "type": "article",
+    "year": "1987",
+    "authors": [
+     {
+      "surname": "Schuirmann",
+      "initials": "DJ"
+     }
+    ],
+    "et_al": false,
+    "title": "A comparison of the two one-sided tests procedure and the power approach for assessing the equivalence of average bioavailability",
+    "venue": "Journal of Pharmacokinetics and Biopharmaceutics",
+    "volume": "15",
+    "pages": "657--680",
+    "doi": "10.1007/BF01068419",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "sommerfeld2018",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1111/rssb.12236",
+    "title": "Inference for Empirical Wasserstein Distances on Finite Spaces",
+    "authors": [
+     {
+      "family": "Sommerfeld",
+      "given": "Max"
+     },
+     {
+      "family": "Munk",
+      "given": "Axel"
+     }
+    ],
+    "year": "2017",
+    "venue": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "volume": "80",
+    "issue": "1",
+    "page": "219-238"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "year 2018 vs index 2017 (online and print years differ)",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2530707152",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2017,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "sommerfeld2018",
+    "type": "article",
+    "year": "2018",
+    "authors": [
+     {
+      "surname": "Sommerfeld",
+      "initials": "M"
+     },
+     {
+      "surname": "Munk",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Inference for empirical Wasserstein distances on finite spaces",
+    "venue": "Journal of the Royal Statistical Society, Series B",
+    "volume": "80",
+    "pages": "219--238",
+    "doi": "10.1111/rssb.12236",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "szegedy2014",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1312.6199",
+    "title": "Intriguing properties of neural networks",
+    "authors": [
+     {
+      "family": "Szegedy",
+      "given": "Christian"
+     },
+     {
+      "family": "Zaremba",
+      "given": "Wojciech"
+     },
+     {
+      "family": "Sutskever",
+      "given": "Ilya"
+     },
+     {
+      "family": "Bruna",
+      "given": "Joan"
+     },
+     {
+      "family": "Erhan",
+      "given": "Dumitru"
+     },
+     {
+      "family": "Goodfellow",
+      "given": "Ian"
+     },
+     {
+      "family": "Fergus",
+      "given": "Rob"
+     }
+    ],
+    "year": "2013",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "cited 2014 (venue) vs arXiv preprint 2013",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W1673923490",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2013,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "szegedy2014",
+    "type": "inproceedings",
+    "year": "2014",
+    "authors": [
+     {
+      "surname": "Szegedy",
+      "initials": "C"
+     },
+     {
+      "surname": "Zaremba",
+      "initials": "W"
+     },
+     {
+      "surname": "Sutskever",
+      "initials": "I"
+     },
+     {
+      "surname": "Bruna",
+      "initials": "J"
+     },
+     {
+      "surname": "Erhan",
+      "initials": "D"
+     },
+     {
+      "surname": "Goodfellow",
+      "initials": "I"
+     },
+     {
+      "surname": "Fergus",
+      "initials": "R"
+     }
+    ],
+    "et_al": false,
+    "title": "Intriguing properties of neural networks",
+    "venue": "International Conference on Learning Representations",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "szekely2013",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1016/j.jspi.2013.03.018",
+    "title": "Energy statistics: A class of statistics based on distances",
+    "authors": [
+     {
+      "family": "Sz\u00e9kely",
+      "given": "G\u00e1bor J."
+     },
+     {
+      "family": "Rizzo",
+      "given": "Maria L."
+     }
+    ],
+    "year": "2013",
+    "venue": "Journal of Statistical Planning and Inference",
+    "volume": "143",
+    "issue": "8",
+    "page": "1249-1272"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2083252561",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2013,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "szekely2013",
+    "type": "article",
+    "year": "2013",
+    "authors": [
+     {
+      "surname": "Szekely",
+      "initials": "GJ"
+     },
+     {
+      "surname": "Rizzo",
+      "initials": "ML"
+     }
+    ],
+    "et_al": false,
+    "title": "Energy statistics: a class of statistics based on distances",
+    "venue": "Journal of Statistical Planning and Inference",
+    "volume": "143",
+    "pages": "1249--1272",
+    "doi": "10.1016/j.jspi.2013.03.018",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "tameling2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1214/19-aap1463",
+    "title": "Empirical optimal transport on countable metric spaces: Distributional limits and statistical applications",
+    "authors": [
+     {
+      "family": "Tameling",
+      "given": "Carla"
+     },
+     {
+      "family": "Sommerfeld",
+      "given": "Max"
+     },
+     {
+      "family": "Munk",
+      "given": "Axel"
+     }
+    ],
+    "year": "2019",
+    "venue": "The Annals of Applied Probability",
+    "volume": "29",
+    "issue": "5",
+    "page": "2744-2781"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2728220581",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "tameling2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Tameling",
+      "initials": "C"
+     },
+     {
+      "surname": "Sommerfeld",
+      "initials": "M"
+     },
+     {
+      "surname": "Munk",
+      "initials": "A"
+     }
+    ],
+    "et_al": false,
+    "title": "Empirical optimal transport on countable metric spaces: distributional limits and statistical applications",
+    "venue": "The Annals of Applied Probability",
+    "volume": "29",
+    "pages": "2744--2781",
+    "doi": "10.1214/19-AAP1463",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "vanbreugel2023",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://proceedings.mlr.press/v206/breugel23a.html",
+    "title": "Membership Inference Attacks against Synthetic Data through Overfitting Detection",
+    "authors": [
+     {
+      "family": "Breugel",
+      "given": "Boris van"
+     },
+     {
+      "family": "Sun",
+      "given": "Hao"
+     },
+     {
+      "family": "Qian",
+      "given": "Zhaozhi"
+     },
+     {
+      "family": "Schaar",
+      "given": "Mihaela van der"
+     }
+    ],
+    "year": "2023",
+    "venue": "International Conference on Artificial Intelligence and Statistics"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4322617773",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2023,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "vanbreugel2023",
+    "type": "inproceedings",
+    "year": "2023",
+    "authors": [
+     {
+      "surname": "van Breugel",
+      "initials": "B"
+     },
+     {
+      "surname": "Sun",
+      "initials": "H"
+     },
+     {
+      "surname": "Qian",
+      "initials": "Z"
+     },
+     {
+      "surname": "van der Schaar",
+      "initials": "M"
+     }
+    ],
+    "et_al": false,
+    "title": "Membership inference attacks against synthetic data through overfitting detection",
+    "venue": "Proceedings of the 26th International Conference on Artificial Intelligence and Statistics",
+    "volume": "206",
+    "pages": "3493--3514",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "vanschoren2014",
+   "verdict": "manual",
+   "reason": "SIGKDD Explorations 15(2):49-60, 2014; Crossref DOI 10.1145/2641190.2641198 carries the title 'OpenML' without the subtitle 'networked science in machine learning'",
+   "entry": {
+    "key": "vanschoren2014",
+    "type": "article",
+    "year": "2014",
+    "authors": [
+     {
+      "surname": "Vanschoren",
+      "initials": "J"
+     },
+     {
+      "surname": "van Rijn",
+      "initials": "JN"
+     },
+     {
+      "surname": "Bischl",
+      "initials": "B"
+     },
+     {
+      "surname": "Torgo",
+      "initials": "L"
+     }
+    ],
+    "et_al": false,
+    "title": "OpenML: networked science in machine learning",
+    "venue": "ACM SIGKDD Explorations Newsletter",
+    "volume": "15",
+    "pages": "49--60",
+    "doi": "10.1145/2641190.2641198",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "villani2009",
+   "verdict": "manual",
+   "reason": "book (Springer, Grundlehren 338); Crossref DOI 10.1007/978-3-540-71050-9 carries the title 'Optimal Transport' without the subtitle 'Old and New'",
+   "entry": {
+    "key": "villani2009",
+    "type": "book",
+    "year": "2009",
+    "authors": [
+     {
+      "surname": "Villani",
+      "initials": "C"
+     }
+    ],
+    "et_al": false,
+    "title": "Optimal Transport: Old and New",
+    "venue": "Springer",
+    "volume": "338",
+    "pages": "",
+    "doi": "10.1007/978-3-540-71050-9",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "virmaux2018",
+   "verdict": "verified",
+   "record": {
+    "source": "publisher-page",
+    "id": "https://papers.nips.cc/paper/7640-lipschitz-regularity-of-deep-neural-networks-analysis-and-efficient-estimation",
+    "title": "Lipschitz regularity of deep neural networks: analysis and efficient estimation",
+    "authors": [
+     {
+      "family": "Virmaux",
+      "given": "Aladin"
+     },
+     {
+      "family": "Scaman",
+      "given": "Kevin"
+     }
+    ],
+    "year": "2018",
+    "venue": "Advances in Neural Information Processing Systems"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2804900738",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2018,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "virmaux2018",
+    "type": "inproceedings",
+    "year": "2018",
+    "authors": [
+     {
+      "surname": "Virmaux",
+      "initials": "A"
+     },
+     {
+      "surname": "Scaman",
+      "initials": "K"
+     }
+    ],
+    "et_al": false,
+    "title": "Lipschitz regularity of deep neural networks: analysis and efficient estimation",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "31",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "virtanen2020",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1038/s41592-019-0686-2",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "authors": [
+     {
+      "family": "Virtanen",
+      "given": "Pauli"
+     },
+     {
+      "family": "Gommers",
+      "given": "Ralf"
+     },
+     {
+      "family": "Oliphant",
+      "given": "Travis E."
+     },
+     {
+      "family": "Haberland",
+      "given": "Matt"
+     },
+     {
+      "family": "Reddy",
+      "given": "Tyler"
+     },
+     {
+      "family": "Cournapeau",
+      "given": "David"
+     },
+     {
+      "family": "Burovski",
+      "given": "Evgeni"
+     },
+     {
+      "family": "Peterson",
+      "given": "Pearu"
+     },
+     {
+      "family": "Weckesser",
+      "given": "Warren"
+     },
+     {
+      "family": "Bright",
+      "given": "Jonathan"
+     },
+     {
+      "family": "van der Walt",
+      "given": "St\u00e9fan J."
+     },
+     {
+      "family": "Brett",
+      "given": "Matthew"
+     },
+     {
+      "family": "Wilson",
+      "given": "Joshua"
+     },
+     {
+      "family": "Millman",
+      "given": "K. Jarrod"
+     },
+     {
+      "family": "Mayorov",
+      "given": "Nikolay"
+     },
+     {
+      "family": "Nelson",
+      "given": "Andrew R. J."
+     },
+     {
+      "family": "Jones",
+      "given": "Eric"
+     },
+     {
+      "family": "Kern",
+      "given": "Robert"
+     },
+     {
+      "family": "Larson",
+      "given": "Eric"
+     },
+     {
+      "family": "Carey",
+      "given": "C J"
+     },
+     {
+      "family": "Polat",
+      "given": "\u0130lhan"
+     },
+     {
+      "family": "Feng",
+      "given": "Yu"
+     },
+     {
+      "family": "Moore",
+      "given": "Eric W."
+     },
+     {
+      "family": "VanderPlas",
+      "given": "Jake"
+     },
+     {
+      "family": "Laxalde",
+      "given": "Denis"
+     },
+     {
+      "family": "Perktold",
+      "given": "Josef"
+     },
+     {
+      "family": "Cimrman",
+      "given": "Robert"
+     },
+     {
+      "family": "Henriksen",
+      "given": "Ian"
+     },
+     {
+      "family": "Quintero",
+      "given": "E. A."
+     },
+     {
+      "family": "Harris",
+      "given": "Charles R."
+     },
+     {
+      "family": "Archibald",
+      "given": "Anne M."
+     },
+     {
+      "family": "Ribeiro",
+      "given": "Ant\u00f4nio H."
+     },
+     {
+      "family": "Pedregosa",
+      "given": "Fabian"
+     },
+     {
+      "family": "van Mulbregt",
+      "given": "Paul"
+     },
+     {
+      "family": "SciPy 1.0 Contributors",
+      "given": ""
+     },
+     {
+      "family": "Vijaykumar",
+      "given": "Aditya"
+     },
+     {
+      "family": "Bardelli",
+      "given": "Alessandro Pietro"
+     },
+     {
+      "family": "Rothberg",
+      "given": "Alex"
+     },
+     {
+      "family": "Hilboll",
+      "given": "Andreas"
+     },
+     {
+      "family": "Kloeckner",
+      "given": "Andreas"
+     },
+     {
+      "family": "Scopatz",
+      "given": "Anthony"
+     },
+     {
+      "family": "Lee",
+      "given": "Antony"
+     },
+     {
+      "family": "Rokem",
+      "given": "Ariel"
+     },
+     {
+      "family": "Woods",
+      "given": "C. Nathan"
+     },
+     {
+      "family": "Fulton",
+      "given": "Chad"
+     },
+     {
+      "family": "Masson",
+      "given": "Charles"
+     },
+     {
+      "family": "H\u00e4ggstr\u00f6m",
+      "given": "Christian"
+     },
+     {
+      "family": "Fitzgerald",
+      "given": "Clark"
+     },
+     {
+      "family": "Nicholson",
+      "given": "David A."
+     },
+     {
+      "family": "Hagen",
+      "given": "David R."
+     },
+     {
+      "family": "Pasechnik",
+      "given": "Dmitrii V."
+     },
+     {
+      "family": "Olivetti",
+      "given": "Emanuele"
+     },
+     {
+      "family": "Martin",
+      "given": "Eric"
+     },
+     {
+      "family": "Wieser",
+      "given": "Eric"
+     },
+     {
+      "family": "Silva",
+      "given": "Fabrice"
+     },
+     {
+      "family": "Lenders",
+      "given": "Felix"
+     },
+     {
+      "family": "Wilhelm",
+      "given": "Florian"
+     },
+     {
+      "family": "Young",
+      "given": "G."
+     },
+     {
+      "family": "Price",
+      "given": "Gavin A."
+     },
+     {
+      "family": "Ingold",
+      "given": "Gert-Ludwig"
+     },
+     {
+      "family": "Allen",
+      "given": "Gregory E."
+     },
+     {
+      "family": "Lee",
+      "given": "Gregory R."
+     },
+     {
+      "family": "Audren",
+      "given": "Herv\u00e9"
+     },
+     {
+      "family": "Probst",
+      "given": "Irvin"
+     },
+     {
+      "family": "Dietrich",
+      "given": "J\u00f6rg P."
+     },
+     {
+      "family": "Silterra",
+      "given": "Jacob"
+     },
+     {
+      "family": "Webber",
+      "given": "James T"
+     },
+     {
+      "family": "Slavi\u010d",
+      "given": "Janko"
+     },
+     {
+      "family": "Nothman",
+      "given": "Joel"
+     },
+     {
+      "family": "Buchner",
+      "given": "Johannes"
+     },
+     {
+      "family": "Kulick",
+      "given": "Johannes"
+     },
+     {
+      "family": "Sch\u00f6nberger",
+      "given": "Johannes L."
+     },
+     {
+      "family": "de Miranda Cardoso",
+      "given": "Jos\u00e9 Vin\u00edcius"
+     },
+     {
+      "family": "Reimer",
+      "given": "Joscha"
+     },
+     {
+      "family": "Harrington",
+      "given": "Joseph"
+     },
+     {
+      "family": "Rodr\u00edguez",
+      "given": "Juan Luis Cano"
+     },
+     {
+      "family": "Nunez-Iglesias",
+      "given": "Juan"
+     },
+     {
+      "family": "Kuczynski",
+      "given": "Justin"
+     },
+     {
+      "family": "Tritz",
+      "given": "Kevin"
+     },
+     {
+      "family": "Thoma",
+      "given": "Martin"
+     },
+     {
+      "family": "Newville",
+      "given": "Matthew"
+     },
+     {
+      "family": "K\u00fcmmerer",
+      "given": "Matthias"
+     },
+     {
+      "family": "Bolingbroke",
+      "given": "Maximilian"
+     },
+     {
+      "family": "Tartre",
+      "given": "Michael"
+     },
+     {
+      "family": "Pak",
+      "given": "Mikhail"
+     },
+     {
+      "family": "Smith",
+      "given": "Nathaniel J."
+     },
+     {
+      "family": "Nowaczyk",
+      "given": "Nikolai"
+     },
+     {
+      "family": "Shebanov",
+      "given": "Nikolay"
+     },
+     {
+      "family": "Pavlyk",
+      "given": "Oleksandr"
+     },
+     {
+      "family": "Brodtkorb",
+      "given": "Per A."
+     },
+     {
+      "family": "Lee",
+      "given": "Perry"
+     },
+     {
+      "family": "McGibbon",
+      "given": "Robert T."
+     },
+     {
+      "family": "Feldbauer",
+      "given": "Roman"
+     },
+     {
+      "family": "Lewis",
+      "given": "Sam"
+     },
+     {
+      "family": "Tygier",
+      "given": "Sam"
+     },
+     {
+      "family": "Sievert",
+      "given": "Scott"
+     },
+     {
+      "family": "Vigna",
+      "given": "Sebastiano"
+     },
+     {
+      "family": "Peterson",
+      "given": "Stefan"
+     },
+     {
+      "family": "More",
+      "given": "Surhud"
+     },
+     {
+      "family": "Pudlik",
+      "given": "Tadeusz"
+     },
+     {
+      "family": "Oshima",
+      "given": "Takuya"
+     },
+     {
+      "family": "Pingel",
+      "given": "Thomas J."
+     },
+     {
+      "family": "Robitaille",
+      "given": "Thomas P."
+     },
+     {
+      "family": "Spura",
+      "given": "Thomas"
+     },
+     {
+      "family": "Jones",
+      "given": "Thouis R."
+     },
+     {
+      "family": "Cera",
+      "given": "Tim"
+     },
+     {
+      "family": "Leslie",
+      "given": "Tim"
+     },
+     {
+      "family": "Zito",
+      "given": "Tiziano"
+     },
+     {
+      "family": "Krauss",
+      "given": "Tom"
+     },
+     {
+      "family": "Upadhyay",
+      "given": "Utkarsh"
+     },
+     {
+      "family": "Halchenko",
+      "given": "Yaroslav O."
+     },
+     {
+      "family": "V\u00e1zquez-Baeza",
+      "given": "Yoshiki"
+     }
+    ],
+    "year": "2020",
+    "venue": "Nature Methods",
+    "volume": "17",
+    "issue": "3",
+    "page": "261-272"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W3003257820",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2020,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "virtanen2020",
+    "type": "article",
+    "year": "2020",
+    "authors": [
+     {
+      "surname": "Virtanen",
+      "initials": "P"
+     },
+     {
+      "surname": "Gommers",
+      "initials": "R"
+     },
+     {
+      "surname": "Oliphant",
+      "initials": "TE"
+     },
+     {
+      "surname": "Haberland",
+      "initials": "M"
+     },
+     {
+      "surname": "Reddy",
+      "initials": "T"
+     },
+     {
+      "surname": "Cournapeau",
+      "initials": "D"
+     },
+     {
+      "surname": "Burovski",
+      "initials": "E"
+     },
+     {
+      "surname": "Peterson",
+      "initials": "P"
+     },
+     {
+      "surname": "Weckesser",
+      "initials": "W"
+     },
+     {
+      "surname": "Bright",
+      "initials": "J"
+     }
+    ],
+    "et_al": true,
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "venue": "Nature Methods",
+    "volume": "17",
+    "pages": "261--272",
+    "doi": "10.1038/s41592-019-0686-2",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "vonneumann1953",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.1515/9781400881970-002",
+    "title": "A Certain Zero-sum Two-person Game Equivalent to the Optimal Assignment Problem",
+    "authors": [
+     {
+      "family": "Neumann",
+      "given": "John von"
+     }
+    ],
+    "year": "1953",
+    "venue": "Contributions to the Theory of Games (AM-28), Volume II",
+    "volume": "",
+    "issue": "",
+    "page": "5-12"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2493312408",
+    "title_similarity": 0.993,
+    "first_author_ok": true,
+    "year": 1953,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "vonneumann1953",
+    "type": "incollection",
+    "year": "1953",
+    "authors": [
+     {
+      "surname": "von Neumann",
+      "initials": "J"
+     }
+    ],
+    "et_al": false,
+    "title": "A certain zero-sum two-person game equivalent to the optimal assignment problem",
+    "venue": "Contributions to the Theory of Games II",
+    "volume": "",
+    "pages": "5--12",
+    "doi": "10.1515/9781400881970-002",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "weedbach2019",
+   "verdict": "verified",
+   "record": {
+    "source": "Crossref-DOI",
+    "id": "10.3150/18-bej1065",
+    "title": "Sharp asymptotic and finite-sample rates of convergence of empirical measures in Wasserstein distance",
+    "authors": [
+     {
+      "family": "Weed",
+      "given": "Jonathan"
+     },
+     {
+      "family": "Bach",
+      "given": "Francis"
+     }
+    ],
+    "year": "2019",
+    "venue": "Bernoulli",
+    "volume": "25",
+    "issue": "4A",
+    "page": "2620-2648"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2727413762",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "weedbach2019",
+    "type": "article",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Weed",
+      "initials": "J"
+     },
+     {
+      "surname": "Bach",
+      "initials": "F"
+     }
+    ],
+    "et_al": false,
+    "title": "Sharp asymptotic and finite-sample rates of convergence of empirical measures in Wasserstein distance",
+    "venue": "Bernoulli",
+    "volume": "25",
+    "pages": "2620--2648",
+    "doi": "10.3150/18-BEJ1065",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "westlake1981",
+   "verdict": "manual",
+   "reason": "Biometrics 37(3):589-594, 1981; Crossref indexes the exchange under DOI 10.2307/2530573 with Kirkwood and Westlake as joint authors and the title 'Bioequivalence Testing -- A Need to Rethink'; the cited form is Westlake's response",
+   "entry": {
+    "key": "westlake1981",
+    "type": "article",
+    "year": "1981",
+    "authors": [
+     {
+      "surname": "Westlake",
+      "initials": "WJ"
+     }
+    ],
+    "et_al": false,
+    "title": "Response to T. B. L. Kirkwood: bioequivalence testing-a need to rethink",
+    "venue": "Biometrics",
+    "volume": "37",
+    "pages": "589--594",
+    "doi": "10.2307/2530573",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "xu2019",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "1907.00503",
+    "title": "Modeling Tabular data using Conditional GAN",
+    "authors": [
+     {
+      "family": "Xu",
+      "given": "Lei"
+     },
+     {
+      "family": "Skoularidou",
+      "given": "Maria"
+     },
+     {
+      "family": "Cuesta-Infante",
+      "given": "Alfredo"
+     },
+     {
+      "family": "Veeramachaneni",
+      "given": "Kalyan"
+     }
+    ],
+    "year": "2019",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W2954395498",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2019,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "xu2019",
+    "type": "inproceedings",
+    "year": "2019",
+    "authors": [
+     {
+      "surname": "Xu",
+      "initials": "L"
+     },
+     {
+      "surname": "Skoularidou",
+      "initials": "M"
+     },
+     {
+      "surname": "Cuesta-Infante",
+      "initials": "A"
+     },
+     {
+      "surname": "Veeramachaneni",
+      "initials": "K"
+     }
+    ],
+    "et_al": false,
+    "title": "Modeling tabular data using conditional GAN",
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "32",
+    "pages": "",
+    "doi": "",
+    "arxiv": null
+   }
+  },
+  {
+   "key": "yang2024",
+   "verdict": "verified",
+   "record": {
+    "source": "arXiv",
+    "id": "2403.10424",
+    "title": "Structured Evaluation of Synthetic Tabular Data",
+    "authors": [
+     {
+      "family": "Yang",
+      "given": "Scott Cheng-Hsin"
+     },
+     {
+      "family": "Eaves",
+      "given": "Baxter"
+     },
+     {
+      "family": "Schmidt",
+      "given": "Michael"
+     },
+     {
+      "family": "Swanson",
+      "given": "Ken"
+     },
+     {
+      "family": "Shafto",
+      "given": "Patrick"
+     }
+    ],
+    "year": "2024",
+    "venue": "arXiv"
+   },
+   "comparison": {
+    "surnames_ok": true,
+    "initials_ok": true,
+    "numbers_ok": true,
+    "numbers_note": "",
+    "initial_mismatches": [],
+    "title_similarity": 1.0,
+    "title_ok": true,
+    "year_ok": true,
+    "year_note": "",
+    "verdict": "verified"
+   },
+   "consensus": {
+    "source": "OpenAlex",
+    "id": "https://openalex.org/W4392933229",
+    "title_similarity": 1.0,
+    "first_author_ok": true,
+    "year": 2024,
+    "year_ok": true,
+    "agrees": true
+   },
+   "entry": {
+    "key": "yang2024",
+    "type": "misc",
+    "year": "2024",
+    "authors": [
+     {
+      "surname": "Yang",
+      "initials": "SCH"
+     },
+     {
+      "surname": "Eaves",
+      "initials": "B"
+     },
+     {
+      "surname": "Schmidt",
+      "initials": "M"
+     },
+     {
+      "surname": "Swanson",
+      "initials": "K"
+     },
+     {
+      "surname": "Shafto",
+      "initials": "P"
+     }
+    ],
+    "et_al": false,
+    "title": "Structured evaluation of synthetic tabular data",
+    "venue": "arXiv:2403.10424",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "arxiv": "2403.10424"
+   }
+  }
+ ]
+}

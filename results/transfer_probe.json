@@ -1,0 +1,552 @@
+{
+ "_definition": "floor ratio on heavy-tailed, lattice and mixed-type laws; residual = r / floor_ratio_measured(d_hat, N) - 1",
+ "_verdict_rule": "a family transfers if every residual with d_hat in [9.0, 28.0] lies within +/-12%",
+ "config": {
+  "N_grid": [
+   256,
+   1024
+  ],
+  "n_rep": 4,
+  "n_rep_dhat": 3,
+  "seed": 20260931,
+  "band": [
+   9.0,
+   28.0
+  ]
+ },
+ "cells": [
+  {
+   "law": "student_t_nu3",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "student_t",
+    "nu": 3.0,
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 1.4276008396881135,
+    "same_law_rank_diff": 0.21614654237234948,
+    "dhat_error": "non-decreasing W2 with n: the sample is degenerate or contains duplicated rows"
+   },
+   "N": 256,
+   "d_hat": NaN,
+   "r": {
+    "r_mean": 1.0709524918484663,
+    "r_sd": 0.05221431071232495,
+    "w2_mean": 5.842235383477765,
+    "scale_mean": 5.441258185285064,
+    "n_rep": 4,
+    "values": [
+     1.034737082523618,
+     1.0316380797943512,
+     1.0735787706423157,
+     1.1438560344335804
+    ]
+   },
+   "table_r_at_dhat": NaN,
+   "residual_vs_table_at_dhat": NaN,
+   "tie_fraction": 0.0,
+   "in_band": false
+  },
+  {
+   "law": "student_t_nu3",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "student_t",
+    "nu": 3.0,
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 1.4276008396881135,
+    "same_law_rank_diff": 0.21614654237234948,
+    "dhat_error": "non-decreasing W2 with n: the sample is degenerate or contains duplicated rows"
+   },
+   "N": 1024,
+   "d_hat": 10.402015262374723,
+   "r": {
+    "r_mean": 1.005628397380351,
+    "r_sd": 0.025798412686727196,
+    "w2_mean": 5.358354767098253,
+    "scale_mean": 5.3237635131218255,
+    "n_rep": 4,
+    "values": [
+     0.9879498344295092,
+     1.0126538190651775,
+     1.039044480684378,
+     0.9828654553423392
+    ]
+   },
+   "table_r_at_dhat": 0.6978169855628237,
+   "residual_vs_table_at_dhat": 0.4411062186588397,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "student_t_nu5",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "student_t",
+    "nu": 5.0,
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 0.37042717874963044,
+    "same_law_rank_diff": 0.2060632569756745
+   },
+   "N": 256,
+   "d_hat": 33.534906800372084,
+   "r": {
+    "r_mean": 1.0122322059604827,
+    "r_sd": 0.008636843521557932,
+    "w2_mean": 3.994777615152135,
+    "scale_mean": 3.9460094952178473,
+    "n_rep": 4,
+    "values": [
+     1.024300227688864,
+     1.0043812315675236,
+     1.0120754131371066,
+     1.008171951448437
+    ]
+   },
+   "table_r_at_dhat": 1.1722877087091608,
+   "residual_vs_table_at_dhat": -0.13653261188323784,
+   "tie_fraction": 0.0,
+   "in_band": false
+  },
+  {
+   "law": "student_t_nu5",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "student_t",
+    "nu": 5.0,
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 0.37042717874963044,
+    "same_law_rank_diff": 0.2060632569756745
+   },
+   "N": 1024,
+   "d_hat": 16.91456242348251,
+   "r": {
+    "r_mean": 0.9485951959440461,
+    "r_sd": 0.0020901935882371657,
+    "w2_mean": 3.8452857140965913,
+    "scale_mean": 4.053619580669507,
+    "n_rep": 4,
+    "values": [
+     0.9456544221453114,
+     0.9486769681843729,
+     0.9504518650266279,
+     0.949597528419872
+    ]
+   },
+   "table_r_at_dhat": 0.8925963354565286,
+   "residual_vs_table_at_dhat": 0.06273704950724035,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "laplace_rot",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "laplace",
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 0.21602479268006175,
+    "same_law_rank_diff": 0.20580449574481036
+   },
+   "N": 256,
+   "d_hat": 15.442067910397858,
+   "r": {
+    "r_mean": 0.9705929769046057,
+    "r_sd": 0.010180274247126997,
+    "w2_mean": 3.0540892147863867,
+    "scale_mean": 3.14685618620571,
+    "n_rep": 4,
+    "values": [
+     0.9836603516206884,
+     0.9725612185376591,
+     0.9664846272386828,
+     0.9596657102213926
+    ]
+   },
+   "table_r_at_dhat": 0.9630551053681982,
+   "residual_vs_table_at_dhat": 0.00782704073151197,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "laplace_rot",
+   "meta": {
+    "family": "heavy_tailed",
+    "kind": "laplace",
+    "D": 64,
+    "decay": 0.9,
+    "same_law_cov_diff": 0.21602479268006175,
+    "same_law_rank_diff": 0.20580449574481036
+   },
+   "N": 1024,
+   "d_hat": 17.084206320891408,
+   "r": {
+    "r_mean": 0.8949129053338797,
+    "r_sd": 0.003475246880918879,
+    "w2_mean": 2.841109545177823,
+    "scale_mean": 3.174768596930135,
+    "n_rep": 4,
+    "values": [
+     0.8968694245606164,
+     0.8984663450415928,
+     0.8936740554256642,
+     0.8906417963076453
+    ]
+   },
+   "table_r_at_dhat": 0.8962170059305659,
+   "residual_vs_table_at_dhat": -0.0014551169951657617,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_lattice_h0.5",
+   "meta": {
+    "family": "lattice",
+    "k": 20,
+    "h": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.1790642912471349,
+    "same_law_rank_diff": 0.17806062419654992
+   },
+   "N": 256,
+   "d_hat": 18.109911075717452,
+   "r": {
+    "r_mean": 0.9296311876285384,
+    "r_sd": 0.0034740603869101924,
+    "w2_mean": 7.82593896381864,
+    "scale_mean": 8.418346299905394,
+    "n_rep": 4,
+    "values": [
+     0.9340486251142972,
+     0.9292176601364454,
+     0.929691619618876,
+     0.9255668456445346
+    ]
+   },
+   "table_r_at_dhat": 1.018304056138266,
+   "residual_vs_table_at_dhat": -0.08707897015161015,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_lattice_h0.5",
+   "meta": {
+    "family": "lattice",
+    "k": 20,
+    "h": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.1790642912471349,
+    "same_law_rank_diff": 0.17806062419654992
+   },
+   "N": 1024,
+   "d_hat": 15.075053683397648,
+   "r": {
+    "r_mean": 0.8571665004091161,
+    "r_sd": 0.0014910080402471828,
+    "w2_mean": 7.176269871645305,
+    "scale_mean": 8.372063187347846,
+    "n_rep": 4,
+    "values": [
+     0.8554363719340948,
+     0.858431845415315,
+     0.8564072116085244,
+     0.8583905726785305
+    ]
+   },
+   "table_r_at_dhat": 0.8518675771737954,
+   "residual_vs_table_at_dhat": 0.006220360273483827,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_lattice_h1.0",
+   "meta": {
+    "family": "lattice",
+    "k": 20,
+    "h": 1.0,
+    "D": 64,
+    "same_law_cov_diff": 0.19055254626398904,
+    "same_law_rank_diff": 0.1896263620291468
+   },
+   "N": 256,
+   "d_hat": 15.19918800518155,
+   "r": {
+    "r_mean": 0.9507194879505882,
+    "r_sd": 0.0036947402651425734,
+    "w2_mean": 8.167303994761411,
+    "scale_mean": 8.59090305535555,
+    "n_rep": 4,
+    "values": [
+     0.9505941694959327,
+     0.9480969017355896,
+     0.948202157484483,
+     0.9559847230863479
+    ]
+   },
+   "table_r_at_dhat": 0.9577256321520347,
+   "residual_vs_table_at_dhat": -0.007315398028664433,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_lattice_h1.0",
+   "meta": {
+    "family": "lattice",
+    "k": 20,
+    "h": 1.0,
+    "D": 64,
+    "same_law_cov_diff": 0.19055254626398904,
+    "same_law_rank_diff": 0.1896263620291468
+   },
+   "N": 1024,
+   "d_hat": 16.42933235729605,
+   "r": {
+    "r_mean": 0.8839404428322184,
+    "r_sd": 0.0016634844280570802,
+    "w2_mean": 7.588405551256378,
+    "scale_mean": 8.584763035906281,
+    "n_rep": 4,
+    "values": [
+     0.8840119153393688,
+     0.881691660670389,
+     0.8856882915348122,
+     0.8843699037843032
+    ]
+   },
+   "table_r_at_dhat": 0.8821194615340293,
+   "residual_vs_table_at_dhat": 0.0020643250462044627,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k28_lattice_h0.5",
+   "meta": {
+    "family": "lattice",
+    "k": 28,
+    "h": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.21908962244096591,
+    "same_law_rank_diff": 0.21657202014471597
+   },
+   "N": 256,
+   "d_hat": 18.05232788265521,
+   "r": {
+    "r_mean": 0.982506963592906,
+    "r_sd": 0.004796832209777117,
+    "w2_mean": 8.075743732816875,
+    "scale_mean": 8.21962114144399,
+    "n_rep": 4,
+    "values": [
+     0.9798923733855132,
+     0.9874248199735189,
+     0.9771508753167983,
+     0.9855597856957934
+    ]
+   },
+   "table_r_at_dhat": 1.0171695164051024,
+   "residual_vs_table_at_dhat": -0.03407745931543582,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k28_lattice_h0.5",
+   "meta": {
+    "family": "lattice",
+    "k": 28,
+    "h": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.21908962244096591,
+    "same_law_rank_diff": 0.21657202014471597
+   },
+   "N": 1024,
+   "d_hat": 17.81643014142084,
+   "r": {
+    "r_mean": 0.9150831040282768,
+    "r_sd": 0.0006830333517385489,
+    "w2_mean": 7.554172455886542,
+    "scale_mean": 8.255151625410706,
+    "n_rep": 4,
+    "values": [
+     0.9148336569249226,
+     0.9148381397001414,
+     0.9160902936147508,
+     0.9145703258732923
+    ]
+   },
+   "table_r_at_dhat": 0.9116044039927323,
+   "residual_vs_table_at_dhat": 0.0038160193394285447,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k28_lattice_h1.0",
+   "meta": {
+    "family": "lattice",
+    "k": 28,
+    "h": 1.0,
+    "D": 64,
+    "same_law_cov_diff": 0.23106293738207978,
+    "same_law_rank_diff": 0.22889082279010967
+   },
+   "N": 256,
+   "d_hat": 17.621270724377187,
+   "r": {
+    "r_mean": 1.0025752390858327,
+    "r_sd": 0.0016207702197384881,
+    "w2_mean": 8.472008656592289,
+    "scale_mean": 8.45018369242318,
+    "n_rep": 4,
+    "values": [
+     1.002445932593763,
+     1.0006275038788786,
+     1.0045918306384463,
+     1.0026356892322426
+    ]
+   },
+   "table_r_at_dhat": 1.0086009098254487,
+   "residual_vs_table_at_dhat": -0.0059742864406684415,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k28_lattice_h1.0",
+   "meta": {
+    "family": "lattice",
+    "k": 28,
+    "h": 1.0,
+    "D": 64,
+    "same_law_cov_diff": 0.23106293738207978,
+    "same_law_rank_diff": 0.22889082279010967
+   },
+   "N": 1024,
+   "d_hat": 17.843996614417375,
+   "r": {
+    "r_mean": 0.9359247105744444,
+    "r_sd": 0.0007944013932958087,
+    "w2_mean": 7.965273110043691,
+    "scale_mean": 8.510582489734752,
+    "n_rep": 4,
+    "values": [
+     0.935196904398574,
+     0.9368503805949951,
+     0.9353322815123387,
+     0.9363192757918698
+    ]
+   },
+   "table_r_at_dhat": 0.9121762949994175,
+   "residual_vs_table_at_dhat": 0.02603489665892056,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_mixed_h1.0",
+   "meta": {
+    "family": "mixed_type",
+    "k": 20,
+    "h": 1.0,
+    "frac_quantised": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.18161604069746565,
+    "same_law_rank_diff": 0.1805398174614766
+   },
+   "N": 256,
+   "d_hat": 16.427659142358003,
+   "r": {
+    "r_mean": 0.9415551359704863,
+    "r_sd": 0.0068624652991985235,
+    "w2_mean": 7.943094073073313,
+    "scale_mean": 8.436178643856088,
+    "n_rep": 4,
+    "values": [
+     0.9505917799804767,
+     0.9359398999079502,
+     0.9365101057698163,
+     0.9431787582237022
+    ]
+   },
+   "table_r_at_dhat": 0.9841395850189453,
+   "residual_vs_table_at_dhat": -0.0432707409565678,
+   "tie_fraction": 0.0,
+   "in_band": true
+  },
+  {
+   "law": "factor_k20_mixed_h1.0",
+   "meta": {
+    "family": "mixed_type",
+    "k": 20,
+    "h": 1.0,
+    "frac_quantised": 0.5,
+    "D": 64,
+    "same_law_cov_diff": 0.18161604069746565,
+    "same_law_rank_diff": 0.1805398174614766
+   },
+   "N": 1024,
+   "d_hat": 17.967372622932118,
+   "r": {
+    "r_mean": 0.8693370150341408,
+    "r_sd": 0.002049456279651816,
+    "w2_mean": 7.28832137209967,
+    "scale_mean": 8.383764455262178,
+    "n_rep": 4,
+    "values": [
+     0.8700379643121683,
+     0.8718803126823085,
+     0.8672798333852751,
+     0.8681499497568116
+    ]
+   },
+   "table_r_at_dhat": 0.9147294270225265,
+   "residual_vs_table_at_dhat": -0.0496238676131141,
+   "tie_fraction": 0.0,
+   "in_band": true
+  }
+ ],
+ "families": {
+  "heavy_tailed": {
+   "cells": 6,
+   "band_cells": 4,
+   "band_median": 0.03528204511937616,
+   "band_range": [
+    -0.0014551169951657617,
+    0.4411062186588397
+   ],
+   "all_range": [
+    -0.13653261188323784,
+    0.4411062186588397
+   ],
+   "transfers": false
+  },
+  "lattice": {
+   "cells": 8,
+   "band_cells": 8,
+   "band_median": -0.0019549806972319894,
+   "band_range": [
+    -0.08707897015161015,
+    0.02603489665892056
+   ],
+   "all_range": [
+    -0.08707897015161015,
+    0.02603489665892056
+   ],
+   "transfers": true
+  },
+  "mixed_type": {
+   "cells": 2,
+   "band_cells": 2,
+   "band_median": -0.04644730428484095,
+   "band_range": [
+    -0.0496238676131141,
+    -0.0432707409565678
+   ],
+   "all_range": [
+    -0.0496238676131141,
+    -0.0432707409565678
+   ],
+   "transfers": true
+  }
+ },
+ "elapsed_s": 6.5
+}

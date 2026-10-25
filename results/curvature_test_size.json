@@ -1,0 +1,72 @@
+{
+  "_definition": "rejection rate at nominal 0.05 of the curvature test of certgen.fit_floor_law on laws with a single exponent, and the mean signed log drift of their profiles",
+  "N": 1024,
+  "n_rep": 12,
+  "trials_per_cell": {
+    "2": 200,
+    "3": 200,
+    "4": 200,
+    "6": 175,
+    "8": 175
+  },
+  "cells": [
+    {
+      "nominal_d": 2,
+      "d_eff_median": 2.689991438862024,
+      "trials": 200,
+      "size": 0.105,
+      "se": 0.021676600286945368,
+      "median_p": 0.3865336658354115,
+      "mean_log_drift": 0.12037669263539989,
+      "drift_t": 8.773609006880768,
+      "drift_p": 7.815532326482343e-16
+    },
+    {
+      "nominal_d": 3,
+      "d_eff_median": 3.4285591241094826,
+      "trials": 200,
+      "size": 0.12,
+      "se": 0.022978250586152115,
+      "median_p": 0.4600997506234414,
+      "mean_log_drift": 0.08091028067476363,
+      "drift_t": 9.15541629193951,
+      "drift_p": 6.628739712804341e-17
+    },
+    {
+      "nominal_d": 4,
+      "d_eff_median": 4.26851631182708,
+      "trials": 200,
+      "size": 0.025,
+      "se": 0.011039701082909808,
+      "median_p": 0.49501246882793015,
+      "mean_log_drift": 0.046835956089465364,
+      "drift_t": 5.935103537232609,
+      "drift_p": 1.2858496593844403e-08
+    },
+    {
+      "nominal_d": 6,
+      "d_eff_median": 5.916017742635326,
+      "trials": 175,
+      "size": 0.04,
+      "se": 0.014813121596360822,
+      "median_p": 0.543640897755611,
+      "mean_log_drift": -0.007154596366984868,
+      "drift_t": -0.8959518633285514,
+      "drift_p": 0.37151629721790447
+    },
+    {
+      "nominal_d": 8,
+      "d_eff_median": 7.4417549922423065,
+      "trials": 175,
+      "size": 0.022857142857142857,
+      "se": 0.011297204174371392,
+      "median_p": 0.4837905236907731,
+      "mean_log_drift": -0.03730195591962253,
+      "drift_t": -4.442318714768058,
+      "drift_p": 1.5787526378787668e-05
+    }
+  ],
+  "size_min": 0.022857142857142857,
+  "size_max": 0.12,
+  "elapsed_s": 317.4
+}

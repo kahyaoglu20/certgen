@@ -1,0 +1,81 @@
+{
+  "_definition": "shared random numbers across the floor grid, the power of the two-standard-deviation rule, and the coverage of the exponent interval",
+  "_regime": {
+    "rows": 4000,
+    "d": 5,
+    "grid": [
+      125,
+      250,
+      500,
+      1000
+    ],
+    "n_rep": 8,
+    "panel_seeds": 30
+  },
+  "crn_vs_independent": {
+    "logfloor_median_correlation_crn": {
+      "matrix": [
+        [
+          1.0,
+          0.424,
+          0.298,
+          0.017
+        ],
+        [
+          0.424,
+          1.0,
+          0.241,
+          -0.099
+        ],
+        [
+          0.298,
+          0.241,
+          1.0,
+          0.113
+        ],
+        [
+          0.017,
+          -0.099,
+          0.113,
+          1.0
+        ]
+      ],
+      "offdiag_mean": 0.16565411667218685,
+      "offdiag_min": -0.09923431814889659,
+      "offdiag_max": 0.4236707804832987
+    },
+    "logfloor_median_correlation_independent": {
+      "offdiag_mean": -0.006974694376371371,
+      "offdiag_min": -0.2026108356659683,
+      "offdiag_max": 0.1360812124144657
+    },
+    "drift_statistic": {
+      "var_crn": 0.0044903264666081195,
+      "mean_crn": 1.0830083845641332,
+      "var_independent": 0.005553557542013547,
+      "mean_independent": 1.086507004541286,
+      "var_ratio_crn_over_independent": 0.8085495527214916
+    }
+  },
+  "power_two_sd_rule": {
+    "setting": {
+      "law": "gaussian_copula",
+      "d": 6,
+      "N": 6000,
+      "n_per_side": 500,
+      "R": 400,
+      "level": 0.8038
+    },
+    "measured_power": 0.51,
+    "analytic": 0.5,
+    "mcse": 0.025
+  },
+  "exponent_ci_quantile": {
+    "n_replicates": 8,
+    "z_quantile": 1.645,
+    "t_quantile": 1.8945786050900062,
+    "simulated_cover_z": 0.8615,
+    "simulated_cover_t": 0.90225
+  },
+  "elapsed_s": 67.4
+}

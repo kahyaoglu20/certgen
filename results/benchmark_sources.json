@@ -1,0 +1,260 @@
+{
+ "_definition": "source tables of the benchmark study and digests of the encoded matrices before standardisation and subsampling",
+ "sources": {
+  "adult": {
+   "rows": 48842,
+   "columns": 14,
+   "repository": "OpenML",
+   "data_id": 1590,
+   "name": "adult",
+   "version": 2,
+   "md5_checksum": "bb6510925e5d4b23d136715febb2cdf5",
+   "licence": "Public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/adult"
+  },
+  "covertype": {
+   "rows": 581012,
+   "columns": 54,
+   "repository": "UCI Machine Learning Repository, through sklearn.datasets.fetch_covtype"
+  },
+  "census-income": {
+   "rows": 299285,
+   "columns": 42,
+   "repository": "OpenML",
+   "data_id": 4535,
+   "name": "Census-Income",
+   "version": 1,
+   "md5_checksum": "0805d7b00e6ef0a54a87cc469b58d2c4",
+   "licence": "Public",
+   "original_data_url": null
+  },
+  "bank-marketing": {
+   "rows": 45211,
+   "columns": 16,
+   "repository": "OpenML",
+   "data_id": 1461,
+   "name": "bank-marketing",
+   "version": 1,
+   "md5_checksum": "b29d2eb78e508569fd41172c97bda00e",
+   "licence": "Public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/bank+marketing"
+  },
+  "higgs": {
+   "rows": 98050,
+   "columns": 28,
+   "repository": "OpenML",
+   "data_id": 23512,
+   "name": "higgs",
+   "version": 2,
+   "md5_checksum": "1a216f3bb3f6a961b4023179fca78452",
+   "licence": "Public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/HIGGS"
+  },
+  "MagicTelescope": {
+   "rows": 19020,
+   "columns": 10,
+   "repository": "OpenML",
+   "data_id": 1120,
+   "name": "MagicTelescope",
+   "version": 1,
+   "md5_checksum": "f6dee76810bd7211716fee7b2b0317cb",
+   "licence": "Public",
+   "original_data_url": null
+  },
+  "pendigits": {
+   "rows": 10992,
+   "columns": 16,
+   "repository": "OpenML",
+   "data_id": 32,
+   "name": "pendigits",
+   "version": 1,
+   "md5_checksum": "6e472ab352f3f62cc4087dc78eda8d3d",
+   "licence": "Public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits"
+  },
+  "letter": {
+   "rows": 20000,
+   "columns": 16,
+   "repository": "OpenML",
+   "data_id": 6,
+   "name": "letter",
+   "version": 1,
+   "md5_checksum": "9d8a79dccd72f429b67b88387e994db8",
+   "licence": "Public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/Letter+Recognition"
+  },
+  "shuttle": {
+   "rows": 58000,
+   "columns": 9,
+   "repository": "OpenML",
+   "data_id": 40685,
+   "name": "shuttle",
+   "version": 1,
+   "md5_checksum": "898301c06eebd6e4bbb893bf65d0ae92",
+   "licence": "public",
+   "original_data_url": "https://archive.ics.uci.edu/ml/datasets/Statlog+(Shuttle)"
+  },
+  "electricity": {
+   "rows": 45312,
+   "columns": 8,
+   "repository": "OpenML",
+   "data_id": 151,
+   "name": "electricity",
+   "version": 1,
+   "md5_checksum": "8ca97867d960ae029ae3a9ac2c923d34",
+   "licence": "Public",
+   "original_data_url": "http://www.inescporto.pt/~jgama/ales/ales_5.html"
+  },
+  "eeg-eye-state": {
+   "rows": 14980,
+   "columns": 14,
+   "repository": "OpenML",
+   "data_id": 1471,
+   "name": "eeg-eye-state",
+   "version": 1,
+   "md5_checksum": "32086b7bec4daaa9cbe5f19efa63368c",
+   "licence": "Public",
+   "original_data_url": null
+  },
+  "MiniBooNE": {
+   "rows": 130064,
+   "columns": 50,
+   "repository": "OpenML",
+   "data_id": 41150,
+   "name": "MiniBooNE",
+   "version": 1,
+   "md5_checksum": "400fbfb8eaea0c1165ecedbafd517b98",
+   "licence": "CC0",
+   "original_data_url": "http://archive.ics.uci.edu/ml/datasets/MiniBooNE particle identification#"
+  }
+ },
+ "cells": [
+  {
+   "cell": "adult:E1",
+   "role": "analysed",
+   "source": "adult",
+   "encoding": "E1",
+   "rows": 48842,
+   "columns": 6,
+   "sha256": "dc99125460c65cb1d2eff5166c436567feda93597aae5d4670220c7656d79611"
+  },
+  {
+   "cell": "adult:E2",
+   "role": "analysed",
+   "source": "adult",
+   "encoding": "E2",
+   "rows": 45222,
+   "columns": 14,
+   "sha256": "ecd37c087719507b10744c6e10dafc6bb6f7ee99e1b53cfee3d9d6e6e21fc7c0"
+  },
+  {
+   "cell": "covertype:E1",
+   "role": "analysed",
+   "source": "covertype",
+   "encoding": "E1",
+   "rows": 581012,
+   "columns": 54,
+   "sha256": "d9a3cc751bf9e6d3ab6ab547d84a7f78b89b7768f183c2ed4f55d8dc27f6c55f"
+  },
+  {
+   "cell": "census-income:E1",
+   "role": "analysed",
+   "source": "census-income",
+   "encoding": "E1",
+   "rows": 299285,
+   "columns": 13,
+   "sha256": "fa52b096238a1bdcebcdcd596e72189e32bd5ba52b5bd940257ed4c83f7e0e3d"
+  },
+  {
+   "cell": "bank-marketing:E1",
+   "role": "analysed",
+   "source": "bank-marketing",
+   "encoding": "E1",
+   "rows": 45211,
+   "columns": 7,
+   "sha256": "47080a35a5692cf59b35bafed48a7e6f9f8bc285bad4c40bff026ea36df013d0"
+  },
+  {
+   "cell": "bank-marketing:E2",
+   "role": "analysed",
+   "source": "bank-marketing",
+   "encoding": "E2",
+   "rows": 45211,
+   "columns": 16,
+   "sha256": "2be13987c8833532ef358bdf86b191c876656e25f1b7845410fca1494bc81342"
+  },
+  {
+   "cell": "higgs:E1",
+   "role": "analysed",
+   "source": "higgs",
+   "encoding": "E1",
+   "rows": 98049,
+   "columns": 28,
+   "sha256": "219c41f667378d57af6c705cf24c31a9f2564f0121af972c9c00392532a21fe0"
+  },
+  {
+   "cell": "MagicTelescope:E1",
+   "role": "analysed",
+   "source": "MagicTelescope",
+   "encoding": "E1",
+   "rows": 19020,
+   "columns": 10,
+   "sha256": "a187636bde656beea2c6c1c8a509e8d3afb74f9ec454493000d391e56aa061a4"
+  },
+  {
+   "cell": "pendigits:E1",
+   "role": "analysed",
+   "source": "pendigits",
+   "encoding": "E1",
+   "rows": 10992,
+   "columns": 16,
+   "sha256": "12e5c745f43d6541ecf86968aa33119853cebd7f7a11cb89b236c38fddfd08e9"
+  },
+  {
+   "cell": "letter:E1",
+   "role": "analysed",
+   "source": "letter",
+   "encoding": "E1",
+   "rows": 20000,
+   "columns": 16,
+   "sha256": "752386e33102fa120746de18eecc77ffb53676c954c77d96a00875e1da6b358f"
+  },
+  {
+   "cell": "shuttle:E1",
+   "role": "analysed",
+   "source": "shuttle",
+   "encoding": "E1",
+   "rows": 58000,
+   "columns": 9,
+   "sha256": "79bb4b6ac5aa71fd2b84b62b61ec2ad260d80181c684f3be2cd328413444a0cd"
+  },
+  {
+   "cell": "electricity:E1",
+   "role": "excluded",
+   "source": "electricity",
+   "encoding": "E1",
+   "rows": 45312,
+   "columns": 7,
+   "sha256": "29692d582c38394a5ee20a1f3c09e0df559a4842bc0cad42f9cc2641f1e0912e"
+  },
+  {
+   "cell": "eeg-eye-state:E1",
+   "role": "excluded",
+   "source": "eeg-eye-state",
+   "encoding": "E1",
+   "rows": 14980,
+   "columns": 14,
+   "sha256": "dab8e81900a5d8a59b2abd7718a8eca12b5ecc2896b4c7af099c6489afebe5a6"
+  },
+  {
+   "cell": "MiniBooNE:E1",
+   "role": "excluded",
+   "source": "MiniBooNE",
+   "encoding": "E1",
+   "rows": 130064,
+   "columns": 50,
+   "sha256": "487e6957a8989637196d3a55efd35e64d6785b5b3e0bfe20e25746449d687926"
+  }
+ ],
+ "elapsed_s": 72.8
+}

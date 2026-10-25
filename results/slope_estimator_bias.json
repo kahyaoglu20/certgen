@@ -1,0 +1,59 @@
+{
+  "_definition": "mean and standard deviation over seeds of the slope dimension estimate on isotropic Gaussians of known nominal dimension",
+  "N": 4096,
+  "n_rep": 3,
+  "seeds": 6,
+  "cells": [
+    {
+      "nominal_d": 1,
+      "d_hat": 2.1189879927868738,
+      "sd": 0.5118029321252346,
+      "rel_bias": 1.1189879927868738,
+      "exponent": 0.4719233914510337
+    },
+    {
+      "nominal_d": 2,
+      "d_hat": 2.6317595515256467,
+      "sd": 0.4797969925522325,
+      "rel_bias": 0.31587977576282333,
+      "exponent": 0.3799739225493811
+    },
+    {
+      "nominal_d": 3,
+      "d_hat": 3.2216440891846214,
+      "sd": 0.09631076791684773,
+      "rel_bias": 0.07388136306154047,
+      "exponent": 0.3104005198330564
+    },
+    {
+      "nominal_d": 4,
+      "d_hat": 4.190867194250434,
+      "sd": 0.14321792453423282,
+      "rel_bias": 0.047716798562608576,
+      "exponent": 0.23861409909909037
+    },
+    {
+      "nominal_d": 6,
+      "d_hat": 6.06049507635666,
+      "sd": 0.20452396052027902,
+      "rel_bias": 0.010082512726109938,
+      "exponent": 0.16500302160152272
+    },
+    {
+      "nominal_d": 8,
+      "d_hat": 7.7013793406403535,
+      "sd": 0.3643320310813671,
+      "rel_bias": -0.03732758241995582,
+      "exponent": 0.1298468697318904
+    },
+    {
+      "nominal_d": 12,
+      "d_hat": 10.775425922423063,
+      "sd": 0.1939510192295463,
+      "rel_bias": -0.10204783979807808,
+      "exponent": 0.09280375617626915
+    }
+  ],
+  "saturated": true,
+  "elapsed_s": 65.8
+}

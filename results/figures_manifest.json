@@ -1,0 +1,31 @@
+{
+ "_definition": "sha256 of every artifact each manuscript figure is drawn from (tools/make_figures.py)",
+ "figures": {
+  "fig_floor_laws.pdf": {
+   "inputs": {
+    "benchmark_floor_laws.json": "1e9cd575321196c5432fb81b9c78060cffa744d474f85a823c3449d5f708fb0d"
+   }
+  },
+  "fig_curvature_test.pdf": {
+   "inputs": {
+    "curvature_test_size.json": "d8370bddbf82cf850eda05b350adc3dbdcb482cb816ca450add9deaf9e79c923",
+    "curvature_test_power.json": "209c46b80a2b2c57e6577a682a8abeff5bf6e8c8cd7265136025c2116b49c6a5"
+   }
+  },
+  "fig_reference_tables.pdf": {
+   "inputs": {
+    "reference_tables.json": "ee4596dd30dadd1013551012d6fc6203268bea84cf665b2c1ee09a9715899e58"
+   }
+  },
+  "fig_resolution_atlas.pdf": {
+   "inputs": {
+    "resolution_atlas.json": "bb74809a23e5133c2aebe764e09ac690482f055b4a2b308a92e939908f843588"
+   }
+  },
+  "fig_plan_pullback.pdf": {
+   "inputs": {
+    "plan_pullback_vae.json": "3d1f35ca28910eb299df9aaab980138de70243c9fe8be685f9ec713d8daba998"
+   }
+  }
+ }
+}

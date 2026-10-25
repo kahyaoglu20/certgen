@@ -1,0 +1,115 @@
+{
+  "_definition": "worked examples on synthetic Gaussian copulas quoted in Sections 3 to 5",
+  "floor_law": {
+    "law": {
+      "C": 3.709626087005125,
+      "d_eff": 4.497601332562352,
+      "r2": 0.9983514380696074,
+      "drift_p": 0.10723192019950124,
+      "single_exponent_ok": true,
+      "cv_median": 0.038974435621481986
+    },
+    "alpha": 0.05,
+    "power": 0.8,
+    "resolvable_effect": {
+      "500": 0.14385926072926059,
+      "5000": 0.0862178296243867
+    },
+    "target_effect": 0.043,
+    "n_required_for_target": 114241.56279806084
+  },
+  "sliced_exponent": {
+    "d_eff_sliced": 2.073382245359875,
+    "r2_sliced": 0.9985122579571275,
+    "d_eff_exact": 4.497601332562352
+  },
+  "unbiased_statistics": {
+    "energy": {
+      "125": {
+        "fraction_zero": 0.7,
+        "median": 0.0
+      },
+      "500": {
+        "fraction_zero": 0.62,
+        "median": 0.0
+      },
+      "2000": {
+        "fraction_zero": 0.66,
+        "median": 0.0
+      }
+    },
+    "mmd": {
+      "125": {
+        "fraction_zero": 0.69,
+        "median": 0.0
+      },
+      "500": {
+        "fraction_zero": 0.6,
+        "median": 0.0
+      },
+      "2000": {
+        "fraction_zero": 0.63,
+        "median": 0.0
+      }
+    },
+    "range_energy": [
+      0.62,
+      0.7
+    ],
+    "range_mmd": [
+      0.6,
+      0.69
+    ],
+    "range_all": [
+      0.6,
+      0.7
+    ]
+  },
+  "sliced_underestimate": {
+    "d": 64,
+    "n": 1000,
+    "seeds": 5,
+    "ratio_mean": 0.009004066206897306,
+    "underestimate": 0.9909959337931027
+  },
+  "skill_above_one": {
+    "4": {
+      "trials": 200,
+      "p_skill_T2_above_1": 0.515,
+      "p_V_below_minus_005": {
+        "T0_mean": 0.0,
+        "T1_marginals": 0.005,
+        "T2_gaussian": 0.285
+      }
+    },
+    "8": {
+      "trials": 200,
+      "p_skill_T2_above_1": 0.42,
+      "p_V_below_minus_005": {
+        "T0_mean": 0.0,
+        "T1_marginals": 0.0,
+        "T2_gaussian": 0.235
+      }
+    },
+    "p_V_below_minus_005_range": [
+      0.0,
+      0.285
+    ]
+  },
+  "shift_spread": {
+    "d": 6,
+    "N": 2400,
+    "n_per_side": 600,
+    "trials": 200,
+    "floor_median": 0.8773944559477718,
+    "margin": 0.21934861398694294,
+    "shift_norm": 0.591534372582952,
+    "mean_D_fresh": 0.8790842817156411,
+    "mean_D_shifted": 1.1022637194332918,
+    "sd_D_fresh": 0.02357279108293808,
+    "sd_D_shifted": 0.06782152455992253,
+    "sd_ratio": 2.877110492402046,
+    "variance_ratio": 8.277764785489945
+  },
+  "elapsed_s": 288.1
+}

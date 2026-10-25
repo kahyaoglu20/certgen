@@ -1,0 +1,9 @@
+{
+  "status": "clean",
+  "warnings": 0,
+  "lake": "Lake version 5.0.0-1165156 (Lean version 4.15.0)",
+  "pinned_results": 51,
+  "sorry_free": true,
+  "main_modules": 17,
+  "code_sha256": "c82a34ff7a47ab745c41abe09533cf5c29de9f64eb80b89c3b6dad1b71898828"
+}

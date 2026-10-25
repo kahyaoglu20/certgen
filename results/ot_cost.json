@@ -1,0 +1,120 @@
+{
+ "_definition": "wall time of one exact two-sample W2 (dense squared-Euclidean cost matrix and scipy linear_sum_assignment), median of repeats",
+ "cpu": "Intel(R) Core(TM) i7-14700HX",
+ "python": "3.13.3",
+ "numpy": "2.5.4",
+ "cells": [
+  {
+   "d": 8,
+   "n": 512,
+   "seconds_median": 0.011933299989323132,
+   "seconds_all": [
+    0.011,
+    0.012,
+    0.012
+   ],
+   "cost_matrix_GB": 0.002097152
+  },
+  {
+   "d": 8,
+   "n": 1024,
+   "seconds_median": 0.06036089999543037,
+   "seconds_all": [
+    0.052,
+    0.06,
+    0.062
+   ],
+   "cost_matrix_GB": 0.008388608
+  },
+  {
+   "d": 8,
+   "n": 2048,
+   "seconds_median": 0.35724300000583753,
+   "seconds_all": [
+    0.353,
+    0.357,
+    0.375
+   ],
+   "cost_matrix_GB": 0.033554432
+  },
+  {
+   "d": 8,
+   "n": 4096,
+   "seconds_median": 2.060873399997945,
+   "seconds_all": [
+    2.148,
+    1.977,
+    2.061
+   ],
+   "cost_matrix_GB": 0.134217728
+  },
+  {
+   "d": 8,
+   "n": 8192,
+   "seconds_median": 12.488205999994534,
+   "seconds_all": [
+    12.697,
+    12.279
+   ],
+   "cost_matrix_GB": 0.536870912
+  },
+  {
+   "d": 32,
+   "n": 512,
+   "seconds_median": 0.012842900003306568,
+   "seconds_all": [
+    0.025,
+    0.013,
+    0.013
+   ],
+   "cost_matrix_GB": 0.002097152
+  },
+  {
+   "d": 32,
+   "n": 1024,
+   "seconds_median": 0.06561869999859482,
+   "seconds_all": [
+    0.062,
+    0.069,
+    0.066
+   ],
+   "cost_matrix_GB": 0.008388608
+  },
+  {
+   "d": 32,
+   "n": 2048,
+   "seconds_median": 0.3659686999890255,
+   "seconds_all": [
+    0.372,
+    0.366,
+    0.349
+   ],
+   "cost_matrix_GB": 0.033554432
+  },
+  {
+   "d": 32,
+   "n": 4096,
+   "seconds_median": 2.0504139000113355,
+   "seconds_all": [
+    2.05,
+    2.091,
+    1.957
+   ],
+   "cost_matrix_GB": 0.134217728
+  },
+  {
+   "d": 32,
+   "n": 8192,
+   "seconds_median": 10.738388999998278,
+   "seconds_all": [
+    10.67,
+    10.807
+   ],
+   "cost_matrix_GB": 0.536870912
+  }
+ ],
+ "time_exponent_in_n_(n>=1024)": {
+  "8": 2.5606486859826263,
+  "32": 2.4549487529402976
+ }
+}

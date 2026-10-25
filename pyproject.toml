@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certgen"
+version = "3.3.1"
+description = "Prospective design and floor-corrected reporting for evaluations of generative models"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Ömer Kahyaoğlu", email = "kahyaoglu20@itu.edu.tr"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+keywords = ["generative model evaluation", "optimal transport",
+            "Wasserstein distance", "intrinsic dimension", "power analysis",
+            "sample-size planning", "tabular data"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.scripts]
+certgen = "certgen.cli:main"
+
+[project.optional-dependencies]
+# the benchmark experiments (OpenML through scikit-learn and pandas) and the
+# trained-decoder study (torch)
+experiments = ["torch>=2.0", "scikit-learn>=1.2", "pandas>=2.0"]
+# tools/make_figures.py
+figures = ["matplotlib>=3.6"]
+# the test suite and tools/verify_bibliography.py
+dev = ["pytest>=7", "pyflakes>=3.0", "certifi"]
+
+[tool.setuptools.packages.find]
+include = ["certgen*"]
+
+[tool.setuptools.package-data]
+certgen = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

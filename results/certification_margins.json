@@ -1,0 +1,352 @@
+{
+  "_definition": "joint Monte-Carlo margins of the admissible benchmark cells over the measured dimension, the law-to-law residual in r and the calibration map; margins in dimension units (crossing / nominal dimension) and in r units (1/r)",
+  "tabulated_N": [
+    256,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768
+  ],
+  "n_mc": 8000,
+  "seed": 20260905,
+  "band_residuals": {
+    "n_cells": 15,
+    "median": -0.004123679020782811,
+    "min": -0.09928604906045857,
+    "max": 0.07176979518605098,
+    "by_family": {
+      "anisotropic_gaussian": {
+        "n": 6,
+        "median": 0.011534182113894786
+      },
+      "curved_manifold": {
+        "n": 5,
+        "median": -0.01979494115892877
+      },
+      "factor_model": {
+        "n": 4,
+        "median": -0.01006607679650684
+      }
+    }
+  },
+  "law_adjusted_crossings": [
+    {
+      "law": "aniso_decay0.95",
+      "family": "anisotropic_gaussian",
+      "N": 256,
+      "residual": 0.027192043248572384,
+      "crossing_nominal": 22.95537953685368,
+      "crossing_measured": 15.924746293420524
+    },
+    {
+      "law": "aniso_decay0.95",
+      "family": "anisotropic_gaussian",
+      "N": 1024,
+      "residual": 0.031709239986892124,
+      "crossing_nominal": 30.21008795402587,
+      "crossing_measured": 20.7227973478383
+    },
+    {
+      "law": "aniso_decay0.90",
+      "family": "anisotropic_gaussian",
+      "N": 256,
+      "residual": 0.07176979518605098,
+      "crossing_nominal": 19.114934005600038,
+      "crossing_measured": 14.093958378388642
+    },
+    {
+      "law": "aniso_decay0.90",
+      "family": "anisotropic_gaussian",
+      "N": 1024,
+      "residual": -0.004123679020782811,
+      "crossing_nominal": 35.385159967557364,
+      "crossing_measured": 23.188299724682324
+    },
+    {
+      "law": "aniso_decay0.85",
+      "family": "anisotropic_gaussian",
+      "N": 256,
+      "residual": -0.045073953828016045,
+      "crossing_nominal": 31.3628659149768,
+      "crossing_measured": 19.610145884744444
+    },
+    {
+      "law": "aniso_decay0.85",
+      "family": "anisotropic_gaussian",
+      "N": 1024,
+      "residual": -0.029328982302789464,
+      "crossing_nominal": 40.84750593780665,
+      "crossing_measured": 25.648342427438347
+    },
+    {
+      "law": "factor_k20",
+      "family": "factor_model",
+      "N": 256,
+      "residual": 0.016133720158380882,
+      "crossing_nominal": 24.03047726418636,
+      "crossing_measured": 16.41845951546251
+    },
+    {
+      "law": "factor_k20",
+      "family": "factor_model",
+      "N": 1024,
+      "residual": -0.03626587375139456,
+      "crossing_nominal": 42.49451119159444,
+      "crossing_measured": 26.370449264157166
+    },
+    {
+      "law": "factor_k28",
+      "family": "factor_model",
+      "N": 256,
+      "residual": -0.09928604906045857,
+      "crossing_nominal": 46.66510174637293,
+      "crossing_measured": 25.487162276002035
+    },
+    {
+      "law": "factor_k28",
+      "family": "factor_model",
+      "N": 1024,
+      "residual": 0.05189788748698021,
+      "crossing_nominal": 28.264327290991908,
+      "crossing_measured": 19.74513598272433
+    },
+    {
+      "law": "curved_m16",
+      "family": "curved_manifold",
+      "N": 1024,
+      "residual": -0.01979494115892877,
+      "crossing_nominal": 38.696657969955055,
+      "crossing_measured": 24.692131068653616
+    },
+    {
+      "law": "curved_m24",
+      "family": "curved_manifold",
+      "N": 256,
+      "residual": 0.0047542397854509755,
+      "crossing_nominal": 25.208317302065442,
+      "crossing_measured": 16.950987858058728
+    },
+    {
+      "law": "curved_m24",
+      "family": "curved_manifold",
+      "N": 1024,
+      "residual": 0.04141973996983239,
+      "crossing_nominal": 29.22101663909453,
+      "crossing_measured": 20.228060993963464
+    },
+    {
+      "law": "curved_m32",
+      "family": "curved_manifold",
+      "N": 256,
+      "residual": -0.05312146924255334,
+      "crossing_nominal": 32.83172186718173,
+      "crossing_measured": 20.214067023673934
+    },
+    {
+      "law": "curved_m32",
+      "family": "curved_manifold",
+      "N": 1024,
+      "residual": -0.042044333932706235,
+      "crossing_nominal": 43.932862997787375,
+      "crossing_measured": 26.994284701460003
+    }
+  ],
+  "crossing_nominal": {
+    "min": 19.114934005600038,
+    "median": 31.3628659149768,
+    "max": 46.66510174637293
+  },
+  "crossing_measured": {
+    "min": 14.093958378388642,
+    "median": 20.228060993963464,
+    "max": 26.994284701460003
+  },
+  "per_table": [
+    {
+      "dataset": "adult:E1",
+      "d_hat": 4.480056700427585,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 1.4136398545883844,
+      "sd_source": "subsample",
+      "d_nominal_median": 4.295707234909379,
+      "margin_median": 10.925360682489181,
+      "margin_q05": 5.839048688519891,
+      "margin_q95": 24.52715770981813,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 4.105987797175125,
+      "margin_r_units_q05": 2.4544585745429655,
+      "margin_r_units_q95": 12.45470518109423,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "census-income:E1",
+      "d_hat": 5.177661013283617,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 1.1528575612048866,
+      "sd_source": "subsample",
+      "d_nominal_median": 5.0653515220674645,
+      "margin_median": 9.16067405226077,
+      "margin_q05": 5.467719132628717,
+      "margin_q95": 17.833557191799027,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 3.4287373620438535,
+      "margin_r_units_q05": 2.322638442284823,
+      "margin_r_units_q95": 7.077485623242576,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "bank-marketing:E1",
+      "d_hat": 5.045531596821565,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.9684114340263985,
+      "sd_source": "subsample",
+      "d_nominal_median": 4.896718796156762,
+      "margin_median": 9.52044450927978,
+      "margin_q05": 5.905307144830054,
+      "margin_q95": 17.284743184123872,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 3.5673156744790977,
+      "margin_r_units_q05": 2.5448807715499493,
+      "margin_r_units_q95": 6.551392066867552,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "bank-marketing:E2",
+      "d_hat": 6.20465305618331,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.757304238120807,
+      "sd_source": "subsample",
+      "d_nominal_median": 6.221277891560316,
+      "margin_median": 7.396848465484458,
+      "margin_q05": 4.980567809675779,
+      "margin_q95": 12.224192946100786,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 2.75477589577225,
+      "margin_r_units_q05": 2.183901946481559,
+      "margin_r_units_q95": 3.656293668629071,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "higgs:E1",
+      "d_hat": 13.313007524605197,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.767655236886292,
+      "sd_source": "subsample",
+      "d_nominal_median": 15.184690399965875,
+      "margin_median": 3.018618090360296,
+      "margin_q05": 2.134145414666788,
+      "margin_q95": 5.065214779334615,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 1.42416314355347,
+      "margin_r_units_q05": 1.2969921940543998,
+      "margin_r_units_q95": 1.5834703937338233,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "MagicTelescope:E1",
+      "d_hat": 5.478517146661065,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.47591457071383114,
+      "sd_source": "subsample",
+      "d_nominal_median": 5.386180509862596,
+      "margin_median": 8.54682330913173,
+      "margin_q05": 5.924088933843784,
+      "margin_q95": 13.94016767600953,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 3.210476328153684,
+      "margin_r_units_q05": 2.6956128339986,
+      "margin_r_units_q95": 3.936671574925214,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "pendigits:E1",
+      "d_hat": 4.825121275666276,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.331400633568122,
+      "sd_source": "subsample",
+      "d_nominal_median": 4.661750087274108,
+      "margin_median": 9.893696340571601,
+      "margin_q05": 6.920231705096952,
+      "margin_q95": 16.255797986784962,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 3.7541494952900814,
+      "margin_r_units_q05": 3.225335688373726,
+      "margin_r_units_q95": 4.447743942985338,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    },
+    {
+      "dataset": "letter:E1",
+      "d_hat": 5.250801566748359,
+      "N_rows_estimator": 8000,
+      "N_side_floor": 4000,
+      "crossing_nominal_at_N_side_median": 45.51449369507196,
+      "sd_used": 0.1660851223427151,
+      "sd_source": "subsample",
+      "d_nominal_median": 5.140218323456965,
+      "margin_median": 8.891186466375625,
+      "margin_q05": 6.398012322401758,
+      "margin_q95": 15.129891754295539,
+      "p_margin_below_1": 0.0,
+      "p_margin_below_1_report": "< 0.00013",
+      "margin_r_units_median": 3.379962573364791,
+      "margin_r_units_q05": 3.075807058745268,
+      "margin_r_units_q95": 3.7468664317504947,
+      "p_vacuous_r": 0.0,
+      "p_vacuous_r_report": "< 0.00013",
+      "n_mc": 8000
+    }
+  ],
+  "tightest_margin_q05": 2.134145414666788,
+  "largest_p_margin_below_1": 0.0,
+  "heavy_tail_sensitivity": {
+    "worst_heavy_tail_residual": 0.4411062186588397,
+    "source": "results/transfer_probe.json (families.heavy_tailed)",
+    "margin_r_units_q05_if_applied": {
+      "adult:E1": 1.7031767282408916,
+      "census-income:E1": 1.6117052388035478,
+      "bank-marketing:E1": 1.7659217194401766,
+      "bank-marketing:E2": 1.5154344060176212,
+      "higgs:E1": 0.8999976388010045,
+      "MagicTelescope:E1": 1.8705164123899642,
+      "pendigits:E1": 2.2380971274798696,
+      "letter:E1": 2.1343375102549738
+    }
+  }
+}

@@ -1,0 +1,653 @@
+\begin{thebibliography}{91}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ajtai et~al.(1984)Ajtai, Koml{\'o}s, and Tusn{\'a}dy]{ajtai1984}
+M.~Ajtai, J.~Koml{\'o}s, and G.~Tusn{\'a}dy.
+\newblock On optimal matchings.
+\newblock \emph{Combinatorica}, 4\penalty0 (4):\penalty0 259--264, 1984.
+\newblock \doi{10.1007/BF02579135}.
+
+\bibitem[Alimoglu and Alpaydin(1997)]{alimoglu1997}
+F.~Alimoglu and E.~Alpaydin.
+\newblock Combining multiple representations and classifiers for pen-based
+  handwritten digit recognition.
+\newblock In \emph{Proceedings of the Fourth International Conference on
+  Document Analysis and Recognition}, volume~2, pages 637--640, 1997.
+\newblock \doi{10.1109/ICDAR.1997.620583}.
+
+\bibitem[Bac et~al.(2021)Bac, Mirkes, Gorban, Tyukin, and Zinovyev]{bac2021}
+J.~Bac, E.~M. Mirkes, A.~N. Gorban, I.~Tyukin, and A.~Zinovyev.
+\newblock Scikit-dimension: a {P}ython package for intrinsic dimension
+  estimation.
+\newblock \emph{Entropy}, 23\penalty0 (10):\penalty0 1368, 2021.
+\newblock \doi{10.3390/e23101368}.
+
+\bibitem[Baldi et~al.(2014)Baldi, Sadowski, and Whiteson]{baldi2014}
+P.~Baldi, P.~Sadowski, and D.~Whiteson.
+\newblock Searching for exotic particles in high-energy physics with deep
+  learning.
+\newblock \emph{Nature Communications}, 5:\penalty0 4308, 2014.
+\newblock \doi{10.1038/ncomms5308}.
+
+\bibitem[Baringhaus and Franz(2004)]{baringhaus2004}
+L.~Baringhaus and C.~Franz.
+\newblock On a new multivariate two-sample test.
+\newblock \emph{Journal of Multivariate Analysis}, 88\penalty0 (1):\penalty0
+  190--206, 2004.
+\newblock \doi{10.1016/S0047-259X(03)00079-4}.
+
+\bibitem[Bigot et~al.(2019)Bigot, Cazelles, and Papadakis]{bigot2019}
+J.~Bigot, E.~Cazelles, and N.~Papadakis.
+\newblock Central limit theorems for entropy-regularized optimal transport on
+  finite spaces and statistical applications.
+\newblock \emph{Electronic Journal of Statistics}, 13\penalty0 (2):\penalty0
+  5120--5150, 2019.
+\newblock \doi{10.1214/19-EJS1637}.
+
+\bibitem[Birkhoff(1946)]{birkhoff1946}
+G.~Birkhoff.
+\newblock Tres observaciones sobre el algebra lineal.
+\newblock \emph{Universidad Nacional de Tucum{\'a}n, Revista Serie A},
+  5:\penalty0 147--151, 1946.
+
+\bibitem[Blackard and Dean(1999)]{blackard1999}
+J.~A. Blackard and D.~J. Dean.
+\newblock Comparative accuracies of artificial neural networks and discriminant
+  analysis in predicting forest cover types from cartographic variables.
+\newblock \emph{Computers and Electronics in Agriculture}, 24\penalty0
+  (3):\penalty0 131--151, 1999.
+\newblock \doi{10.1016/S0168-1699(99)00046-0}.
+
+\bibitem[Block et~al.(2022)Block, Jia, Polyanskiy, and Rakhlin]{block2022}
+A.~Block, Z.~Jia, Y.~Polyanskiy, and A.~Rakhlin.
+\newblock Intrinsic dimension estimation using {W}asserstein distance.
+\newblock \emph{Journal of Machine Learning Research}, 23\penalty0
+  (313):\penalty0 1--37, 2022.
+
+\bibitem[Bobkov and Ledoux(2019)]{bobkov2019}
+S.~Bobkov and M.~Ledoux.
+\newblock One-dimensional empirical measures, order statistics, and
+  {K}antorovich transport distances.
+\newblock \emph{Memoirs of the American Mathematical Society}, 261\penalty0
+  (1259), 2019.
+\newblock \doi{10.1090/memo/1259}.
+
+\bibitem[Bock et~al.(2004)Bock, Chilingarian, Gaug, Hakl, Hengstebeck,
+  Ji{\v{r}}ina, Klaschka, Kotr{\v{c}}, Savick{\'y}, Towers, Vaiciulis, and
+  Wittek]{bock2004}
+R.~K. Bock, A.~Chilingarian, M.~Gaug, F.~Hakl, T.~Hengstebeck, M.~Ji{\v{r}}ina,
+  J.~Klaschka, E.~Kotr{\v{c}}, P.~Savick{\'y}, S.~Towers, A.~Vaiciulis, and
+  W.~Wittek.
+\newblock Methods for multidimensional event classification: a case study using
+  images from a {C}herenkov gamma-ray telescope.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A},
+  516\penalty0 (2--3):\penalty0 511--528, 2004.
+\newblock \doi{10.1016/j.nima.2003.08.157}.
+
+\bibitem[Bonneel et~al.(2015)Bonneel, Rabin, Peyr{\'e}, and
+  Pfister]{bonneel2015}
+N.~Bonneel, J.~Rabin, G.~Peyr{\'e}, and H.~Pfister.
+\newblock Sliced and {R}adon {W}asserstein barycenters of measures.
+\newblock \emph{Journal of Mathematical Imaging and Vision}, 51\penalty0
+  (1):\penalty0 22--45, 2015.
+\newblock \doi{10.1007/s10851-014-0506-3}.
+
+\bibitem[Borisov et~al.(2023)Borisov, Se{\ss}ler, Leemann, Pawelczyk, and
+  Kasneci]{borisov2023}
+V.~Borisov, K.~Se{\ss}ler, T.~Leemann, M.~Pawelczyk, and G.~Kasneci.
+\newblock Language models are realistic tabular data generators.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Bounliphone et~al.(2016)Bounliphone, Belilovsky, Blaschko, Antonoglou,
+  and Gretton]{bounliphone2016}
+W.~Bounliphone, E.~Belilovsky, M.~B. Blaschko, I.~Antonoglou, and A.~Gretton.
+\newblock A test of relative similarity for model selection in generative
+  models.
+\newblock In \emph{International Conference on Learning Representations}, 2016.
+
+\bibitem[Bouthillier et~al.(2021)Bouthillier, Delaunay, Bronzi, Trofimov,
+  Nichyporuk, Szeto, Sepah, Raff, Madan, Voleti, et~al.]{bouthillier2021}
+X.~Bouthillier, P.~Delaunay, M.~Bronzi, A.~Trofimov, B.~Nichyporuk, J.~Szeto,
+  N.~Sepah, E.~Raff, K.~Madan, V.~Voleti, et~al.
+\newblock Accounting for variance in machine learning benchmarks.
+\newblock In \emph{Proceedings of Machine Learning and Systems}, volume~3,
+  2021.
+
+\bibitem[Card et~al.(2020)Card, Henderson, Khandelwal, Jia, Mahowald, and
+  Jurafsky]{card2020}
+D.~Card, P.~Henderson, U.~Khandelwal, R.~Jia, K.~Mahowald, and D.~Jurafsky.
+\newblock With little power comes great responsibility.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing}, pages 9263--9274, 2020.
+\newblock \doi{10.18653/v1/2020.emnlp-main.745}.
+
+\bibitem[Carlier et~al.(2025)Carlier, Figalli, M{\'e}rigot, and
+  Wang]{carlier2025}
+G.~Carlier, A.~Figalli, Q.~M{\'e}rigot, and Y.~Wang.
+\newblock Sharp comparisons between sliced and standard 1-{W}asserstein
+  distances.
+\newblock arXiv:2510.16465, 2025.
+
+\bibitem[Chen(2026)]{chen2026}
+H.~Chen.
+\newblock What {FID} hides: detecting, ranking, and diagnosing deviations in
+  generative evaluation.
+\newblock arXiv:2608.24881, 2026.
+
+\bibitem[Chong and Forsyth(2020)]{chong2020}
+M.~J. Chong and D.~Forsyth.
+\newblock Effectively unbiased {FID} and {I}nception {S}core and where to find
+  them.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 6069--6078, 2020.
+\newblock \doi{10.1109/CVPR42600.2020.00611}.
+
+\bibitem[Clauset et~al.(2009)Clauset, Shalizi, and Newman]{clauset2009}
+A.~Clauset, C.~R. Shalizi, and M.~E.~J. Newman.
+\newblock Power-law distributions in empirical data.
+\newblock \emph{SIAM Review}, 51\penalty0 (4):\penalty0 661--703, 2009.
+\newblock \doi{10.1137/070710111}.
+
+\bibitem[Crouse(2016)]{crouse2016}
+D.~F. Crouse.
+\newblock On implementing {2D} rectangular assignment algorithms.
+\newblock \emph{IEEE Transactions on Aerospace and Electronic Systems},
+  52\penalty0 (4):\penalty0 1679--1696, 2016.
+\newblock \doi{10.1109/TAES.2016.140952}.
+
+\bibitem[Cuturi(2013)]{cuturi2013}
+M.~Cuturi.
+\newblock Sinkhorn distances: lightspeed computation of optimal transportation
+  distances.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~26, 2013.
+
+\bibitem[Dao et~al.(2023)Dao, Phung, Nguyen, and Tran]{dao2023}
+Q.~Dao, H.~Phung, B.~Nguyen, and A.~Tran.
+\newblock Flow matching in latent space.
+\newblock arXiv:2307.08698, 2023.
+
+\bibitem[Davison and Hinkley(1997)]{davison1997}
+A.~C. Davison and D.~V. Hinkley.
+\newblock \emph{Bootstrap Methods and their Application}.
+\newblock Cambridge University Press, 1997.
+\newblock \doi{10.1017/CBO9780511802843}.
+
+\bibitem[de~Moura and Ullrich(2021)]{demoura2021}
+L.~de~Moura and S.~Ullrich.
+\newblock The {L}ean 4 theorem prover and programming language.
+\newblock In \emph{Automated Deduction -- CADE 28}, volume 12699 of
+  \emph{Lecture Notes in Computer Science}, pages 625--635. Springer, 2021.
+\newblock \doi{10.1007/978-3-030-79876-5_37}.
+
+\bibitem[del Barrio and Loubes(2019)]{delbarioloubes2019}
+E.~del Barrio and J.-M. Loubes.
+\newblock Central limit theorems for empirical transportation cost in general
+  dimension.
+\newblock \emph{The Annals of Probability}, 47\penalty0 (2):\penalty0 926--951,
+  2019.
+\newblock \doi{10.1214/18-AOP1275}.
+
+\bibitem[del Barrio et~al.(1999)del Barrio, Gin{\'e}, and
+  Matr{\'a}n]{delbario1999}
+E.~del Barrio, E.~Gin{\'e}, and C.~Matr{\'a}n.
+\newblock Central limit theorems for the {W}asserstein distance between the
+  empirical and the true distributions.
+\newblock \emph{The Annals of Probability}, 27\penalty0 (2), 1999.
+\newblock \doi{10.1214/aop/1022677394}.
+
+\bibitem[Dudley(1969)]{dudley1969}
+R.~M. Dudley.
+\newblock The speed of mean {G}livenko--{C}antelli convergence.
+\newblock \emph{The Annals of Mathematical Statistics}, 40\penalty0
+  (1):\penalty0 40--50, 1969.
+\newblock \doi{10.1214/aoms/1177697802}.
+
+\bibitem[Dufour et~al.(2026)Dufour, Efros, and P{\'e}rez]{dufour2026}
+N.~Dufour, A.~A. Efros, and P.~P{\'e}rez.
+\newblock The {FID} lottery: quantifying hidden randomness in generative-model
+  evaluation.
+\newblock arXiv:2606.20536, 2026.
+
+\bibitem[Dziugaite and Roy(2017)]{dziugaite2017}
+G.~K. Dziugaite and D.~M. Roy.
+\newblock Computing nonvacuous generalization bounds for deep (stochastic)
+  neural networks with many more parameters than training data.
+\newblock In \emph{Proceedings of the 33rd Conference on Uncertainty in
+  Artificial Intelligence}, 2017.
+
+\bibitem[Efron(1979)]{efron1979}
+B.~Efron.
+\newblock Bootstrap methods: another look at the jackknife.
+\newblock \emph{The Annals of Statistics}, 7\penalty0 (1):\penalty0 1--26,
+  1979.
+\newblock \doi{10.1214/aos/1176344552}.
+
+\bibitem[Esteban et~al.(2017)Esteban, Hyland, and R{\"a}tsch]{esteban2017}
+C.~Esteban, S.~L. Hyland, and G.~R{\"a}tsch.
+\newblock Real-valued (medical) time series generation with recurrent
+  conditional {GAN}s.
+\newblock arXiv:1706.02633, 2017.
+
+\bibitem[Facco et~al.(2017)Facco, d'Errico, Rodriguez, and Laio]{facco2017}
+E.~Facco, M.~d'Errico, A.~Rodriguez, and A.~Laio.
+\newblock Estimating the intrinsic dimension of datasets by a minimal
+  neighborhood information.
+\newblock \emph{Scientific Reports}, 7:\penalty0 12140, 2017.
+\newblock \doi{10.1038/s41598-017-11873-y}.
+
+\bibitem[Fazlyab et~al.(2019)Fazlyab, Robey, Hassani, Morari, and
+  Pappas]{fazlyab2019}
+M.~Fazlyab, A.~Robey, H.~Hassani, M.~Morari, and G.~Pappas.
+\newblock Efficient and accurate estimation of {L}ipschitz constants for deep
+  neural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem[Fournier and Guillin(2015)]{fournier2015}
+N.~Fournier and A.~Guillin.
+\newblock On the rate of convergence in {W}asserstein distance of the empirical
+  measure.
+\newblock \emph{Probability Theory and Related Fields}, 162\penalty0
+  (3--4):\penalty0 707--738, 2015.
+\newblock \doi{10.1007/s00440-014-0583-7}.
+
+\bibitem[Frey and Slate(1991)]{frey1991}
+P.~W. Frey and D.~J. Slate.
+\newblock Letter recognition using {H}olland-style adaptive classifiers.
+\newblock \emph{Machine Learning}, 6\penalty0 (2):\penalty0 161--182, 1991.
+\newblock \doi{10.1007/BF00114162}.
+
+\bibitem[Friedman(2003)]{friedman2003}
+J.~H. Friedman.
+\newblock On multivariate goodness-of-fit and two-sample testing.
+\newblock In \emph{Proceedings of PHYSTAT 2003, eConf C030908}, pages 311--313,
+  2003.
+
+\bibitem[Gama et~al.(2004)Gama, Medas, Castillo, and Rodrigues]{gama2004}
+J.~Gama, P.~Medas, G.~Castillo, and P.~Rodrigues.
+\newblock Learning with drift detection.
+\newblock In \emph{Advances in Artificial Intelligence -- SBIA 2004}, volume
+  3171 of \emph{Lecture Notes in Computer Science}, pages 286--295. Springer,
+  2004.
+\newblock \doi{10.1007/978-3-540-28645-5_29}.
+
+\bibitem[Gao et~al.(2025)Gao, Sun, and Su]{gao2025}
+Z.~Gao, Y.~Sun, and H.~Su.
+\newblock Statistical inference for generative model comparison.
+\newblock arXiv:2501.18897, 2025.
+
+\bibitem[Gretton et~al.(2007)Gretton, Borgwardt, Rasch, Sch{\"o}lkopf, and
+  Smola]{gretton2007}
+A.~Gretton, K.~M. Borgwardt, M.~Rasch, B.~Sch{\"o}lkopf, and A.~J. Smola.
+\newblock A kernel method for the two-sample-problem.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~19, pages 513--520, 2007.
+
+\bibitem[Gretton et~al.(2012)Gretton, Borgwardt, Rasch, Sch{\"o}lkopf, and
+  Smola]{gretton2012}
+A.~Gretton, K.~M. Borgwardt, M.~J. Rasch, B.~Sch{\"o}lkopf, and A.~Smola.
+\newblock A kernel two-sample test.
+\newblock \emph{Journal of Machine Learning Research}, 13\penalty0
+  (25):\penalty0 723--773, 2012.
+
+\bibitem[Hanley and Lippman-Hand(1983)]{hanley1983}
+J.~A. Hanley and A.~Lippman-Hand.
+\newblock If nothing goes wrong, is everything all right? {I}nterpreting zero
+  numerators.
+\newblock \emph{JAMA}, 249\penalty0 (13):\penalty0 1743--1745, 1983.
+\newblock \doi{10.1001/jama.1983.03330370053031}.
+
+\bibitem[Harris et~al.(2020)Harris, Millman, van~der Walt, Gommers, Virtanen,
+  Cournapeau, Wieser, Taylor, Berg, Smith, et~al.]{harris2020}
+C.~R. Harris, K.~J. Millman, S.~J. van~der Walt, R.~Gommers, P.~Virtanen,
+  D.~Cournapeau, E.~Wieser, J.~Taylor, S.~Berg, N.~J. Smith, et~al.
+\newblock Array programming with {NumPy}.
+\newblock \emph{Nature}, 585\penalty0 (7825):\penalty0 357--362, 2020.
+\newblock \doi{10.1038/s41586-020-2649-2}.
+
+\bibitem[Heusel et~al.(2017)Heusel, Ramsauer, Unterthiner, Nessler, and
+  Hochreiter]{heusel2017}
+M.~Heusel, H.~Ramsauer, T.~Unterthiner, B.~Nessler, and S.~Hochreiter.
+\newblock {GAN}s trained by a two time-scale update rule converge to a local
+  {N}ash equilibrium.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem[Hill(1975)]{hill1975}
+B.~M. Hill.
+\newblock A simple general approach to inference about the tail of a
+  distribution.
+\newblock \emph{The Annals of Statistics}, 3\penalty0 (5):\penalty0 1163--1174,
+  1975.
+\newblock \doi{10.1214/aos/1176343247}.
+
+\bibitem[Hope(1968)]{hope1968}
+A.~C.~A. Hope.
+\newblock A simplified {M}onte {C}arlo significance test procedure.
+\newblock \emph{Journal of the Royal Statistical Society, Series B},
+  30\penalty0 (3):\penalty0 582--598, 1968.
+\newblock \doi{10.1111/j.2517-6161.1968.tb00759.x}.
+
+\bibitem[Hundrieser et~al.(2024)Hundrieser, Staudt, and Munk]{hundrieser2024}
+S.~Hundrieser, T.~Staudt, and A.~Munk.
+\newblock Empirical optimal transport between different measures adapts to
+  lower complexity.
+\newblock \emph{Annales de l'Institut Henri Poincar{\'e}, Probabilit{\'e}s et
+  Statistiques}, 60\penalty0 (2):\penalty0 824--846, 2024.
+\newblock \doi{10.1214/23-AIHP1369}.
+
+\bibitem[Jayasumana et~al.(2024)Jayasumana, Ramalingam, Veit, Glasner,
+  Chakrabarti, and Kumar]{jayasumana2024}
+S.~Jayasumana, S.~Ramalingam, A.~Veit, D.~Glasner, A.~Chakrabarti, and
+  S.~Kumar.
+\newblock Rethinking {FID}: towards a better evaluation metric for image
+  generation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 9307--9315, 2024.
+\newblock \doi{10.1109/CVPR52733.2024.00889}.
+
+\bibitem[Jonker and Volgenant(1987)]{jonker1987}
+R.~Jonker and A.~Volgenant.
+\newblock A shortest augmenting path algorithm for dense and sparse linear
+  assignment problems.
+\newblock \emph{Computing}, 38\penalty0 (4):\penalty0 325--340, 1987.
+\newblock \doi{10.1007/BF02278710}.
+
+\bibitem[Kantorovich(1942)]{kantorovich1942}
+L.~V. Kantorovich.
+\newblock On the translocation of masses.
+\newblock \emph{Doklady Akademii Nauk SSSR}, 37:\penalty0 199--201, 1942.
+\newblock English translation: Journal of Mathematical Sciences
+  133(4):1381--1382, 2006.
+
+\bibitem[Kelly et~al.(2026)Kelly, Longjohn, and Nottingham]{kelly2026}
+M.~Kelly, R.~Longjohn, and K.~Nottingham.
+\newblock The {UCI} machine learning repository.
+\newblock \url{https://archive.ics.uci.edu}, 2026.
+\newblock Accessed 13 October 2026.
+
+\bibitem[Kingma and Ba(2015)]{kingma2015}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: a method for stochastic optimization.
+\newblock In \emph{International Conference on Learning Representations}, 2015.
+
+\bibitem[Kingma and Welling(2014)]{kingma2014}
+D.~P. Kingma and M.~Welling.
+\newblock Auto-encoding variational {B}ayes.
+\newblock In \emph{International Conference on Learning Representations}, 2014.
+
+\bibitem[Kuhn(1955)]{kuhn1955}
+H.~W. Kuhn.
+\newblock The {H}ungarian method for the assignment problem.
+\newblock \emph{Naval Research Logistics Quarterly}, 2\penalty0
+  (1--2):\penalty0 83--97, 1955.
+\newblock \doi{10.1002/nav.3800020109}.
+
+\bibitem[Kynk{\"a}{\"a}nniemi et~al.(2019)Kynk{\"a}{\"a}nniemi, Karras, Laine,
+  Lehtinen, and Aila]{kynkanniemi2019}
+T.~Kynk{\"a}{\"a}nniemi, T.~Karras, S.~Laine, J.~Lehtinen, and T.~Aila.
+\newblock Improved precision and recall metric for assessing generative models.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem[Lee et~al.(2025)Lee, O'Neill, Zou, Calder, and Lerman]{lee2025}
+W.~Lee, R.~C.~W. O'Neill, D.~Zou, J.~Calder, and G.~Lerman.
+\newblock Geometry-preserving encoder/decoder in latent generative models.
+\newblock arXiv:2501.09876, 2025.
+
+\bibitem[Levina and Bickel(2004)]{levina2004}
+E.~Levina and P.~Bickel.
+\newblock Maximum likelihood estimation of intrinsic dimension.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~17, 2004.
+
+\bibitem[Lopez-Paz and Oquab(2017)]{lopezpaz2017}
+D.~Lopez-Paz and M.~Oquab.
+\newblock Revisiting classifier two-sample tests.
+\newblock In \emph{International Conference on Learning Representations}, 2017.
+
+\bibitem[Miller(2024)]{miller2024}
+E.~Miller.
+\newblock Adding error bars to evals: a statistical approach to language model
+  evaluations.
+\newblock arXiv:2411.00640, 2024.
+
+\bibitem[Moro et~al.(2014)Moro, Cortez, and Rita]{moro2014}
+S.~Moro, P.~Cortez, and P.~Rita.
+\newblock A data-driven approach to predict the success of bank telemarketing.
+\newblock \emph{Decision Support Systems}, 62:\penalty0 22--31, 2014.
+\newblock \doi{10.1016/j.dss.2014.03.001}.
+
+\bibitem[Morris et~al.(2019)Morris, White, and Crowther]{morris2019}
+T.~P. Morris, I.~R. White, and M.~J. Crowther.
+\newblock Using simulation studies to evaluate statistical methods.
+\newblock \emph{Statistics in Medicine}, 38\penalty0 (11):\penalty0 2074--2102,
+  2019.
+\newblock \doi{10.1002/sim.8086}.
+
+\bibitem[Niles-Weed and Rigollet(2022)]{nilesweed2022}
+J.~Niles-Weed and P.~Rigollet.
+\newblock Estimation of {W}asserstein distances in the spiked transport model.
+\newblock \emph{Bernoulli}, 28\penalty0 (4):\penalty0 2663--2688, 2022.
+\newblock \doi{10.3150/21-BEJ1433}.
+
+\bibitem[Niles-Weed and Shkrob(2026)]{nilesweed2026}
+J.~Niles-Weed and J.~Shkrob.
+\newblock Nearly sharp comparison results for sliced and max-sliced
+  {W}asserstein distances.
+\newblock arXiv:2608.13374, 2026.
+
+\bibitem[Park et~al.(2018)Park, Mohammadi, Gorde, Jajodia, Park, and
+  Kim]{park2018}
+N.~Park, M.~Mohammadi, K.~Gorde, S.~Jajodia, H.~Park, and Y.~Kim.
+\newblock Data synthesis based on generative adversarial networks.
+\newblock \emph{Proceedings of the VLDB Endowment}, 11\penalty0 (10):\penalty0
+  1071--1083, 2018.
+\newblock \doi{10.14778/3231751.3231757}.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, et~al.]{paszke2019}
+A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
+  Z.~Lin, N.~Gimelshein, L.~Antiga, et~al.
+\newblock {PyTorch}: an imperative style, high-performance deep learning
+  library.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem[Patki et~al.(2016)Patki, Wedge, and Veeramachaneni]{patki2016}
+N.~Patki, R.~Wedge, and K.~Veeramachaneni.
+\newblock The {S}ynthetic {D}ata {V}ault.
+\newblock In \emph{IEEE International Conference on Data Science and Advanced
+  Analytics}, pages 399--410, 2016.
+\newblock \doi{10.1109/DSAA.2016.49}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, et~al.]{pedregosa2011}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, et~al.
+\newblock Scikit-learn: machine learning in {P}ython.
+\newblock \emph{Journal of Machine Learning Research}, 12\penalty0
+  (85):\penalty0 2825--2830, 2011.
+
+\bibitem[Peyr{\'e} and Cuturi(2019)]{peyre2019}
+G.~Peyr{\'e} and M.~Cuturi.
+\newblock Computational optimal transport: with applications to data science.
+\newblock \emph{Foundations and Trends in Machine Learning}, 11\penalty0
+  (5--6):\penalty0 355--607, 2019.
+\newblock \doi{10.1561/2200000073}.
+
+\bibitem[Pope et~al.(2021)Pope, Zhu, Abdelkader, Goldblum, and
+  Goldstein]{pope2021}
+P.~Pope, C.~Zhu, A.~Abdelkader, M.~Goldblum, and T.~Goldstein.
+\newblock The intrinsic dimension of images and its impact on learning.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+
+\bibitem[Rabin et~al.(2012)Rabin, Peyr{\'e}, Delon, and Bernot]{rabin2012}
+J.~Rabin, G.~Peyr{\'e}, J.~Delon, and M.~Bernot.
+\newblock {W}asserstein barycenter and its application to texture mixing.
+\newblock In \emph{Scale Space and Variational Methods in Computer Vision},
+  volume 6667 of \emph{Lecture Notes in Computer Science}, pages 435--446.
+  Springer, 2012.
+\newblock \doi{10.1007/978-3-642-24785-9_37}.
+
+\bibitem[Ramdas et~al.(2017)Ramdas, Garc{\'\i}a~Trillos, and
+  Cuturi]{ramdas2017}
+A.~Ramdas, N.~Garc{\'\i}a~Trillos, and M.~Cuturi.
+\newblock On {W}asserstein two-sample testing and related families of
+  nonparametric tests.
+\newblock \emph{Entropy}, 19\penalty0 (2):\penalty0 47, 2017.
+\newblock \doi{10.3390/e19020047}.
+
+\bibitem[Roe et~al.(2005)Roe, Yang, Zhu, Liu, Stancu, and McGregor]{roe2005}
+B.~P. Roe, H.-J. Yang, J.~Zhu, Y.~Liu, I.~Stancu, and G.~McGregor.
+\newblock Boosted decision trees as an alternative to artificial neural
+  networks for particle identification.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A},
+  543\penalty0 (2--3):\penalty0 577--584, 2005.
+\newblock \doi{10.1016/j.nima.2004.12.018}.
+
+\bibitem[Sajjadi et~al.(2018)Sajjadi, Bachem, Lucic, Bousquet, and
+  Gelly]{sajjadi2018}
+M.~S.~M. Sajjadi, O.~Bachem, M.~Lucic, O.~Bousquet, and S.~Gelly.
+\newblock Assessing generative models via precision and recall.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~31, 2018.
+
+\bibitem[Salimans et~al.(2016)Salimans, Goodfellow, Zaremba, Cheung, Radford,
+  and Chen]{salimans2016}
+T.~Salimans, I.~Goodfellow, W.~Zaremba, V.~Cheung, A.~Radford, and X.~Chen.
+\newblock Improved techniques for training {GAN}s.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~29, pages 2234--2242, 2016.
+
+\bibitem[Schrab et~al.(2023)Schrab, Kim, Albert, Laurent, Guedj, and
+  Gretton]{schrab2023}
+A.~Schrab, I.~Kim, M.~Albert, B.~Laurent, B.~Guedj, and A.~Gretton.
+\newblock {MMD} aggregated two-sample test.
+\newblock \emph{Journal of Machine Learning Research}, 24\penalty0
+  (194):\penalty0 1--81, 2023.
+
+\bibitem[Schuirmann(1987)]{schuirmann1987}
+D.~J. Schuirmann.
+\newblock A comparison of the two one-sided tests procedure and the power
+  approach for assessing the equivalence of average bioavailability.
+\newblock \emph{Journal of Pharmacokinetics and Biopharmaceutics}, 15\penalty0
+  (6):\penalty0 657--680, 1987.
+\newblock \doi{10.1007/BF01068419}.
+
+\bibitem[Sommerfeld and Munk(2018)]{sommerfeld2018}
+M.~Sommerfeld and A.~Munk.
+\newblock Inference for empirical {W}asserstein distances on finite spaces.
+\newblock \emph{Journal of the Royal Statistical Society, Series B},
+  80\penalty0 (1):\penalty0 219--238, 2018.
+\newblock \doi{10.1111/rssb.12236}.
+
+\bibitem[Szegedy et~al.(2014)Szegedy, Zaremba, Sutskever, Bruna, Erhan,
+  Goodfellow, and Fergus]{szegedy2014}
+C.~Szegedy, W.~Zaremba, I.~Sutskever, J.~Bruna, D.~Erhan, I.~Goodfellow, and
+  R.~Fergus.
+\newblock Intriguing properties of neural networks.
+\newblock In \emph{International Conference on Learning Representations}, 2014.
+
+\bibitem[Sz{\'e}kely and Rizzo(2013)]{szekely2013}
+G.~J. Sz{\'e}kely and M.~L. Rizzo.
+\newblock Energy statistics: a class of statistics based on distances.
+\newblock \emph{Journal of Statistical Planning and Inference}, 143\penalty0
+  (8):\penalty0 1249--1272, 2013.
+\newblock \doi{10.1016/j.jspi.2013.03.018}.
+
+\bibitem[Tameling et~al.(2019)Tameling, Sommerfeld, and Munk]{tameling2019}
+C.~Tameling, M.~Sommerfeld, and A.~Munk.
+\newblock Empirical optimal transport on countable metric spaces:
+  distributional limits and statistical applications.
+\newblock \emph{The Annals of Applied Probability}, 29\penalty0 (5):\penalty0
+  2744--2781, 2019.
+\newblock \doi{10.1214/19-AAP1463}.
+
+\bibitem[{The mathlib Community}(2020)]{mathlib2020}
+{The mathlib Community}.
+\newblock The {L}ean mathematical library.
+\newblock In \emph{Proceedings of the 9th ACM SIGPLAN International Conference
+  on Certified Programs and Proofs}, pages 367--381, 2020.
+\newblock \doi{10.1145/3372885.3373824}.
+
+\bibitem[van Breugel et~al.(2023)van Breugel, Sun, Qian, and van~der
+  Schaar]{vanbreugel2023}
+B.~van Breugel, H.~Sun, Z.~Qian, and M.~van~der Schaar.
+\newblock Membership inference attacks against synthetic data through
+  overfitting detection.
+\newblock In \emph{Proceedings of the 26th International Conference on
+  Artificial Intelligence and Statistics}, volume 206 of \emph{Proceedings of
+  Machine Learning Research}, pages 3493--3514, 2023.
+
+\bibitem[Vanschoren et~al.(2014)Vanschoren, van Rijn, Bischl, and
+  Torgo]{vanschoren2014}
+J.~Vanschoren, J.~N. van Rijn, B.~Bischl, and L.~Torgo.
+\newblock {OpenML}: networked science in machine learning.
+\newblock \emph{ACM SIGKDD Explorations Newsletter}, 15\penalty0 (2):\penalty0
+  49--60, 2014.
+\newblock \doi{10.1145/2641190.2641198}.
+
+\bibitem[Villani(2009)]{villani2009}
+C.~Villani.
+\newblock \emph{Optimal Transport: Old and New}, volume 338 of
+  \emph{Grundlehren der mathematischen Wissenschaften}.
+\newblock Springer, 2009.
+\newblock \doi{10.1007/978-3-540-71050-9}.
+
+\bibitem[Virmaux and Scaman(2018)]{virmaux2018}
+A.~Virmaux and K.~Scaman.
+\newblock {L}ipschitz regularity of deep neural networks: analysis and
+  efficient estimation.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~31, 2018.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, et~al.]{virtanen2020}
+P.~Virtanen, R.~Gommers, T.~E. Oliphant, M.~Haberland, T.~Reddy, D.~Cournapeau,
+  E.~Burovski, P.~Peterson, W.~Weckesser, J.~Bright, et~al.
+\newblock {SciPy} 1.0: fundamental algorithms for scientific computing in
+  {P}ython.
+\newblock \emph{Nature Methods}, 17\penalty0 (3):\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[von Neumann(1953)]{vonneumann1953}
+J.~von Neumann.
+\newblock A certain zero-sum two-person game equivalent to the optimal
+  assignment problem.
+\newblock In \emph{Contributions to the Theory of Games II}, number~28 in
+  Annals of Mathematics Studies, pages 5--12. Princeton University Press, 1953.
+\newblock \doi{10.1515/9781400881970-002}.
+
+\bibitem[Weed and Bach(2019)]{weedbach2019}
+J.~Weed and F.~Bach.
+\newblock Sharp asymptotic and finite-sample rates of convergence of empirical
+  measures in {W}asserstein distance.
+\newblock \emph{Bernoulli}, 25\penalty0 (4A):\penalty0 2620--2648, 2019.
+\newblock \doi{10.3150/18-BEJ1065}.
+
+\bibitem[Westlake(1981)]{westlake1981}
+W.~J. Westlake.
+\newblock Response to {T. B. L. Kirkwood}: bioequivalence testing---a need to
+  rethink.
+\newblock \emph{Biometrics}, 37\penalty0 (3):\penalty0 589--594, 1981.
+\newblock \doi{10.2307/2530573}.
+
+\bibitem[Xu et~al.(2019)Xu, Skoularidou, Cuesta-Infante, and
+  Veeramachaneni]{xu2019}
+L.~Xu, M.~Skoularidou, A.~Cuesta-Infante, and K.~Veeramachaneni.
+\newblock Modeling tabular data using conditional {GAN}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem[Yang et~al.(2024)Yang, Eaves, Schmidt, Swanson, and Shafto]{yang2024}
+S.~C.-H. Yang, B.~Eaves, M.~Schmidt, K.~Swanson, and P.~Shafto.
+\newblock Structured evaluation of synthetic tabular data.
+\newblock arXiv:2403.10424, 2024.
+
+\end{thebibliography}

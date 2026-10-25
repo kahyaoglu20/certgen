@@ -1,0 +1,32 @@
+name = "CertgenFormalBridge"
+version = "1.0.0"
+defaultTargets = ["Bridge"]
+
+# The bridge adds exactly one dependency -- Mathlib -- and discharges the
+# entire trusted base of the main development against Mathlib's `Real`,
+# metric spaces, `Real.sqrt`, finite probability masses, a symmetric
+# distribution function with explicit quantile, and `Real.rpow`; it also
+# proves the integral-optimum property of `Kantorovich.lean` over `Real`.
+# Everything proved in `CertgenFormal` therefore holds, verbatim, over the
+# real numbers.
+#
+# The main project (in the parent directory) remains Mathlib-free and
+# builds offline in under a minute; this directory is NOT part of that
+# build and is only for readers who want the standard model closed.
+
+[[require]]
+name = "CertgenFormal"
+path = ".."
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.15.0"
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "Bridge"
+roots = ["Bridge", "BridgeKantorovich"]

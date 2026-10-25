@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "certgen: prospective design and floor-corrected reporting for evaluations of generative models"
+type: software
+repository-code: "https://github.com/kahyaoglu20/certgen"
+version: 3.3.1
+license: MIT
+authors:
+  - family-names: "Kahyaoğlu"
+    given-names: "Ömer"
+    email: "kahyaoglu20@itu.edu.tr"
+    affiliation: "Department of Mathematical Engineering, Faculty of Science and Letters, Istanbul Technical University"
+preferred-citation:
+  type: article
+  title: "How Many Samples Does a Generative Evaluation Need? Intrinsic Dimension and the Design of Distributional Comparisons"
+  authors:
+    - family-names: "Kahyaoğlu"
+      given-names: "Ömer"
+      affiliation: "Istanbul Technical University"
+  year: 2026
